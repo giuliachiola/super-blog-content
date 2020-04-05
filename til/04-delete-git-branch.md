@@ -7,6 +7,7 @@ img: 'https://source.unsplash.com/pIVg7DPzNX0'
 imgAuthorName: '@sadnos'
 imgAuthorProfile: 'https://unsplash.com/@sadnos'
 date: 2020-03-23
+readingTime: 1 min
 mainTag: git
 tags:
   - git

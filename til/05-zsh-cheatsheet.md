@@ -7,6 +7,7 @@ img: 'https://source.unsplash.com/nWP9b6AjA6g'
 imgAuthorName: '@derallye'
 imgAuthorProfile: 'https://unsplash.com/@derallye'
 date: 2020-03-28
+readingTime: 3 min
 mainTag: git
 tags:
   - shell

@@ -7,6 +7,7 @@ img: 'https://source.unsplash.com/fiV-v-qATHU'
 imgAuthorName: '@freestocks'
 imgAuthorProfile: 'https://unsplash.com/@freestocks'
 date: 2020-03-24
+readingTime: 2 min
 mainTag: template-engine
 tags:
   - template-engine

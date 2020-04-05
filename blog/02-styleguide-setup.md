@@ -7,6 +7,7 @@ img: 'https://source.unsplash.com/bUtzPrCMj8Q'
 imgAuthorName: '@kalvisuals'
 imgAuthorProfile: 'https://unsplash.com/@kalvisuals'
 date: 2020-03-29
+readingTime: 10 mins
 mainTag: design-system
 tags:
   - design-system

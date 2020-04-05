@@ -6,8 +6,9 @@ quoteAuthor: 'Eleanor Roosevelt'
 img: 'https://source.unsplash.com/DbL2_B_oInc'
 imgAuthorName: '@marloncorado'
 imgAuthorProfile: 'https://unsplash.com/@marloncorado'
-mainTag: vsc
 date: 2020-03-28
+readingTime: 1 min
+mainTag: vsc
 tags:
   - vsc
 ---

@@ -6,6 +6,7 @@ quoteAuthor: 'Marie Kondo'
 img: 'https://source.unsplash.com/4k8xEFW4_3Q'
 imgAuthorName: 'Giulia Chiola'
 date: 2020-03-22
+readingTime: 1 min
 mainTag: git
 tags:
   - git

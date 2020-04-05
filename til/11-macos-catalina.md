@@ -7,6 +7,7 @@ img: 'https://source.unsplash.com/LrPKL7jOldI'
 imgAuthorName: '---'
 imgAuthorProfile: 'https://unsplash.com/---'
 date: 2020-01-23
+readingTime: 1 min
 mainTag: macos
 tags:
   - macos

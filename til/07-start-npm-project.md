@@ -7,6 +7,7 @@ img: 'https://source.unsplash.com/fguTr9u8vfk'
 imgAuthorName: '@picoftasty'
 imgAuthorProfile: 'https://unsplash.com/@picoftasty'
 date: 2020-03-25
+readingTime: 1 min
 mainTag: nodejs
 tags:
   - nodejs

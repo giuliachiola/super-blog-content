@@ -7,6 +7,7 @@ img: 'https://source.unsplash.com/myvVYJhCG-c'
 imgAuthorName: '@rdehamer'
 imgAuthorProfile: 'https://unsplash.com/@rdehamer'
 date: 2020-03-26
+readingTime: 3 min
 mainTag: css
 tags:
   - css
