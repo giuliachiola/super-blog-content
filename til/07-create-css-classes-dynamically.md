@@ -6,7 +6,7 @@ quoteAuthor: Benjamin Franklin
 img: 'https://source.unsplash.com/myvVYJhCG-c'
 imgAuthorName: '@rdehamer'
 imgAuthorProfile: 'https://unsplash.com/@rdehamer'
-date: 2020-03-26
+date: 2020-04-03
 readingTime: 3 min
 mainTag: css
 tags:

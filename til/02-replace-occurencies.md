@@ -6,7 +6,7 @@ quoteAuthor: 'Lou Holtz'
 img: 'https://source.unsplash.com/-zZAfE-QBHQ'
 imgAuthorName: '@devjustesen'
 imgAuthorProfile: 'https://unsplash.com/@devjustesen'
-date: 2020-03-26
+date: 2020-03-29
 readingTime: 1 min
 tags:
   - js

@@ -6,7 +6,7 @@ quoteAuthor: Anonimous
 img: 'https://source.unsplash.com/Oh029rfI2Mg'
 imgAuthorName: '@the_phope'
 imgAuthorProfile: 'https://unsplash.com/@the_phope'
-date: 2020-01-23
+date: 2020-04-05
 readingTime: 3 min
 mainTag: static-site-generator
 tags:
