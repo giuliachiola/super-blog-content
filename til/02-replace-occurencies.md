@@ -3,9 +3,9 @@ title: 'How to remove all links in JavaScript'
 abstract: 'Remove all links occurrencies concatenating two replace functions.'
 quote: 'Whenever you give up something, you must replace it with something.'
 quoteAuthor: 'Lou Holtz'
-img: 'https://source.unsplash.com/-zZAfE-QBHQ'
-imgAuthorName: '@devjustesen'
-imgAuthorProfile: 'https://unsplash.com/@devjustesen'
+# img: 'https://source.unsplash.com/-zZAfE-QBHQ'
+# imgAuthorName: '@devjustesen'
+# imgAuthorProfile: 'https://unsplash.com/@devjustesen'
 date: 2020-03-29
 readingTime: 1 min
 tags:

@@ -3,9 +3,9 @@ title: Add HTML classes to 11ty markdown content
 abstract: Add HTML classes to style your markdown content in 11ty, using markdown-it-attrs plugin.
 quote: There are so many beautiful reasons to be happy today.
 quoteAuthor: Anonimous
-img: 'https://source.unsplash.com/Oh029rfI2Mg'
-imgAuthorName: '@the_phope'
-imgAuthorProfile: 'https://unsplash.com/@the_phope'
+# img: 'https://source.unsplash.com/Oh029rfI2Mg'
+# imgAuthorName: '@the_phope'
+# imgAuthorProfile: 'https://unsplash.com/@the_phope'
 date: 2020-04-05
 readingTime: 3 min
 mainTag: static-site-generator

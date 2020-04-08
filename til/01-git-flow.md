@@ -3,8 +3,8 @@ title: 'Git flow initialize'
 abstract: 'How to fast initialize git flow with one simple command.'
 quote: 'Tidying your physical space allows you to tend to your psychological space.'
 quoteAuthor: 'Marie Kondo'
-img: 'https://source.unsplash.com/4k8xEFW4_3Q'
-imgAuthorName: 'Giulia Chiola'
+# img: 'https://source.unsplash.com/4k8xEFW4_3Q'
+# imgAuthorName: 'Giulia Chiola'
 date: 2020-03-28
 readingTime: 1 min
 mainTag: git

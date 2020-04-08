@@ -3,9 +3,9 @@ title: Styleguide setup
 abstract: Node packages checklist to setup a styleguide from scratch.
 quote: Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless.
 quoteAuthor: Jamie Paolinetti
-img: 'https://source.unsplash.com/bUtzPrCMj8Q'
-imgAuthorName: '@kalvisuals'
-imgAuthorProfile: 'https://unsplash.com/@kalvisuals'
+# img: 'https://source.unsplash.com/bUtzPrCMj8Q'
+# imgAuthorName: '@kalvisuals'
+# imgAuthorProfile: 'https://unsplash.com/@kalvisuals'
 date: 2020-03-25
 readingTime: 10 mins
 mainTag: design-system

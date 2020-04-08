@@ -3,9 +3,9 @@ title: Start an npm project
 abstract: One command for a fresh and fast start of your project.
 quote: Simplicity is the ultimate sophistication.
 quoteAuthor: Leonardo da Vinci
-img: 'https://source.unsplash.com/fguTr9u8vfk'
-imgAuthorName: '@picoftasty'
-imgAuthorProfile: 'https://unsplash.com/@picoftasty'
+# img: 'https://source.unsplash.com/fguTr9u8vfk'
+# imgAuthorName: '@picoftasty'
+# imgAuthorProfile: 'https://unsplash.com/@picoftasty'
 date: 2020-04-04
 readingTime: 1 min
 mainTag: nodejs

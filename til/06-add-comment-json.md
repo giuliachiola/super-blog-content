@@ -3,9 +3,9 @@ title: Add comments in JSON file
 abstract: A trick to add "comments" to create beauty and tidy JSON files.
 quote: We may encounter many defeats, but we must not be defeated.
 quoteAuthor: Maya Angelou
-img: 'https://source.unsplash.com/xgAcJZRk9_8'
-imgAuthorName: '@scottwebb'
-imgAuthorProfile: 'https://unsplash.com/@scottwebb'
+# img: 'https://source.unsplash.com/xgAcJZRk9_8'
+# imgAuthorName: '@scottwebb'
+# imgAuthorProfile: 'https://unsplash.com/@scottwebb'
 date: 2020-04-02
 readingTime: 1 min
 mainTag: nodejs

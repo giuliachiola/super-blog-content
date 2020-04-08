@@ -3,9 +3,9 @@ title: UIengine project setup
 abstract: Basic configuration to setup a styleguide project from scratch using UIengine as styleguide tool.
 quote: Do something today that your future self will thank you for.
 quoteAuthor: Sean Patrick Flanery
-img: 'https://source.unsplash.com/d2R5WxJ4i4M'
-imgAuthorName: '@sonson'
-imgAuthorProfile: 'https://unsplash.com/@sonson'
+# img: 'https://source.unsplash.com/d2R5WxJ4i4M'
+# imgAuthorName: '@sonson'
+# imgAuthorProfile: 'https://unsplash.com/@sonson'
 date: 2020-03-26
 readingTime: 10 mins
 mainTag: design-system
