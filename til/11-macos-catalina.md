@@ -8,9 +8,9 @@ quoteAuthor: Steve Maraboli
 # imgAuthorProfile: 'https://unsplash.com/---'
 date: 2020-04-07
 readingTime: 1 min
-mainTag: macos
+mainTag: mac-os
 tags:
-  - macos
+  - mac-os
 ---
 
 After MacOS system upgrade to [Catalina](https://www.apple.com/macos/catalina/), git did not work anymore.
