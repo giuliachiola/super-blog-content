@@ -15,8 +15,7 @@ tags:
   - performance
 ---
 
-[critical CSS](https://github.com/addyosmani/critical) build by the legendary [Addy Osmani](https://twitter.com/addyosmani)
-> Extract & Inline Critical-path CSS in HTML pages
+[Critical CSS](https://github.com/addyosmani/critical) build by [Addy Osmani](https://twitter.com/addyosmani) is a useful library that extracts and inlines critical-path CSS in HTML pages.
 
 In the documentation page, there are a lot of configurations available _but_ they are not the only ones! 😏
 
