@@ -5,7 +5,7 @@ mainTag: 11ty
 tags:
   - 11ty
   - node
-externalUrl: '#'
+externalUrl: '/til'
 ---
 
 This blog is built using [11ty](https://github.com/11ty/eleventy) static site generator.
@@ -15,16 +15,15 @@ This blog is built using [11ty](https://github.com/11ty/eleventy) static site ge
 | Template engine | Nunjucks                   |
 | Build tool      | 11ty                       |
 | Content         | Markdown                   |
-| Documentation   | Markdown                   |
 | Repository      | Open source on [GitHub](#) |
 
 ## Project review, what I learned or improved
 
 **11ty**
 
-This was the first time I used **11ty** as static site generator and it was _amazing_! ✨
+This was the first time I used _[11ty](https://www.11ty.io/)_ as static site generator and it was _amazing_! ✨
 
-11ty supports _Nunjucks_ as template engine, and desprite the [nunjucks documentation](https://mozilla.github.io/nunjucks/templating.html) is not exaustive, I found everything I needed in forums, stackoverflow and so on. I also wrote few _TIL_ posts about what I discovered! 😏
+11ty supports _[Nunjucks](https://mozilla.github.io/nunjucks/)_ as template engine, and desprite the [nunjucks documentation](https://mozilla.github.io/nunjucks/templating.html) is not exaustive, I found everything I needed in forums, stackoverflow and so on. I also wrote few _TIL_ posts about what I discovered! 😏
 
 **Nunjucks**
 
