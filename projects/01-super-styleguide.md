@@ -21,14 +21,21 @@ The DS has few components and less variants as possible, I developed just what I
 | Documentation   | Markdown                   |
 | Repository      | Open source on [GitHub](#) |
 
-## Project review
+## Project review, what I learned or improved
 
-- I designed the pages on my own and the result is quite banal and impersonal. I reevaluated a lot the designers job!
-- I used UIengine before in a _very big_ project, with lots of components and variants, and I loved it. Here in this little project I loved it even more!! 😍[UIengine](#) is very fast and easy to use, well done [Dennis ](#)! The only flaw I see is that UIengine unfortunately does not support _twig_ or _nunjucks_ template engines, which I think are the best template engines to use.
-- This was the first (and probably the last!) time I used _EJS_ as template engine. It was confortable to use JavaScript functions into the template, but I hate its terrible syntax with `<%=>` delimiters and for loops using functions. 🤢
+**Design**
+
+I designed the pages on my own and the result is quite banal and impersonal. I reevaluated a lot the designers job!
+
+**UIengine**
+
+I used UIengine before in a _very big_ project, with lots of components and variants, and I loved it. Here in this little project I loved it even more!! 😍[UIengine](#) is very fast and easy to use, well done [Dennis ](#)! The only flaw I see is that UIengine unfortunately does not support _twig_ or _nunjucks_ template engines, which I think are the best template engines to use.
+
+**EJS**
+
+This was the first (and probably the last!) time I used _EJS_ as template engine. It was confortable to use JavaScript functions into the template, but I hate its terrible syntax with `<%=>` delimiters and for loops using functions. 🤢
 
 All things considered I liked build this styleguide, and I hope I will continue to add components!
-
 
 ## Overall score
 

@@ -18,7 +18,7 @@ This blog is built using [11ty](https://github.com/11ty/eleventy) static site ge
 | Documentation   | Markdown                   |
 | Repository      | Open source on [GitHub](#) |
 
-## Project review, what I learned or improved 💪🏻
+## Project review, what I learned or improved
 
 **11ty**
 
@@ -32,9 +32,10 @@ Unfortunately, _UIengine_ does not support Nunjucks as template engine, in fact 
 
 **Git submodules**
 
-For the first time, I worked with _git submodules_, one for the [content repository](#) and another for the [stylegudie repository](#). At the beginning was quite hard to understand how to keep aligned (or voluntarily disaligned) all the pieces, but I understood how to use them over time... and now I am very happy to use this repository structure!
+For the first time, I worked with _git submodules_, one for the [content repository](#) and another for the [stylegudie repository](#). At the beginning was quite hard to understand how to keep aligned (or voluntarily disaligned) all the pieces, but I understood how to use them over time... and now I am very happy to use this repository structure.
 
+At the end I handled all structure and templating issues, and I really like the result!
 
-## Overall score 🏆
+## Overall score
 
 <iframe src="https://giphy.com/embed/m8WzRSb4xDcMx2WbkV" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a class="u-giphy__caption" href="https://giphy.com/gifs/smallfootmovie-omg-crazy-m8WzRSb4xDcMx2WbkV">via GIPHY</a>
