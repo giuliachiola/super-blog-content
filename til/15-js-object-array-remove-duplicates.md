@@ -50,8 +50,8 @@ To be more clear let's make a table of the loop:
 | 'a'  | 0          | 0        | ok, 0 == 0 so this will return `true`        | yes                     |
 | 'b'  | 1          | 1        | ok, 1 == 1 so this will return `true`        | yes                     |
 | 'c'  | 2          | 2        | ok, 2 == 2 so this will return `true`        | yes                     |
-| 'a'  | 3          | 0        | whoa! 3 != 0 so this will return **`false`** | **nope!**               |
-| 'b'  | 4          | 1        | whoa! 4 != 1 so this will return **`false`** | **nope!**               |
+| 'a'  | 3          | 0        | whoa, 3 != 0 so this will return **`false`** | **nope!**               |
+| 'b'  | 4          | 1        | whoa, 4 != 1 so this will return **`false`** | **nope!**               |
 | 'd'  | 5          | 5        | ok, 5 == 5 so this will return `true`        | yes                     |
 | 'e'  | 6          | 6        | ok, 6 == 6 so this will return `true`        | yes                     |
 | 'f'  | 7          | 7        | ok, 7 == 7 so this will return `true`        | yes                     |
