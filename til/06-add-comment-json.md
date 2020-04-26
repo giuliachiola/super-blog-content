@@ -16,7 +16,7 @@ tags:
 
 Spoiler: I lied.
 
-<div class="s-giphy c-article-section__img c-article-section__img--small">
+<div class="s-giphy s-giphy--small-d">
   <div style="width:100%;height:0;padding-bottom:53%;position:relative;"><iframe src="https://giphy.com/embed/rigB6iCSm8F68" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/bill-paxton-rigB6iCSm8F68">via GIPHY</a></p>
 </div>
 
