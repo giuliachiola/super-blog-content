@@ -16,7 +16,7 @@ tags:
 
 ## Rename local branch
 
-To rename a *local* branch in git is easy as order a cup of coffee ☕️
+To rename a *local* branch in git
 
 - Move on the branch you want to rename
 ```shell
@@ -30,7 +30,7 @@ git branch -m feature/new-awesome-name
 
 ## Rename also remote branch
 
-To rename a *remote* branch is quite longer, but easy as order a cup of coffee macchiato ☕️+🥛
+To rename a *remote* branch is quite longer:
 
 - Unset the upstream branch to unlink local and remote branch
 ```bash
