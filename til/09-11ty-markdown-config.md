@@ -76,6 +76,8 @@ eleventyConfig.setLibrary("md", markdownLib)
 This is a paragraph with data-state {data-state=important}
 
 Another text with attributes {.c-article-section__disclaimer #articleId attr=value attr2="spaced value"}
+
+![Alt text](image.jpg){.c-article-section__img}
 ```
 
 will output
@@ -84,6 +86,8 @@ will output
 <h1 class="c-article-section__title">This is a title</h1>
 <p data-state=important>This is a paragraph with data-state</p>
 <p class="c-article-section__disclaimer" id="articleId" attr=value attr2="spaced value">Another text with attributes</p>
+
+<img src="image.jpg" class="c-article-section__img">
 ```
 
 Side note: unfortunately, I did not find a way to add attributes to markdown _tables_ and _blockquote_ 😢
