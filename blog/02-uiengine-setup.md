@@ -15,7 +15,7 @@ tags:
   - css
 ---
 
-Styles configuration from scratch is available in [this post](http://localhost:8080/content/blog/02-styleguide-setup/).
+Styles configuration from scratch is available in [this post](/super-blog-content/blog/01-styleguide-setup/).
 
 ## UIengine
 

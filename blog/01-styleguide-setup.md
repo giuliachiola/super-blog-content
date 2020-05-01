@@ -35,7 +35,7 @@ npm install postcss postcss-cli postcss-preset-env postcss-import --save-dev
 
 To configure postcss, add `.postcss.config.js` in project root folder
 
-<script src="https://gist.github.com/giuliachiola/146d8866adf5d67dbda53d6e8615840e.js"></script>
+<script src='https://gitlab.com/snippets/1967917.js'></script>
 
 - [stylelint](https://github.com/stylelint/stylelint)
 > A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
@@ -46,7 +46,7 @@ npm install stylelint stylelint-scss stylelint-order --save-dev
 
 To configure stylelint, add `.stylelintrc.json` in project root folder
 
-<script src="https://gist.github.com/giuliachiola/c93494069521ea5f20f5b76936efd710.js"></script>
+<script src='https://gitlab.com/snippets/1967909.js'></script>
 
 - [sass-mq](https://github.com/sass-mq/sass-mq)
 > A Sass mixin that helps you compose media queries in an elegant way.
@@ -57,7 +57,7 @@ npm install sass-mq --save-dev
 
 Add sass-mq configuration in styles folder `src/scss/00-settings/_sass-mq-config.scss`
 
-<script src="https://gist.github.com/giuliachiola/96e45250546172f5257fbba72c65972d.js"></script>
+<script src='https://gitlab.com/snippets/1967913.js'></script>
 
 In a static project, as a styleguide, to use _sass-mq_ in our styles, we need to import it from _node_modules_ and add our configuration
 
@@ -151,7 +151,7 @@ Create two folders, one for original SVG files `src/svg` and another for optimi
 
 Add SVGO script configuration
 
-<script src="https://gist.github.com/giuliachiola/74c01c019e5e7773ac726ae9c637dc67.js"></script>
+<script src='https://gitlab.com/snippets/1967912.js'></script>
 
 ### SVG scripts
 
