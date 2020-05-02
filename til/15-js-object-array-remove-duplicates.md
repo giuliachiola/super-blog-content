@@ -93,7 +93,10 @@ and the result is exactly the same as above using `filter()`.
 console.log(unique) // (6) ["a", "b", "c", "d", "e", "f"]
 ```
 
-[🦊Gitlab snippet](https://gitlab.com/snippets/1965677)
+<!---
+// FIXME: public snippet!
+[🦊Gitlab snippet](#)
+-->
 
 > 📚 More info about remove array duplicates
 >
