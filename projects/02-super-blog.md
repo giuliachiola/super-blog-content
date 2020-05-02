@@ -5,7 +5,7 @@ mainTag: 11ty
 tags:
   - 11ty
   - node
-externalUrl: '/til'
+externalUrl: '/'
 ---
 
 This blog is built using [11ty](https://github.com/11ty/eleventy) static site generator.
@@ -15,7 +15,7 @@ This blog is built using [11ty](https://github.com/11ty/eleventy) static site ge
 | Template engine | Nunjucks                   |
 | Build tool      | 11ty                       |
 | Content         | Markdown                   |
-| Repository      | Open source on [GitHub](#) |
+| Repository      | Open source on [GitLab](https://gitlab.com/giuliach/super-blog-11ty) |
 
 ## Project review, what I learned or improved
 
@@ -31,12 +31,16 @@ Unfortunately, _UIengine_ does not support Nunjucks as template engine, in fact 
 
 **Git submodules**
 
-For the first time, I worked with _git submodules_, one for the [content repository](#) and another for the [stylegudie repository](#). At the beginning was quite hard to understand how to keep aligned (or voluntarily disaligned) all the pieces, but I understood how to use them over time... and now I am very happy to use this repository structure.
+For the first time, I worked with _git submodules_, one for the [content repository](https://gitlab.com/giuliach/super-blog-content) and another for the [stylegudie repository](https://gitlab.com/giuliach/super-styleguide). At the beginning was quite hard to understand how to keep aligned (or voluntarily disaligned) all the pieces, but I understood how to use them over time... and now I am very happy to use this repository structure.
 
 At the end I handled all structure and templating issues, and I really like the result!
 
+**Netlify**
+
+I never used [Netlify](https://www.netlify.com/) before this project, and it was... wow! 😍 I never gone into something so quick to setup and I really *love* its great documentation. I set automatic deploy on merge requests and push on `master` branch, so now on I will have a new preview version of my blog for every feature or fix I will do, and it is awesome!
+
 ## Overall score
 
-<div class="s-giphy">
+<div class="s-giphy s-giphy--medium-d">
   <div style="width:100%;height:0;padding-bottom:79%;position:relative;"><iframe src="https://giphy.com/embed/m8WzRSb4xDcMx2WbkV" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/smallfootmovie-omg-crazy-m8WzRSb4xDcMx2WbkV">via GIPHY</a></p>
 </div>

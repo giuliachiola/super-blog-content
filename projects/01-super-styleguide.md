@@ -6,20 +6,20 @@ tags:
   - design-system
   - uiengine
   - node
-externalUrl: '#'
+externalUrl: '# // FIXME:'
 ---
 
 The little design system to build this blog.
 The DS has few components and less variants as possible, I developed just what I needed to build a simple blog like this! KISS (a.k.a. Keep It Simple Stupid!) 😇
 
 
-| Use             | Tech stack                 |
-|:----------------|:---------------------------|
-| Presentation Layer | UIengine                        |
-| Template engine | EJS                        |
-| Content         | Javascript                 |
-| Documentation   | Markdown                   |
-| Repository      | Open source on [GitHub](#) |
+| Use                | Tech stack                 |
+|:-------------------|:---------------------------|
+| Presentation Layer | UIengine                   |
+| Template engine    | EJS                        |
+| Content            | Javascript                 |
+| Documentation      | Markdown                   |
+| Repository         | Open source on [GitLab](https://gitlab.com/giuliach/super-styleguide) |
 
 ## Project review, what I learned or improved
 
@@ -29,7 +29,7 @@ I designed the pages on my own and the result is quite banal and impersonal. I r
 
 **UIengine**
 
-I used UIengine before in a _very big_ project, with lots of components and variants, and I loved it. Here in this little project I loved it even more!! 😍[UIengine](#) is very fast and easy to use, well done [Dennis ](#)! The only flaw I see is that UIengine unfortunately does not support _twig_ or _nunjucks_ template engines, which I think are the best template engines to use.
+I used UIengine before in a _very big_ project, with lots of components and variants, and I loved it. Here in this little project I loved it even more!! 😍[UIengine](https://github.com/dennisreimann/uiengine) is very fast and easy to use, well done [Dennis](https://github.com/dennisreimann)! The only flaw I see is that UIengine unfortunately does not support _twig_ or _nunjucks_ template engines, which I think are the best template engines to use.
 
 **EJS**
 
@@ -39,6 +39,6 @@ All things considered I liked build this styleguide, and I hope I will continue 
 
 ## Overall score
 
-<div class="s-giphy">
+<div class="s-giphy s-giphy--medium-d">
   <div style="width:100%;height:0;padding-bottom:57%;position:relative;"><iframe src="https://giphy.com/embed/62PP2yEIAZF6g" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/swag-80s-sunglasses-62PP2yEIAZF6g">via GIPHY</a></p>
 </div>
