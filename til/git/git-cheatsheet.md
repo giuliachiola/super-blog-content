@@ -34,3 +34,7 @@ Few commands I found very useful during development.
 | `git push origin --all`                                            | push all local branches                                                      |
 | `git fetch --prune --prune-tags`                                   | Remove local tags, align tags to remotes                                     |
 
+
+<div class="s-giphy s-giphy--small-d">
+  <div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/wTrXRamYhQzsY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/funny-wTrXRamYhQzsY">via GIPHY</a></p>
+</div>

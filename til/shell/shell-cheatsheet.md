@@ -37,3 +37,7 @@ Few commands I found very useful during development.
 | `ln`                                  | symbolic link                                           |
 | `alias`                               | show available alias on shell                           |
 | `cd -`                                | go to previous folder                                   |
+
+<div class="s-giphy s-giphy--small-d">
+  <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/LqafmeaBVxCRG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mensweardog-cute-dog-LqafmeaBVxCRG">via GIPHY</a></p>
+</div>
