@@ -7,7 +7,8 @@ quoteAuthor: Stuart Milk
 # imgAuthorName: '---'
 # imgAuthorProfile: 'https://unsplash.com/---'
 
-date: 2020-04-11
+articleDate: 2020-04-11
+date: Last Modified
 readingTime: 1 mins
 mainTag: css
 tags:

@@ -6,7 +6,8 @@ quoteAuthor: Maya Angelou
 # img: 'https://source.unsplash.com/xgAcJZRk9_8'
 # imgAuthorName: '@scottwebb'
 # imgAuthorProfile: 'https://unsplash.com/@scottwebb'
-date: 2020-04-02
+articleDate: 2020-04-02
+date: Last Modified
 readingTime: 1 min
 mainTag: nodejs
 tags:

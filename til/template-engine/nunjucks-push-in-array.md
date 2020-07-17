@@ -6,7 +6,8 @@ quoteAuthor: Henry Ford
 # img: 'https://source.unsplash.com/fiV-v-qATHU'
 # imgAuthorName: '@freestocks'
 # imgAuthorProfile: 'https://unsplash.com/@freestocks'
-date: 2020-04-06
+articleDate: 2020-04-06
+date: Last Modified
 readingTime: 2 min
 mainTag: template-engine
 tags:
