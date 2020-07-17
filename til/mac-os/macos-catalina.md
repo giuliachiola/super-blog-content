@@ -6,7 +6,8 @@ quoteAuthor: Steve Maraboli
 # img: 'https://source.unsplash.com/LrPKL7jOldI'
 # imgAuthorName: '---'
 # imgAuthorProfile: 'https://unsplash.com/---'
-date: 2020-04-07
+articleDate: 2020-04-07
+date: Last Modified
 readingTime: 1 min
 mainTag: mac-os
 tags:

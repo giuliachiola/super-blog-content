@@ -3,7 +3,8 @@ title: Remove duplicates in object arrays
 abstract: Snippet to remove duplicates in JavaScript, when you have objects with multiple arrays inside it.
 quote: Yesterday is not ours to recover, but tomorrow is ours to win or lose.
 quoteAuthor: Lyndon B. Johnson
-date: 2020-04-12
+articleDate: 2020-04-12
+date: Last Modified
 readingTime: 3 min
 mainTag: js
 tags:
