@@ -3,12 +3,9 @@ title: Create CSS classes dynamically
 abstract: Using SASS interpolation functions, SASS variables and SASS arrays, create CSS classes dinamically.
 quote: Well done is better than well said.
 quoteAuthor: Benjamin Franklin
-# img: 'https://source.unsplash.com/myvVYJhCG-c'
-# imgAuthorName: '@rdehamer'
-# imgAuthorProfile: 'https://unsplash.com/@rdehamer'
+
 articleDate: 2020-04-03
 date: Last Modified
-readingTime: 3 min
 mainTag: css
 tags:
   - css

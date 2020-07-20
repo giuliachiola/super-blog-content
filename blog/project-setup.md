@@ -6,7 +6,6 @@ quoteAuthor: Tony Robbins
 
 articleDate: 2020-05-03
 date: Last Modified
-readingTime: 2 mins
 mainTag: nodejs
 tags:
   - nodejs

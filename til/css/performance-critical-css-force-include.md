@@ -3,13 +3,9 @@ title: Force include classes in critical CSS
 abstract: Using critical CSS library by Addy Osmani, force the inclusion of HTML selectors.
 quote: We are less when we don't include everyone.
 quoteAuthor: Stuart Milk
-# img: 'https://source.unsplash.com/---'
-# imgAuthorName: '---'
-# imgAuthorProfile: 'https://unsplash.com/---'
 
 articleDate: 2020-04-11
 date: Last Modified
-readingTime: 1 mins
 mainTag: css
 tags:
   - css

@@ -3,9 +3,9 @@ title: Add multiple classes in pug
 abstract: Pug has many ways to add classes, here are few examples.
 quote: Knowing is not enough, we must apply. Willing is not enough, we must do.
 quoteAuthor: Johann Wolfgang von Goethe
+
 articleDate: 2020-04-11
 date: Last Modified
-readingTime: 2 min
 mainTag: template-engine
 tags:
   - template-engine

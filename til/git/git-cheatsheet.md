@@ -4,8 +4,8 @@ abstract: Few commands to speed up development using git.
 quote: Keep looking up… that’s the secret of life.
 quoteAuthor: Charlie Brown
 articleDate: 2020-04-12
+
 date: Last Modified
-readingTime: 1 mins
 mainTag: git
 tags:
   - git

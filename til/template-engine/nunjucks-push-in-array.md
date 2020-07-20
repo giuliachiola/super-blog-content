@@ -3,12 +3,9 @@ title: Add items to an array in Nunjucks
 abstract: Using push() method, add items in array using Nunjucks template engine.
 quote: Whether you think you can or think you can’t, you’re right.
 quoteAuthor: Henry Ford
-# img: 'https://source.unsplash.com/fiV-v-qATHU'
-# imgAuthorName: '@freestocks'
-# imgAuthorProfile: 'https://unsplash.com/@freestocks'
+
 articleDate: 2020-04-06
 date: Last Modified
-readingTime: 2 min
 mainTag: template-engine
 tags:
   - template-engine

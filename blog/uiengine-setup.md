@@ -6,7 +6,6 @@ quoteAuthor: Sean Patrick Flanery
 
 articleDate: 2020-03-26
 date: Last Modified
-readingTime: 10 mins
 mainTag: design-system
 tags:
   - design-system

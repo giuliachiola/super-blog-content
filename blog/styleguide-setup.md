@@ -6,7 +6,6 @@ quoteAuthor: Jamie Paolinetti
 
 articleDate: 2020-03-25
 date: Last Modified
-readingTime: 10 mins
 mainTag: design-system
 tags:
   - design-system

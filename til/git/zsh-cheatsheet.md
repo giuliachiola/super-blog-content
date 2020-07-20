@@ -3,12 +3,9 @@ title: Oh my zsh cheatsheet
 abstract: List of my most used shortcuts working with zsh
 quote: If everything seems under control, you're not going fast enough.
 quoteAuthor: Mario Andretti
-# img: 'https://source.unsplash.com/nWP9b6AjA6g'
-# imgAuthorName: '@derallye'
-# imgAuthorProfile: 'https://unsplash.com/@derallye'
+
 articleDate: 2020-04-01
 date: Last Modified
-readingTime: 3 min
 mainTag: git
 tags:
   - shell
