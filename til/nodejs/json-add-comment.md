@@ -5,7 +5,6 @@ quote: We may encounter many defeats, but we must not be defeated.
 quoteAuthor: Maya Angelou
 
 articleDate: 2020-04-02
-date: Last Modified
 mainTag: nodejs
 tags:
   - json

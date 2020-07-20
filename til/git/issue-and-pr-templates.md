@@ -5,7 +5,6 @@ quote: Positive thinking will let you do everything better than negative thinkin
 quoteAuthor: Zig Ziglar
 
 articleDate: 2020-04-11
-date: Last Modified
 mainTag: git
 tags:
   - git

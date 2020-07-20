@@ -5,7 +5,6 @@ quote: Keep looking up… that’s the secret of life.
 quoteAuthor: Charlie Brown
 articleDate: 2020-04-12
 
-date: Last Modified
 mainTag: git
 tags:
   - git

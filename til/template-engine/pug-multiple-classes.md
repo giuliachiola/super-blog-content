@@ -5,7 +5,6 @@ quote: Knowing is not enough, we must apply. Willing is not enough, we must do.
 quoteAuthor: Johann Wolfgang von Goethe
 
 articleDate: 2020-04-11
-date: Last Modified
 mainTag: template-engine
 tags:
   - template-engine

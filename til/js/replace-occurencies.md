@@ -5,7 +5,6 @@ quote: 'Whenever you give up something, you must replace it with something.'
 quoteAuthor: 'Lou Holtz'
 
 articleDate: 2020-03-29
-date: Last Modified
 tags:
   - js
   - regex

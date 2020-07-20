@@ -5,7 +5,6 @@ quote: The only limit to your impact is your imagination and commitment.
 quoteAuthor: Tony Robbins
 
 articleDate: 2020-05-03
-date: Last Modified
 mainTag: nodejs
 tags:
   - nodejs

@@ -5,7 +5,6 @@ quote: Feel the fear and do it anyway.
 quoteAuthor: Susan Jeffers
 
 articleDate: 2020-03-31
-date: Last Modified
 mainTag: git
 tags:
   - git

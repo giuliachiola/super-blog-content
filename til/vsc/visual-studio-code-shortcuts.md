@@ -5,7 +5,6 @@ quote: 'With the new day comes new strength and new thoughts.'
 quoteAuthor: 'Eleanor Roosevelt'
 
 articleDate: 2020-03-30
-date: Last Modified
 mainTag: vsc
 tags:
   - vsc

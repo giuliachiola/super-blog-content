@@ -5,7 +5,6 @@ quote: 'Tidying your physical space allows you to tend to your psychological spa
 quoteAuthor: 'Marie Kondo'
 
 articleDate: 2020-03-28
-date: Last Modified
 mainTag: git
 tags:
   - git

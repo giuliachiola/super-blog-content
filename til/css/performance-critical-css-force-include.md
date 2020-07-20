@@ -5,7 +5,6 @@ quote: We are less when we don't include everyone.
 quoteAuthor: Stuart Milk
 
 articleDate: 2020-04-11
-date: Last Modified
 mainTag: css
 tags:
   - css

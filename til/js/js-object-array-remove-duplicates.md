@@ -5,7 +5,6 @@ quote: Yesterday is not ours to recover, but tomorrow is ours to win or lose.
 quoteAuthor: Lyndon B. Johnson
 
 articleDate: 2020-04-12
-date: Last Modified
 mainTag: js
 tags:
   - js

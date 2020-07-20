@@ -1,7 +1,6 @@
 ---
 title: 'Super blog'
 articleDate: 2020-04-11
-date: Last Modified
 mainTag: 11ty
 tags:
   - 11ty

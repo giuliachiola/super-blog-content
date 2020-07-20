@@ -5,7 +5,6 @@ quote: When a new day begins, dare to smile gratefully.
 quoteAuthor: Steve Maraboli
 
 articleDate: 2020-04-07
-date: Last Modified
 mainTag: mac-os
 tags:
   - mac-os

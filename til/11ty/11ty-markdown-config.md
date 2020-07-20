@@ -5,7 +5,6 @@ quote: There are so many beautiful reasons to be happy today.
 quoteAuthor: Anonimous
 
 articleDate: 2020-04-05
-date: Last Modified
 mainTag: static-site-generator
 tags:
   - 11ty

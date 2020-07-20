@@ -5,7 +5,6 @@ quote: Well done is better than well said.
 quoteAuthor: Benjamin Franklin
 
 articleDate: 2020-04-03
-date: Last Modified
 mainTag: css
 tags:
   - css

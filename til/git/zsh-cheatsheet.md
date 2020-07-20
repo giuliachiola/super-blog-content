@@ -5,7 +5,6 @@ quote: If everything seems under control, you're not going fast enough.
 quoteAuthor: Mario Andretti
 
 articleDate: 2020-04-01
-date: Last Modified
 mainTag: git
 tags:
   - shell

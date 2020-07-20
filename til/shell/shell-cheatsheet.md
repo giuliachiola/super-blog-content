@@ -5,7 +5,6 @@ quote: Be kind whenever possible. It is always possible.
 quoteAuthor: Dalai Lama
 
 articleDate: 2020-05-03
-date: Last Modified
 mainTag: shell
 tags:
   - shell

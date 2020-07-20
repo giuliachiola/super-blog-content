@@ -5,7 +5,6 @@ quote: Simplicity is the ultimate sophistication.
 quoteAuthor: Leonardo da Vinci
 
 articleDate: 2020-04-04
-date: Last Modified
 mainTag: nodejs
 tags:
   - nodejs
