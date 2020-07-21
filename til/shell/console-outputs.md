@@ -1,6 +1,6 @@
 ---
 title: Add console outputs only in production mode
-abstract: A project can be beautiful from the outside, but if the browser console is full of messy outputs it will immediately seem confusing and carelessly
+abstract: A project can be beautiful from the outside, but if the browser console is full of messy outputs it will immediately seem confusing and carelessly.
 quote: If we have the attitude that it’s going to be a great day it usually is.
 quoteAuthor: Catherine Pulsifier
 
@@ -34,6 +34,7 @@ if (localStorage.devMode && localStorage.devMode === 'true') {
 
 ```js
 // other-file.js
+
 consoleWrap.debug.log('Hello!')
 ```
 
@@ -99,7 +100,7 @@ VUE_APP_DEBUG=true
 VUE_APP_DEBUG=false
 ```
 
-we can add all console outputs we want to our project, and none of them will output in the final JS bundle! 🎉
+we can add all console outputs we want to our project
 
 ```js
 import log from 'loglevel';
@@ -108,6 +109,8 @@ if (process.env.VUE_APP_DEBUG) {
   log.debug('This output will be in development mode, but not in production mode')
 }
 ```
+
+and none of them will output in the final JS bundle! 🎉
 
 <div class="s-giphy s-giphy--medium-d">
   <div style="width:100%;height:0;padding-bottom:78%;position:relative;"><iframe src="https://giphy.com/embed/3rgXBvnbXtxwaWmhr2" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/dancing-dinosaur-t-rex-3rgXBvnbXtxwaWmhr2">via GIPHY</a></p>
