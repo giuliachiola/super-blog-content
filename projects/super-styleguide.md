@@ -6,7 +6,7 @@ mainTag: design-system
 tags:
   - design-system
   - uiengine
-  - node
+  - nodejs
 externalUrl: '# // FIXME:'
 ---
 
