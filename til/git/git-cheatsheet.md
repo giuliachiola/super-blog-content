@@ -12,6 +12,8 @@ tags:
 
 Few commands I found very useful during development.
 
+## Summary
+
 | Command                                                            | Description                                                                  |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------|
 | `git commit -am "message"`                                         | add and commit all trakced files                                             |
@@ -38,6 +40,35 @@ Few commands I found very useful during development.
 | `git fetch --prune --prune-tags`                                   | remove local tags, align tags to remotes                                     |
 | `git ls-remote --tags origin`                                      | list all remote tags                                     |
 
+## Rename a git tag
+
+```shell
+git tag new old
+git tag -d old
+git push origin :refs/tags/old
+git push --tags
+```
+
+then be sure all coworkers pull the updated tags
+
+```shell
+git pull --prune --tags
+```
+
+## GitLab branch compare
+
+- Open the left sidebar
+- Click on `Repository` > `Compare`
+
+```md
+https://gitlab.com/giuliach/super-blog-11ty/-/compare/[source]...[target]
+```
+
+Example:
+
+```md
+https://gitlab.com/giuliach/super-blog-11ty/-/compare/master...develop
+```
 
 <div class="s-giphy s-giphy--small-d">
   <div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/wTrXRamYhQzsY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/funny-wTrXRamYhQzsY">via GIPHY</a></p>
