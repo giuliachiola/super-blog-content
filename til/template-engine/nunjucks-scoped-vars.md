@@ -15,22 +15,31 @@ We have to pay attention where we set nunjucks variables because they are **scop
 
 {% raw %}
   ```twig
-  {% for item in list %}
-    {% set foo = item %}
+  {% set animals = ['🐱', '🐶', '🐺'] %}
+
+  {% set animal = '' %}
+
+  {% for item in animals %}
+      {% set animal = item %}
   {% endfor %}
 
-  {# foo is NOT available #}
+  {{ animal }}
+  {# animal is NOT available #}
   ```
 {% endraw %}
 
 {% raw %}
   ```twig
-  {% set foo = "" %}
-  {% for item in list %}
-      {% set foo = item %}
+  {% set animals = ['🐱', '🐶', '🐺'] %}
+
+  {% set animal = '' %}
+
+  {% for item in animals %}
+      {% set animal = item %}
   {% endfor %}
 
-  {# foo is available #}
+  {{ animal }}
+  {# animal is available -> 🐺 #}
   ```
 {% endraw %}
 
