@@ -1,8 +1,8 @@
 ---
 title: Sass placeholder and its limits
 abstract: Sass placeholder it's a powerful way to write reusable code, but unfortunately it is not always applicable.
-quote: 
-quoteAuthor: 
+quote: Great things are done by a series of small things brought together
+quoteAuthor: Vincent Van Gogh
 
 articleDate: 2020-07-22
 mainTag: css
@@ -36,7 +36,7 @@ and call the placeholder using the syntax `@extend %[placeholder-name]`
 }
 ```
 
-output
+CSS output:
 
 ```css
 .colors {
@@ -49,7 +49,13 @@ output
 }
 ```
 
-------
+As seen above, we could also declare a code snippet with mediaquery inside.
+
+### The small matter
+
+Unfortunately, we cannot call a placeholder declaration **inside** a mediaquery 😩
+
+For instance, if we try to declare two placeholders and call them inside a media query
 
 ```scss
 %colors-mobile {
@@ -59,20 +65,50 @@ output
 %colors-tablet {
   background: green;
 }
+```
 
+```scss
 .colors-viewport {
-  @extend %colors-mobile;
-  
+  @extend %colors-mobile; // ok!
+
   @media (min-width: 768px) {
-    @extend %colors-tablet;
+    @extend %colors-tablet; // nope!
   }
 }
 ```
+
+This will throw an error 😭
 
 ```shell
 You may not @extend an outer selector from within @media.
 You may only @extend selectors within the same directive.
 ```
 
+So, if we really need to call a code snipped inside a mediaquery, we can use a `mixin` declaration. I know it's not the correct use of the `mixin` function but it's a desperate measure! 😅
 
-https://sass-lang.com/documentation/style-rules/placeholder-selectors
+
+```scss
+@mixin colors-mobile {
+  background: yellow;
+}
+
+@mixin colors-tablet {
+  background: green;
+}
+```
+
+```scss
+.colors-viewport {
+  @include colors-mobile; // ok!
+
+  @media (min-width: 768px) {
+    @include colors-tablet; // yasss!
+  }
+}
+```
+
+> 📚 More info about sass placeholders
+>
+> [Sass lang - placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors)
+> [Sass - mixin or placeholder](https://www.sitepoint.com/sass-mixin-placeholder/)
+
