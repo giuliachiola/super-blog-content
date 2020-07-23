@@ -63,7 +63,7 @@ _HTML output_
 <div class="c-component cond1-TRUE"></div>
 ```
 
-Live Codepen example [here](https://codepen.io/giuliachiola/pen/xxGGBgW).
+Live [Codepen example](https://codepen.io/giuliachiola/pen/xxGGBgW).
 
 See the [pug class attributes docs](https://pugjs.org/language/attributes.html#class-attributes).
 
