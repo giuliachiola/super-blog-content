@@ -91,7 +91,7 @@ or shorter version
 Note that git flow comes with its [oh-my-zsh plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow) but I don't really like that shortcuts, so I made my own.
 
 <div class="s-giphy s-giphy--small-d">
-  <iframe src="https://giphy.com/embed/GD5xkDtFPUpY4" width="100%" height="165" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a class="u-giphy__caption" href="https://giphy.com/gifs/love-movie-film-GD5xkDtFPUpY4">via GIPHY</a>
+  <iframe title="gif-party" src="https://giphy.com/embed/GD5xkDtFPUpY4" width="100%" height="165" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a class="u-giphy__caption" href="https://giphy.com/gifs/love-movie-film-GD5xkDtFPUpY4">via GIPHY</a>
 </div>
 
 > 📚 More info

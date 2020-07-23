@@ -113,5 +113,5 @@ if (process.env.VUE_APP_DEBUG) {
 and none of them will output in the final JS bundle! 🎉
 
 <div class="s-giphy s-giphy--medium-d">
-  <div style="width:100%;height:0;padding-bottom:78%;position:relative;"><iframe src="https://giphy.com/embed/3rgXBvnbXtxwaWmhr2" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/dancing-dinosaur-t-rex-3rgXBvnbXtxwaWmhr2">via GIPHY</a></p>
+  <div style="width:100%;height:0;padding-bottom:78%;position:relative;"><iframe title="gif-party" src="https://giphy.com/embed/3rgXBvnbXtxwaWmhr2" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/dancing-dinosaur-t-rex-3rgXBvnbXtxwaWmhr2">via GIPHY</a></p>
 </div>

@@ -42,5 +42,5 @@ I never used [Netlify](https://www.netlify.com/) before this project, and it was
 ## Overall score
 
 <div class="s-giphy s-giphy--medium-d">
-  <div style="width:100%;height:0;padding-bottom:79%;position:relative;"><iframe src="https://giphy.com/embed/m8WzRSb4xDcMx2WbkV" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/smallfootmovie-omg-crazy-m8WzRSb4xDcMx2WbkV">via GIPHY</a></p>
+  <div style="width:100%;height:0;padding-bottom:79%;position:relative;"><iframe title="gif-overall-score" src="https://giphy.com/embed/m8WzRSb4xDcMx2WbkV" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/smallfootmovie-omg-crazy-m8WzRSb4xDcMx2WbkV">via GIPHY</a></p>
 </div>
