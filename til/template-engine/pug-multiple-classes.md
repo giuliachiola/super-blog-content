@@ -67,7 +67,7 @@ Live Codepen example [here](https://codepen.io/giuliachiola/pen/xxGGBgW).
 
 See the [pug class attributes docs](https://pugjs.org/language/attributes.html#class-attributes).
 
-> 📚 More info about pug
+> 📚 More info
 >
 > [Pug documentation](https://pugjs.org/api/getting-started.html)
 > [Jade to HTML coverter](https://jsonformatter.org/jade-to-html)

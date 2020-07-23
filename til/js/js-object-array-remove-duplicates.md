@@ -96,6 +96,6 @@ console.log(unique) // (6) ["a", "b", "c", "d", "e", "f"]
 [🦊Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/21cdd935d236809ed68ec6bd79bce6cc7c2ed9f8/js/object-arrays-remove-duplicates.js)
 
 
-> 📚 More info about remove array duplicates
+> 📚 More info
 >
 > [How to Remove Array Duplicates in ES6](https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c)

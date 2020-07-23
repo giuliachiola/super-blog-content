@@ -32,6 +32,6 @@ A prompt will appear asking you to install it now.
 
 When installation is completed, git should work as expected! 😎
 
-> 📚 More info about MacOS Catalina fix
+> 📚 More info
 >
 > [Invalid active developer path](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a)

@@ -89,6 +89,6 @@ will output
 
 Side note: unfortunately, I did not find a way to add attributes to markdown _tables_ and _blockquote_ 😢
 
-> 📚 More info about 11ty markdown config
+> 📚 More info
 >
 > [11ty Markdown Attributes](https://dev.to/iarehilton/11ty-markdown-attributes-2dl3)

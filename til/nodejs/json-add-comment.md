@@ -48,5 +48,6 @@ Using this key:value pair separator you can tidy a long and complex JSON as _scr
   },
 ```
 
-> 📚 More info about JSON
+> 📚 More info
+>
 > [JavaScript Object Notation (JSON) - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)

@@ -50,6 +50,6 @@ If you need different templates to choose, add folders instead of files, and add
 ```
 
 
-> 📚 More info about issue and PR templates
+> 📚 More info
 >
 > [Configuring issue templates for your repository](https://help.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository)

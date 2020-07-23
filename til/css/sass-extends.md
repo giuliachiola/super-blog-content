@@ -107,7 +107,7 @@ So, if we really need to call a code snipped inside a mediaquery, we can use a `
 }
 ```
 
-> 📚 More info about sass placeholders
+> 📚 More info
 >
 > [Sass lang - placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors)
 > [Sass - mixin or placeholder](https://www.sitepoint.com/sass-mixin-placeholder/)

@@ -37,7 +37,7 @@ Version tag prefix? []
 Hooks and filters directory? [/Users/giulia/Sites/giulia/test/.git/hooks]
 ```
 
-> 📚 More info about git flow
+> 📚 More info
 >
 > [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 > [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)

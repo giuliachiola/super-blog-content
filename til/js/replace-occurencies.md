@@ -37,6 +37,6 @@ mystring.replace(/<a href="#">/g, '').replace(/<\/a>/g, '');
 
 [Live RegEx example](https://regex101.com/r/iaHby4/1)
 
-> 📚 More info about RegEx
+> 📚 More info
 > [RegEx 101 playground](https://regex101.com/)
 > [A Practical Guide to Regular Expressions (RegEx) In JavaScript](https://blog.bitsrc.io/a-beginners-guide-to-regular-expressions-regex-in-javascript-9c58feb27eb4)

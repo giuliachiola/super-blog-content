@@ -43,6 +43,6 @@ We have to pay attention where we set nunjucks variables because they are **scop
   ```
 {% endraw %}
 
-> 📚 More info about twig variables
+> 📚 More info
 >
 > [Twig docs - set variables](https://twig.symfony.com/doc/3.x/tags/set.html)
