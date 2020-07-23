@@ -7,7 +7,7 @@ tags:
   - design-system
   - uiengine
   - nodejs
-externalUrl: '# // FIXME:'
+externalUrl: https://styleguide-giuliachiola.netlify.app
 ---
 
 The little design system to build this blog.
