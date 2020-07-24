@@ -63,6 +63,29 @@ _HTML output_
 <div class="c-component cond1-TRUE"></div>
 ```
 
+or using another syntax:
+
+```pug
+- var cond1 = true
+
+//- (1)
+.c-component(class={'cond1-true': cond1 === true})
+
+//- (2)
+.c-component(class={cond1True: cond1 === true})
+```
+
+Note:
+- (1) kebab-case class `cond1-true` must be wrapped in quotes
+- (2) camelCase class `cond1True` can skip wrapper quotes
+
+_HTML output_
+
+```html
+<div class="c-component cond1-true"></div>
+<div class="c-component cond1True"></div>
+```
+
 Live [Codepen example](https://codepen.io/giuliachiola/pen/xxGGBgW).
 
 See the [pug class attributes docs](https://pugjs.org/language/attributes.html#class-attributes).
@@ -72,7 +95,7 @@ See the [pug class attributes docs](https://pugjs.org/language/attributes.html#c
 > [Pug documentation](https://pugjs.org/api/getting-started.html)
 > [Jade to HTML coverter](https://jsonformatter.org/jade-to-html)
 > [HTML to Jade coverter](https://html2jade.org/)
-
+> [Pug playground](https://pug.now.sh/)
 
 
 
