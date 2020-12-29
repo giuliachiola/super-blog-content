@@ -39,5 +39,8 @@ Few commands I found very useful during development.
 | `cd -`                                | go to previous folder                                   |
 
 <div class="s-giphy s-giphy--small-d">
-  <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe title="gif-party" src="https://giphy.com/embed/LqafmeaBVxCRG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mensweardog-cute-dog-LqafmeaBVxCRG">via GIPHY</a></p>
+  <video autoplay loop muted playsinline>
+    <source src="https://i.giphy.com/media/LqafmeaBVxCRG/giphy.mp4" type="video/mp4">
+  </video>
+  <p><a href="https://giphy.com/gifs/mensweardog-cute-dog-LqafmeaBVxCRG">via GIPHY</a></p>
 </div>

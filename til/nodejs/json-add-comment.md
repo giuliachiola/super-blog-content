@@ -14,7 +14,10 @@ tags:
 Spoiler: I lied.
 
 <div class="s-giphy s-giphy--small-d">
-  <div style="width:100%;height:0;padding-bottom:53%;position:relative;"><iframe title="gif-lied" src="https://giphy.com/embed/rigB6iCSm8F68" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/bill-paxton-rigB6iCSm8F68">via GIPHY</a></p>
+  <video autoplay loop muted playsinline>
+    <source src="https://i.giphy.com/media/rigB6iCSm8F68/giphy.mp4" type="video/mp4">
+  </video>
+  <p><a href="https://giphy.com/gifs/bill-paxton-rigB6iCSm8F68">via GIPHY</a></p>
 </div>
 
 As you know, you cannot and will never can add comments in JSON file **but** you can add something that *seems* a comment 😈:
