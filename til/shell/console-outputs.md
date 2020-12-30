@@ -9,7 +9,7 @@ mainTag: shell
 tags:
   - shell
   - nodejs
-id: 16
+id: T16
 ---
 
 A project can be beautiful from the outside, but if the browser console is full of messy outputs it will immediately seem confusing and carelessly 😅

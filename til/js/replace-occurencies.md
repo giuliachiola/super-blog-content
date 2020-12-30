@@ -9,7 +9,7 @@ tags:
   - js
   - regex
 mainTag: js
-id: 11
+id: T11
 ---
 
 If you need to remove all links occurrencies in a webpage and transform them in plain text:

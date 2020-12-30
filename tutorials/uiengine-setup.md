@@ -11,7 +11,7 @@ tags:
   - nodejs
   - css
   - uiengine
-id: T3
+id: B3
 ---
 
 Styles configuration from scratch is available in [this post](/super-blog-content/blog/styleguide-setup/).

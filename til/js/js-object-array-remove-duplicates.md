@@ -8,7 +8,7 @@ date: 2020-04-13
 mainTag: js
 tags:
   - js
-id: 10
+id: T10
 ---
 
 We have an object with multiple arrays inside it, and we need to remove duplicates between these arrays.

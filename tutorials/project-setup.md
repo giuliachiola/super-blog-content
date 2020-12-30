@@ -10,7 +10,7 @@ tags:
   - nodejs
   - git
   - vsc
-id: T1
+id: B1
 ---
 
 ## Config

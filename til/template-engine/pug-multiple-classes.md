@@ -9,7 +9,7 @@ mainTag: template-engine
 tags:
   - template-engine
   - pug
-id: 22
+id: T22
 ---
 
 [Pug](https://github.com/pugjs/pug), _time ago known as [Jade](http://jade-lang.com/)_, is a template engine based on JavaScript render.
