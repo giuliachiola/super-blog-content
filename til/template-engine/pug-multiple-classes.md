@@ -43,7 +43,7 @@ If we have a ternary option with the second operand empty, we could simplify the
 
 ```pug
 - var cond1 = true
-- var cond2= false
+- var cond2 = false
 
 .c-component(class=cond1 && 'cond1-TRUE' class=cond2 && 'cond2-TRUE')
 ```
@@ -52,7 +52,7 @@ that it is exactly the same as
 
 ```pug
 - var cond1 = true
-- var cond2= false
+- var cond2 = false
 
 .c-component(class=cond1 ? 'cond1-TRUE' : '' class=cond2 ? 'cond2-TRUE' : '')
 ```
