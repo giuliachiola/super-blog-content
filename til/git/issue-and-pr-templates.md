@@ -4,7 +4,7 @@ abstract: GitHub gives the possibility to set default issue and PR templates.
 quote: Positive thinking will let you do everything better than negative thinking will.
 quoteAuthor: Zig Ziglar
 
-date: 2020-04-11
+date: 2020-04-15
 mainTag: git
 tags:
   - git

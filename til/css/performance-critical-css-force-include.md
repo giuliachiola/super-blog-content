@@ -4,7 +4,7 @@ abstract: Using critical CSS library by Addy Osmani, force the inclusion of HTML
 quote: We are less when we don't include everyone.
 quoteAuthor: Stuart Milk
 
-date: 2020-04-11
+date: 2020-04-14
 mainTag: css
 tags:
   - css

@@ -4,7 +4,7 @@ abstract: Pug has many ways to add classes, here are few examples.
 quote: Knowing is not enough, we must apply. Willing is not enough, we must do.
 quoteAuthor: Johann Wolfgang von Goethe
 
-date: 2020-04-11
+date: 2020-04-16
 mainTag: template-engine
 tags:
   - template-engine

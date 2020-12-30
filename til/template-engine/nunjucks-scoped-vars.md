@@ -4,7 +4,7 @@ abstract: We have to pay attention where we declare variables in nunjucks, becau
 quote: If opportunity doesn’t knock, build a door.
 quoteAuthor: Kurt Cobain
 
-date: 2020-07-22
+date: 2020-07-24
 mainTag: template-engine
 tags:
   - template-engine

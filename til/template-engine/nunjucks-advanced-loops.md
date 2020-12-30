@@ -4,7 +4,7 @@ abstract: In nunjucks we can loop through an array or an object, let's see how t
 quote: In the middle of every difficulty lies opportunity.
 quoteAuthor: Albert Einstein
 
-date: 2020-07-22
+date: 2020-07-23
 mainTag: template-engine
 tags:
   - template-engine
