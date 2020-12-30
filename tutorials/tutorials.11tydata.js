@@ -3,4 +3,5 @@ module.exports = async () => ({
   category: "tutorials",
   date: "Last Modified",
   permalink: 'posts/{{ title | slug }}/',
+  tags: 'post',
 })
