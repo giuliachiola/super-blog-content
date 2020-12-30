@@ -9,6 +9,7 @@ mainTag: template-engine
 tags:
   - template-engine
   - nunjucks
+id: 18
 ---
 
 [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) is a powerful template engine that allows to loop through arrays and also objects 😏

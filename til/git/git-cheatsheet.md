@@ -8,6 +8,7 @@ date: 2020-04-12
 mainTag: git
 tags:
   - git
+id: T6
 ---
 
 Few commands I found very useful during development.

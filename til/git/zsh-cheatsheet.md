@@ -8,6 +8,7 @@ date: 2020-04-01
 mainTag: git
 tags:
   - shell
+id: T9
 ---
 
 Some useful shortcuts I use with git [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) plugin.

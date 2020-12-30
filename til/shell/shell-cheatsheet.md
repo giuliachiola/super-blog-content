@@ -8,6 +8,7 @@ date: 2020-05-04
 mainTag: shell
 tags:
   - shell
+id: 17
 ---
 
 Few commands I found very useful during development.

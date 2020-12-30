@@ -8,6 +8,7 @@ date: 2020-04-07
 mainTag: mac-os
 tags:
   - mac-os
+id: 12
 ---
 
 After MacOS system upgrade to [Catalina](https://www.apple.com/macos/catalina/), git did not work anymore.

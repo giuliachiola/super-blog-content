@@ -8,6 +8,7 @@ date: 2020-04-03
 mainTag: css
 tags:
   - css
+id: 2
 ---
 
 **SASS interpolation** is an useful tool that comes in handy when we have to create CSS classes name dynamically from an array.

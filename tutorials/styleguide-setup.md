@@ -10,6 +10,7 @@ tags:
   - design-system
   - css
   - nodejs
+id: T2
 ---
 
 Regardless of the tool we use to build our styleguide, helps a lot to have a checklist of packages we need for (almost) every project setup.

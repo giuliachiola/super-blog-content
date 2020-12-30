@@ -8,6 +8,7 @@ date: 2020-03-30
 mainTag: vsc
 tags:
   - vsc
+id: 23
 ---
 
 Some useful shortcuts I use in Visual Studio Code:
