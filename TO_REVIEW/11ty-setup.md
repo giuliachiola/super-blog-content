@@ -4,7 +4,7 @@ abstract: '...'
 quote: '...'
 quoteAuthor: '...'
 
-articleDate: 1990-04-04
+date: 1990-04-04
 mainTag: 11ty
 tags:
   - 11ty

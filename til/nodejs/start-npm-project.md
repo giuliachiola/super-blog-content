@@ -4,7 +4,7 @@ abstract: One command for a fresh and fast start of your project.
 quote: Simplicity is the ultimate sophistication.
 quoteAuthor: Leonardo da Vinci
 
-articleDate: 2020-04-04
+date: 2020-04-04
 mainTag: nodejs
 tags:
   - nodejs

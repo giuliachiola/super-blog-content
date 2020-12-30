@@ -4,7 +4,7 @@ abstract: Add HTML classes to style your markdown content in 11ty, using markdow
 quote: There are so many beautiful reasons to be happy today.
 quoteAuthor: Anonimous
 
-articleDate: 2020-04-05
+date: 2020-04-05
 mainTag: static-site-generator
 tags:
   - 11ty

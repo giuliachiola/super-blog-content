@@ -4,7 +4,7 @@ abstract: Using SASS interpolation functions, SASS variables and SASS arrays, cr
 quote: Well done is better than well said.
 quoteAuthor: Benjamin Franklin
 
-articleDate: 2020-04-03
+date: 2020-04-03
 mainTag: css
 tags:
   - css

@@ -4,7 +4,7 @@ abstract: List of my most used shortcuts working with zsh.
 quote: If everything seems under control, you're not going fast enough.
 quoteAuthor: Mario Andretti
 
-articleDate: 2020-04-01
+date: 2020-04-01
 mainTag: git
 tags:
   - shell

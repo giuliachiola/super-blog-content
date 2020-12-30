@@ -1,6 +1,6 @@
 ---
 title: 'Super styleguide'
-articleDate: 2020-03-27
+date: 2020-03-27
 
 mainTag: design-system
 tags:

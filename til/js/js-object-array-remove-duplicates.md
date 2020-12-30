@@ -4,7 +4,7 @@ abstract: Snippet to remove duplicates in JavaScript, when you have objects with
 quote: Yesterday is not ours to recover, but tomorrow is ours to win or lose.
 quoteAuthor: Lyndon B. Johnson
 
-articleDate: 2020-04-12
+date: 2020-04-12
 mainTag: js
 tags:
   - js

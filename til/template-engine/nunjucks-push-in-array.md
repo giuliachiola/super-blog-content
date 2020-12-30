@@ -4,7 +4,7 @@ abstract: Using push() method, add items in array using Nunjucks template engine
 quote: Whether you think you can or think you can’t, you’re right.
 quoteAuthor: Henry Ford
 
-articleDate: 2020-04-06
+date: 2020-04-06
 mainTag: template-engine
 tags:
   - template-engine

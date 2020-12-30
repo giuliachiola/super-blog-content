@@ -4,7 +4,7 @@ abstract: Basic configuration to setup a styleguide project from scratch using U
 quote: Do something today that your future self will thank you for.
 quoteAuthor: Sean Patrick Flanery
 
-articleDate: 2020-03-26
+date: 2020-03-26
 mainTag: design-system
 tags:
   - design-system

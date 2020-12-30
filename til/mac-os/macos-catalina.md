@@ -4,7 +4,7 @@ abstract: Your git commands do not probably work as expected after upgrade to Ma
 quote: When a new day begins, dare to smile gratefully.
 quoteAuthor: Steve Maraboli
 
-articleDate: 2020-04-07
+date: 2020-04-07
 mainTag: mac-os
 tags:
   - mac-os
