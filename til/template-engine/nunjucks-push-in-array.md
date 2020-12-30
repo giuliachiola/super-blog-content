@@ -1,7 +1,7 @@
 ---
 title: Add items to an array in nunjucks
 abstract: Using push() method, add items in array using Nunjucks template engine.
-quote: Whether you think you can or think you can’t, you’re right.
+quote: Whether you think you can <br class="u-ty-break-t">or think you can’t, you’re right.
 quoteAuthor: Henry Ford
 
 date: 2020-04-06

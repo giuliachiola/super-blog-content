@@ -1,7 +1,7 @@
 ---
 title: Force include classes in critical CSS
 abstract: Using critical CSS library by Addy Osmani, force the inclusion of HTML selectors.
-quote: We are less when we don't include everyone.
+quote: We are less <br class="u-ty-break-t">when we don't include everyone.
 quoteAuthor: Stuart Milk
 
 date: 2020-04-14

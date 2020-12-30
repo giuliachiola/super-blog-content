@@ -1,7 +1,7 @@
 ---
 title: How to set GitHub issue and PR template
 abstract: GitHub gives the possibility to set default issue and PR templates.
-quote: Positive thinking will let you do everything better than negative thinking will.
+quote: Positive thinking will let you do everything better <br class="u-ty-break-t">than negative thinking will.
 quoteAuthor: Zig Ziglar
 
 date: 2020-04-15

@@ -1,7 +1,7 @@
 ---
 title: Styleguide setup
 abstract: Node packages checklist to setup a styleguide from scratch.
-quote: Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless.
+quote: Limitations live only in our minds. <br class="u-ty-break-t">But if we use our imaginations, our possibilities become limitless.
 quoteAuthor: Jamie Paolinetti
 
 date: 2020-03-25
