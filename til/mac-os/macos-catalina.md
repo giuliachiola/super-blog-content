@@ -29,7 +29,7 @@ The "xcode-select" command requires the command line developer tools.
 
 A prompt will appear asking you to install it now.
 
-![xcode-prompt](https://res.cloudinary.com/giuliachiola/image/upload/v1585479297/super-blog/til/11-macos-catalina/xcode-prompt_n6obrx.jpg)
+![xcode-prompt](https://res.cloudinary.com/giuliachiola/image/upload/v1585479297/super-blog/T12-mac-os-catalina/xcode-prompt_n6obrx.jpg)
 
 When installation is completed, git should work as expected! 😎
 
