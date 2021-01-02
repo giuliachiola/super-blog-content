@@ -75,7 +75,7 @@ This is a paragraph with data-state {data-state=important}
 
 Another text with attributes {.c-article-section__disclaimer #articleId attr=value attr2="spaced value"}
 
-![Alt text](image.jpg){.c-article-section__img}
+![Alt text](image.jpg){.u-shadow}
 ```
 
 will output
