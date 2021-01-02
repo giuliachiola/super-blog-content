@@ -29,9 +29,9 @@ Create `.github` folder in project root.
 
 - Check project on GitHub. From now on, when you will open an issue, it will be pre-compiled like with the markdown template you added.
 
-![issue template 01](https://res.cloudinary.com/giuliachiola/image/upload/v1586637232/super-blog/T8-issue-and-pr-templates/til-14-bug-report-01_fcauoy.jpg){.c-article-section__img--shadow}
+<img class="c-article-section__img--shadow" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1586637232/super-blog/T8-issue-and-pr-templates/til-14-bug-report-01_fcauoy.jpg" alt="issue template 01" width="" height="">
 
-![issue template 02](https://res.cloudinary.com/giuliachiola/image/upload/v1586637233/super-blog/T8-issue-and-pr-templates/til-14-bug-report-02_ywp8su.jpg){.c-article-section__img--shadow}
+<img class="c-article-section__img--shadow" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1586637233/super-blog/T8-issue-and-pr-templates/til-14-bug-report-02_ywp8su.jpg" alt="issue template 02" width="1168" height="744">
 
 
 **Advanced**
