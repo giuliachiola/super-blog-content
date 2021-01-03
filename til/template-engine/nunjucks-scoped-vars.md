@@ -1,5 +1,5 @@
 ---
-title: Nunjuks has scoped variable declarations
+title: Nunjuks scoped variable declarations
 abstract: We have to pay attention where we declare variables in nunjucks, because they are scoped!
 quote: If opportunity doesn’t knock, <br class="u-ty-break-t">build a door.
 quoteAuthor: Kurt Cobain

@@ -11,8 +11,8 @@ externalUrl: https://styleguide-giuliachiola.netlify.app
 id: P2
 ---
 
-The little design system to build this blog.
-The DS has few components and less variants as possible, I developed just what I needed to build a simple blog like this! KISS (a.k.a. Keep It Simple Stupid!) 😇
+This project is the little design system I used to build this blog.
+The DS has few components and less variants as possible, because I developed just what I needed to build a simple blog like this, KISS! (a.k.a. Keep It Simple Stupid!) 😇
 
 
 | Use                | Tech stack                 |
@@ -27,17 +27,17 @@ The DS has few components and less variants as possible, I developed just what I
 
 **Design**
 
-I designed the pages on my own and the result is quite banal and impersonal. I reevaluated a lot the designers job!
+I designed the pages on my own and the result is quite banal and impersonal. I reevaluated a lot designers job!
 
 **UIengine**
 
-I used UIengine before in a _very big_ project, with lots of components and variants, and I loved it. Here in this little project I loved it even more!! 😍[UIengine](https://github.com/dennisreimann/uiengine) is very fast and easy to use, well done [Dennis](https://github.com/dennisreimann)! The only flaw I see is that UIengine unfortunately does not support _twig_ or _nunjucks_ template engines, which I think are the best template engines to use.
+I used [UIengine](https://github.com/dennisreimann/uiengine) before in a _very big_ project, with lots of components and variants, and I loved it. Here — in this little project — I loved it even more!! 😍 UIengine is very fast and easy to use, well done [Dennis](https://github.com/dennisreimann)! Bonus point: under the hood, the core is completely written in JS and the framework used is VueJS 🙌🏻 The only flaw I saw is that UIengine unfortunately does not support _twig_ or _nunjucks_ template engines, which I think are the more versatile template engines to use.
 
 **EJS**
 
 This was the first (and probably the last!) time I used _EJS_ as template engine. It was confortable to use JavaScript functions into the template, but I hate its terrible syntax with `<%=>` delimiters and for loops using functions. 🤢
 
-All things considered I liked build this styleguide, and I hope I will continue to add components!
+All things considered I liked build this mini design system!
 
 ## Overall score
 
