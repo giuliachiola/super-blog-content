@@ -32,6 +32,7 @@ Here is a list of really useful 11ty plugins I used in this blog:
 - [eleventy-plugin-syntaxhighlight](https://github.com/11ty/eleventy-plugin-syntaxhighlight): adds syntax highlighted code in markdown pages (it uses PrismJS)
 - [eleventy-plugin-nesting-toc](https://github.com/JordanShurmer/eleventy-plugin-toc): adds table of contents at the top of each article
 - [eleventy-plugin-reading-time](https://github.com/johanbrook/eleventy-plugin-reading-time): adds reading time calculated on article length
+- [eleventy-plugin-social-images](https://github.com/5t3ph/eleventy-plugin-social-images): creates social images for all posts getting post titles and using a custom template (it uses Puppeteer)
 - [markdown-it-anchor](https://github.com/valeriangalliat/markdown-it-anchor): adds anchor on markdown headings, and also add links to them
 - [markdown-it-attrs](https://github.com/arve0/markdown-it-attrs): adds classes and ids to markdown content, to improve layout consistency with other components in page
 - [luxon](https://github.com/moment/luxon): formats dates in human readable format
