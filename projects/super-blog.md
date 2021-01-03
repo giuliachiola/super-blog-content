@@ -26,6 +26,16 @@ This was the first time I used _[11ty](https://www.11ty.io/)_ as static site gen
 
 11ty supports _[Nunjucks](https://mozilla.github.io/nunjucks/)_ as template engine, and desprite the [nunjucks documentation](https://mozilla.github.io/nunjucks/templating.html) is not exaustive, I found everything I needed in forums, stackoverflow and so on. I also wrote few _TIL_ posts about what I discovered! 😏
 
+Here is a list of really useful 11ty plugins I used in this blog:
+
+- [eleventy-navigation](https://github.com/11ty/eleventy-navigation) to easily build navigation between markdown pages
+- [eleventy-plugin-syntaxhighlight](https://github.com/11ty/eleventy-plugin-syntaxhighlight) to add syntax highlighted code in markdown pages (it uses PrismJS)
+- [eleventy-plugin-nesting-toc](https://github.com/JordanShurmer/eleventy-plugin-toc) to add table-of-contents at the top of each article
+- [eleventy-plugin-reading-time](https://github.com/johanbrook/eleventy-plugin-reading-time) to add reading time calculated on article length
+- [markdown-it-anchor](https://github.com/valeriangalliat/markdown-it-anchor) to add anchor on markdown headings, and also add links to them
+- [markdown-it-attrs](https://github.com/arve0/markdown-it-attrs) to add classes and ids to markdown content, to improve layout consistency with other components in page
+- [luxon](https://github.com/moment/luxon) to format dates in human readable format
+
 **Nunjucks**
 
 Unfortunately, _UIengine_ does not support Nunjucks as template engine, in fact I have had to hand-write all _EJS_ templates in Nunjucks language. I searched for a node package to automatically convert components from EJS to Nunjucks, but I didn't find one.
