@@ -40,6 +40,10 @@ At the end I handled all structure and templating issues, and I really like the 
 
 I never used [Netlify](https://www.netlify.com/) before this project, and it was... wow! 😍 I never gone into something so quick to setup and I really *love* its great documentation. I set automatic deploy on merge requests and push on `master` branch, so now on I will have a new preview version of my blog for every feature or fix I will do, and it is awesome!
 
+### Next up 💪🏻
+
+As they say, _"A website has no end."_ , there are lot of features (and some tricky bugs 🐛) I'd like to update in this blog as soon as I understand _how_ to do them!
+
 ## Overall score
 
 <div class="s-giphy s-giphy--medium-d">
