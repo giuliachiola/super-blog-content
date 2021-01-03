@@ -5,7 +5,7 @@ mainTag: 11ty
 tags:
   - 11ty
   - nodejs
-externalUrl: '/'
+# externalUrl: '/'
 id: P1
 ---
 
