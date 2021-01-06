@@ -14,7 +14,7 @@ tags:
 id: B3
 ---
 
-Styles configuration from scratch is available in [this post](/super-blog-content/blog/styleguide-setup/).
+Styles configuration from scratch is available in the post [styleguide setup]({{ global.siteUrl }}/posts/styleguide-setup/).
 
 ## UIengine
 
