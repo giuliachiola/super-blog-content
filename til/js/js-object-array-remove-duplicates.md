@@ -94,7 +94,7 @@ and the result is exactly the same as above using `filter()`.
 console.log(unique) // (6) ["a", "b", "c", "d", "e", "f"]
 ```
 
-[🦊Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/21cdd935d236809ed68ec6bd79bce6cc7c2ed9f8/js/object-arrays-remove-duplicates.js)
+[🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/21cdd935d236809ed68ec6bd79bce6cc7c2ed9f8/js/object-arrays-remove-duplicates.js)
 
 
 > 📚 More info

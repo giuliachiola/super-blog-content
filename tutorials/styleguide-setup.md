@@ -33,7 +33,7 @@ npm install postcss postcss-cli postcss-preset-env postcss-import --save-dev
 
 To configure postcss, add `.postcss.config.js` in project root folder
 
-[🦊Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/postcss.config.js)
+[🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/postcss.config.js)
 
 - [stylelint](https://github.com/stylelint/stylelint)
 > A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
@@ -44,7 +44,7 @@ npm install stylelint stylelint-scss stylelint-order --save-dev
 
 To configure stylelint, add `.stylelintrc.json` in project root folder
 
-[🦊Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/.stylelintrc.json)
+[🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/.stylelintrc.json)
 
 - [sass-mq](https://github.com/sass-mq/sass-mq)
 > A Sass mixin that helps you compose media queries in an elegant way.
@@ -55,7 +55,7 @@ npm install sass-mq --save-dev
 
 Add sass-mq configuration in styles folder `src/scss/00-settings/_sass-mq-config.scss`
 
-[🦊Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/sassmq-config.scss)
+[🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/sassmq-config.scss)
 
 In a static project, as a styleguide, to use _sass-mq_ in our styles, we need to import it from _node_modules_ and add our configuration
 
@@ -149,7 +149,7 @@ Create two folders, one for original SVG files `src/svg` and another for optimi
 
 Add SVGO script configuration
 
-[🦊Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/svg/svgo-config.js)
+[🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/svg/svgo-config.js)
 
 ### SVG scripts
 
