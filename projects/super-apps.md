@@ -1,5 +1,5 @@
 ---
-title: 'Projects coming soon'
+title: Projects coming soon
 quote: Every really new idea looks crazy at first.
 quoteAuthor: Alfred North Whitehead
 date: 2021-01-10

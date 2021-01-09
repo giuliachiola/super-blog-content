@@ -1,5 +1,5 @@
 ---
-title: 'Project #2: Super blog'
+title: Super blog
 quote: It's a bad plan that admits of no modification.
 quoteAuthor: Publilius Syrus
 
