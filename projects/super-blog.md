@@ -1,6 +1,6 @@
 ---
 title: Super blog
-quote: It's a bad plan that admits of no modification.
+quote: It's a bad plan that admits <br>of no modification.
 quoteAuthor: Publilius Syrus
 
 date: 2021-01-02

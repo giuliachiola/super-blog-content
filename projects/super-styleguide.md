@@ -1,6 +1,6 @@
 ---
 title: Super styleguide
-quote: A good plan today is better than a perfect plan tomorrow.
+quote: A good plan today is better <br>than a perfect plan tomorrow.
 quoteAuthor: George S. Patton
 date: 2021-01-01
 
