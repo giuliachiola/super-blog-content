@@ -1,7 +1,7 @@
 ---
 title: Create CSS classes dynamically
 abstract: Using SASS interpolation functions, SASS variables and SASS arrays, create CSS classes dinamically.
-quote: Well done is better than well said.
+quote: Well done is better than well said
 quoteAuthor: Benjamin Franklin
 
 date: 2020-04-03

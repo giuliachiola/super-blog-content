@@ -1,7 +1,7 @@
 ---
 title: 'Visual Studio Code shortcuts'
 abstract: 'Few shortcuts I discovered around the web that I consider very helpful'
-quote: 'With the new day comes new strength<br class="u-ty-break-t"> and new thoughts.'
+quote: With the new day comes new strength<br class="u-ty-break-t"> and new thoughts.
 quoteAuthor: 'Eleanor Roosevelt'
 
 date: 2020-03-30

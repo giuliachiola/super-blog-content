@@ -1,7 +1,7 @@
 ---
 title: Add console outputs only in production mode
 abstract: A project can be beautiful from the outside, but if the browser console is full of messy outputs it will immediately seem confusing and carelessly.
-quote: If we have the attitude that it’s going to be a great day it usually is.
+quote: If we have the attitude that it’s going to be a great day it usually is
 quoteAuthor: Catherine Pulsifier
 
 date: 2020-07-21

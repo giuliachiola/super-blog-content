@@ -1,8 +1,8 @@
 ---
-title: 'How to remove all links in JavaScript'
-abstract: 'Remove all links occurrencies concatenating two replace functions.'
-quote: 'Whenever you give up something, you must replace it with something.'
-quoteAuthor: 'Lou Holtz'
+title: How to remove all links in JavaScript
+abstract: Remove all links occurrencies concatenating two replace functions.
+quote: Whenever you give up something, you must replace it with something
+quoteAuthor: Lou Holtz
 
 date: 2020-03-29
 tags:

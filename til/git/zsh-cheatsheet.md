@@ -1,7 +1,7 @@
 ---
 title: Oh my zsh cheatsheet
 abstract: List of my most used shortcuts working with zsh.
-quote: If everything seems under control, <br class="u-ty-break-t">you're not going fast enough.
+quote: If everything seems under control, <br class="u-ty-break-t">you're not going fast enough
 quoteAuthor: Mario Andretti
 
 date: 2020-04-01

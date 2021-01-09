@@ -1,7 +1,7 @@
 ---
 title: Remove duplicates in object arrays
 abstract: Snippet to remove duplicates in JavaScript, when you have objects with multiple arrays inside it.
-quote: Yesterday is not ours to recover, <br class="u-ty-break-t">but tomorrow is ours to win or lose.
+quote: Yesterday is not ours to recover, <br class="u-ty-break-t">but tomorrow is ours to win or lose
 quoteAuthor: Lyndon B. Johnson
 
 date: 2020-04-13

@@ -1,7 +1,7 @@
 ---
 title: UIengine project setup
 abstract: Basic configuration to setup a styleguide project from scratch using UIengine as styleguide tool.
-quote: Do something today that your future self <br class="u-ty-break-t">will thank you for.
+quote: Do something today that your future self <br class="u-ty-break-t">will thank you for
 quoteAuthor: Sean Patrick Flanery
 
 date: 2020-03-26

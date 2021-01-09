@@ -1,7 +1,7 @@
 ---
 title: Nunjucks advanced loops
 abstract: In nunjucks we can loop through an array or an object, let's see how to do it.
-quote: In the middle of every difficulty <br class="u-ty-break-t">lies opportunity.
+quote: In the middle of every difficulty <br class="u-ty-break-t">lies opportunity
 quoteAuthor: Albert Einstein
 
 date: 2020-07-23

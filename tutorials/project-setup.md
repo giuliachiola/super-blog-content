@@ -1,7 +1,7 @@
 ---
 title: Project setup
 abstract: Configuration list to setup a project from scratch.
-quote: The only limit to your impact is your imagination and commitment.
+quote: The only limit to your impact is your imagination and commitment
 quoteAuthor: Tony Robbins
 
 date: 2020-05-05
