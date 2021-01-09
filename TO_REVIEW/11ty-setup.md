@@ -8,8 +8,11 @@ date: 1990-04-04
 mainTag: 11ty
 tags:
   - 11ty
+
+eleventyExcludeFromCollections: true
 ---
 
+// REVIEW:
 
 ```
 npm install @11ty/eleventy --save-dev
