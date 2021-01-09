@@ -1,6 +1,9 @@
 ---
-title: 'Super blog'
-date: 2020-04-11
+title: 'Project #2: Super blog'
+quote: It's a bad plan that admits of no modification.
+quoteAuthor: Publilius Syrus
+
+date: 2021-01-02
 mainTag: 11ty
 tags:
   - 11ty
