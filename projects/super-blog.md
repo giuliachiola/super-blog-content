@@ -42,7 +42,7 @@ Here is a list of really useful 11ty plugins I used in this blog:
 
 **Nunjucks**
 
-Unfortunately, _UIengine_ (the framework I used to build my styleguide, read more about it in [projects]({{ global.siteUrl }}/projects/ -> Super Styleguide)) does not support Nunjucks as template engine, in fact I had to copy by hand all _EJS_ templates in _Nunjucks_ language. I searched for a node package to automatically convert components from EJS to Nunjucks, but I didn't find any.
+Unfortunately, _UIengine_ (the framework I used to build my styleguide, read more about it in [projects]({{ global.siteUrl }}/projects/) -> Super Styleguide) does not support Nunjucks as template engine, in fact I had to copy by hand all _EJS_ templates in _Nunjucks_ language. I searched for a node package to automatically convert components from EJS to Nunjucks, but I didn't find any.
 
 **Git submodules**
 
