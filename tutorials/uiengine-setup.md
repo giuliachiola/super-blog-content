@@ -39,7 +39,7 @@ npm install @uiengine/adapter-ejs --save-dev
 npm install module-alias --save-dev
 ```
 
-_module-alias_ comes in handy in _component.config.js_ files, where we need to call JS functions in `/scripts` folder outside:
+_module-alias_ comes in handy in _component.config.js_ files, where we need to call JS functions contained in the root folder `/scripts`:
 
 Require `module-alias`
 
@@ -53,7 +53,7 @@ Register the alias with the method `addAlias`
 moduleAlias.addAlias('@scripts', process.cwd() + '/scripts')
 ```
 
-Here I am calling from _content.js_ file some content data to populate the component fields. With `module-alias` we can use the shortcut `@scripts` to go to the `/scripts` folder.
+Example: we want to populate component fileds with data contained in _scripts/content.js_. Using  `module-alias` we can use the shortcut `@scripts` to get the content file, from anywhere we made the call.
 
 ```javascript
 // Debug to run it in nodeJS

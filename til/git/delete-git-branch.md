@@ -26,7 +26,11 @@ git checkout -b feature/wrong-name
 git branch -m feature/new-awesome-name
 ```
 
-## Rename also remote branch
+> ⚡️ Bonus tip
+>
+> If you have [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) installed, you can use its shortcut `gbm`.
+
+## Rename remote branch
 
 To rename a *remote* branch is quite longer:
 
@@ -35,7 +39,7 @@ To rename a *remote* branch is quite longer:
 git branch --unset-upstream
 ```
 
-Note: you don't have to delete local branch because you already have rename it!
+Note: if you followed the previous step, you don't have to delete local branch because you have already renamed it!
 
 - Update the upstream branch to the new one and push it
 ```bash

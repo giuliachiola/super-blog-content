@@ -16,7 +16,7 @@ If you need to remove all links occurrencies in a webpage and transform them in 
 
 - get the page content as string
 
-- replace all start anchor tags using the JavaScript method [String.prototype.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) with the RegEx `/g` global pattern flag: it returns all matches (don't return after first match)
+- replace all start anchor tags using the JavaScript method [String.prototype.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) with the RegEx `/g` global pattern flag: it returns all matches (it does not return after first match)
 
 ```javascript
 .replace(/<a href="#">/g, '')

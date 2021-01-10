@@ -1,7 +1,7 @@
 ---
 title: Styleguide setup
 abstract: Node packages checklist to setup a styleguide from scratch.
-quote: Limitations live only in our minds. <br class="u-ty-break-t">But if we use our imaginations, our possibilities become limitless
+quote: Limitations live only in our minds. <br class="u-ty-break-t">But if we use our imaginations, <br class="u-ty-break-t">our possibilities become limitless
 quoteAuthor: Jamie Paolinetti
 
 date: 2020-03-25
@@ -13,7 +13,7 @@ tags:
 id: B2
 ---
 
-Regardless of the tool we use to build our styleguide, helps a lot to have a checklist of packages we need for (almost) every project setup.
+Regardless of which tool we use to build our styleguide, it helps a lot to have a checklist of packages we need for (almost) every project setup.
 
 ## Styles
 
@@ -57,7 +57,7 @@ Add sass-mq configuration in styles folder `src/scss/00-settings/_sass-mq-config
 
 [🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/sassmq-config.scss)
 
-In a static project, as a styleguide, to use _sass-mq_ in our styles, we need to import it from _node_modules_ and add our configuration
+In a static project, as a styleguide, to use _sass-mq_ in our styles, we have to import it from _node_modules_ and add our configuration
 
 ```scss
 // src/scss/00-settings/__settings.scss
@@ -133,7 +133,7 @@ Use _package.json_ `scripts` object to list all styles commands
 npm install svgo --save-dev
 ```
 
-Create two folders, one for original SVG files `src/svg` and another for optimized SVGs `src/svgo`
+Create two folders, one for original SVG files `src/svg` and a second one optimized SVGs `src/svgo`
 
 ```shell
 ├── src/
