@@ -174,5 +174,5 @@ _HTML output_
 
 > 📚 More info
 >
-> [Twig playground](https://twigfiddle.com/)
-> [Nunjucks playground](https://np.bauke.xyz/)
+> - [Twig playground](https://twigfiddle.com/)
+> - [Nunjucks playground](https://np.bauke.xyz/)

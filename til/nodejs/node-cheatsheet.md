@@ -22,4 +22,9 @@ Few commands I found very useful during development.
 |---------------------------------------|:--------------------------------------------------------|
 | `npm-check -u`                        | checks for update using npm check                       |
 
-
+<div class="s-giphy s-giphy--small-d">
+  <video autoplay loop muted playsinline>
+    <source src="https://i.giphy.com/media/d0NnEG1WnnXqg/giphy.mp4" type="video/mp4">
+  </video>
+  <p><a href="http://gph.is/2biY0lt">via GIPHY</a></p>
+</div>

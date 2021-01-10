@@ -40,6 +40,6 @@ Hooks and filters directory? [/Users/giulia/Sites/giulia/test/.git/hooks]
 
 > 📚 More info
 >
-> [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
-> [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)
-> [A collection of Git-flow extensions](https://github.com/nvie/gitflow)
+> - [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+> - [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)
+> - [A collection of Git-flow extensions](https://github.com/nvie/gitflow)

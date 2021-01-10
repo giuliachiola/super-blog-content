@@ -84,5 +84,5 @@ Here are some shortcuts I added compared to the ones came with [oh-my-zsh plugin
 </div>
 
 > 📚 More info
-> [ohmyzsh cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
-> [ohmyzsh git flow](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow)
+> - [ohmyzsh cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
+> - [ohmyzsh git flow](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow)

@@ -13,8 +13,6 @@ id: T6
 
 Few commands I found very useful during development.
 
-## Summary
-
 | Command                                                            | Description                                                                  |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------|
 | `git commit -am "message"`                                         | add and commit all trakced files                                             |
@@ -44,13 +42,13 @@ Few commands I found very useful during development.
 ## Rename a git tag
 
 ```shell
-git tag new old
-git tag -d old
-git push origin :refs/tags/old
+git tag [new] [old]
+git tag -d [old]
+git push origin :refs/tags/[old]
 git push --tags
 ```
 
-then be sure all coworkers pull the updated tags
+When you fetch remote tags, be sure you have the updated tags
 
 ```shell
 git pull --prune --tags
