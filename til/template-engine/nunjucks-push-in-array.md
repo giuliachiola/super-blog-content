@@ -1,5 +1,5 @@
 ---
-title: Add items to an array in nunjucks
+title: Add items to an array in Nunjucks
 abstract: Using push() method, add items in array using Nunjucks template engine.
 quote: Whether you think you can <br class="u-ty-break-t">or think you can’t, you’re right
 quoteAuthor: Henry Ford
@@ -45,9 +45,10 @@ Unfortunately, I did not found any references in the official [Nunjucks document
 Final array:
 
 ```md
-arr = ['cat 🐱', 'dog 🐶']
+domesticAnimals = ['cat 🐱', 'dog 🐶']
 ```
 
 > 🧨 **!important**
 >
 > If you use {% raw %}`{% set .... %}`{% endraw %} inside a for-loop block, pay attention to have defined it **outside** before entering the loop.
+> I wrote a post about it: [📒 Nunjuks scoped variable declarations]({{ global.siteUrl }}/posts/nunjuks-scoped-variable-declarations/)

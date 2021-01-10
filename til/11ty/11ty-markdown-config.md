@@ -12,18 +12,18 @@ tags:
 id: T1
 ---
 
-11ty comes with some useful plugins for markdown manipulation, one of these is `markdown-it-attrs`.
+11ty comes with some useful plugins for markdown manipulation, one of these is [markdown-it-attrs](https://github.com/arve0/markdown-it-attrs).
 
-This plugin should be used combined with its big brother the markdown parser [markdown-it](https://github.com/markdown-it/markdown-it), which is already added during 11ty basic installation.
+This plugin should be used combined with its big brother, the markdown parser [markdown-it](https://github.com/markdown-it/markdown-it), which is already added in 11ty basic installation.
 
-[markdown-it-attrs](https://github.com/arve0/markdown-it-attrs) uses `markdown-it` and add the possibility to add attributes to HTML nodes generated from markdown.
+**markdown-it-attrs** uses _markdown-it_ and add the possibility to add attributes to HTML nodes generated from markdown.
 
 To use it, add this plugin to the `.eleventy` configuration file:
 
 - require `markdown-it`
 
 ```javascript
-const markdownIt = require("markdown-it")
+const markdownIt = require('markdown-it')
 ```
 
 - require `markdown-it-attrs`
@@ -32,9 +32,10 @@ const markdownIt = require("markdown-it")
 const markdownItAttrs = require('markdown-it-attrs')
 ```
 
-- define basic configuration options
+- define basic `markdown-it` configuration options
+
 ```javascript
-const options = {
+const markdownItOptions = {
   html: true,
   breaks: true,
   linkify: true
@@ -43,12 +44,12 @@ const options = {
 
 - set `markdown-it-attrs` as `markdown-it` usage options
 ```javascript
-const markdownLib = markdownIt(options).use(markdownItAttrs)
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 ```
 
 - set as eleventy configuration the new markdown configuration
 ```javascript
-eleventyConfig.setLibrary("md", markdownLib)
+eleventyConfig.setLibrary('md', markdownLib)
 ```
 
 To sum up:
@@ -56,15 +57,17 @@ To sum up:
 ```javascript
 // .eleventy.js
 
-const markdownIt = require("markdown-it")
+const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
-const options = {
+
+const markdownItOptions = {
   html: true,
   breaks: true,
   linkify: true
 }
-const markdownLib = markdownIt(options).use(markdownItAttrs)
-eleventyConfig.setLibrary("md", markdownLib)
+
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+eleventyConfig.setLibrary('md', markdownLib)
 ```
 
 ### Example of usage
@@ -88,7 +91,7 @@ will output
 <img src="image.jpg">
 ```
 
-Side note: unfortunately, I did not find a way to add attributes to markdown _tables_ and _blockquote_ 😢
+Side note: unfortunately, I did not find a way to add attributes to markdown _tables_ and _blockquote_ 😢 
 
 > 📚 More info
 >

@@ -13,17 +13,21 @@ id: T2
 
 **SASS interpolation** is an useful tool that comes in handy when we have to create CSS classes name dynamically from an array.
 
-For this blog, I wanted different gradients based on post tag (git, vsc, nodejs...). Each tag is append to the main card class in order to create a modifier
+For the first version of this blog, I wanted different gradients based on post tag (git, vsc, nodejs...). Each tag is append to the main card class in order to create a modifier
 
 {% raw %}
 ```html
+// card.njk
+
 <article class="c-card c-card--{{ tag }}"> ... </div>
 ```
 {% endraw %}
 
-and its CSS was like below
+and its CSS was this
 
 ```scss
+// card.scss
+
 $co_card-gradient-git: #eb3349, #f45c43;
 $co_card-gradient-vsc: #1a2980, #26d0ce;
 $co_card-gradient-nodejs: #36582f, #7ab659;
@@ -42,7 +46,7 @@ $co_card-gradient-nodejs: #36582f, #7ab659;
 
 ```
 
-In attempt to remove repetitions, I tried to loop through a SASS list and generate classes
+In attempt to remove repetitions and have a DRY (Don't Repeat Yourself) code, I tried to loop through a SASS list and generate classes
 
 ```scss
 $tags: git, vsc, nodejs;
@@ -56,7 +60,7 @@ $tags: git, vsc, nodejs;
 
 but unfortunately SASS **does not support** variable name interpolation at the moment! 💔
 
-If you try to compile this you will get
+If you try to compile the snippet above, you will get
 
 ```shell
 Sass Error: Undefined variable: "$co_card-gradient-"
@@ -96,11 +100,11 @@ $tags: git, vsc, nodejs;
 }
 ```
 
-[Live Codepen example](https://codepen.io/giuliachiola/pen/VwLVVRy)
+[🖥 Codepen example](https://codepen.io/giuliachiola/pen/VwLVVRy)
 
-## CSS var dynamic classes
+## Dynamic classes using CSS vars
 
-Note that if we use _CSS vars_ instead of _SASS vars_ we can interpolate its name with `#{}` syntax.
+Note that if we use **CSS vars** instead of _SASS vars_ we can interpolate the class name with `#{}` syntax.
 
 1. Declare the CSS var
 
@@ -136,6 +140,12 @@ $co_palette-5: #ff9f1c;
   --co_palette-3: #{$co_palette-3};
   --co_palette-4: #{$co_palette-4};
   --co_palette-5: #{$co_palette-5};
+
+  --co_palette-1--lighten: #{lighten($co_palette-1, 10%)};
+  --co_palette-2--lighten: #{lighten($co_palette-2, 10%)};
+  --co_palette-3--lighten: #{lighten($co_palette-3, 10%)};
+  --co_palette-4--lighten: #{lighten($co_palette-4, 10%)};
+  --co_palette-5--lighten: #{lighten($co_palette-5, 10%)};
 }
 ```
 
@@ -143,6 +153,7 @@ $co_palette-5: #ff9f1c;
 @for $i from 1 through 5 {
   .t-palette-color--#{$i} .c-card::before {
     background-color: var(--co_palette-#{$i});
+    color: var(--co_palette-#{$i}--lighten);
   }
 }
 ```
@@ -152,21 +163,26 @@ Output:
 ```css
 .t-palette-color--1 .c-card::before {
   background-color: var(--co_palette-1);
+  color: var(--co_palette-1--lighten);
 }
 
 .t-palette-color--2 .c-card::before {
   background-color: var(--co_palette-2);
+  color: var(--co_palette-2--lighten);
 }
 
 .t-palette-color--3 .c-card::before {
   background-color: var(--co_palette-3);
+  color: var(--co_palette-3--lighten);
 }
 
 .t-palette-color--4 .c-card::before {
   background-color: var(--co_palette-4);
+  color: var(--co_palette-4--lighten);
 }
 
 .t-palette-color--5 .c-card::before {
   background-color: var(--co_palette-5);
+  color: var(--co_palette-5--lighten);
 }
 ```

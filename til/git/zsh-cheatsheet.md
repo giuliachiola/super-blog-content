@@ -13,27 +13,20 @@ id: T9
 
 Some useful shortcuts I use with git [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) plugin.
 
-| Command | Description                                      | Notes                             |
-|:--------|:-------------------------------------------------|:----------------------------------|
-| `gb`    | `git branch`                                     | List of local branches            |
-| `gba`   | `git branch -a`                                  | List of local and remote branches |
-| `gcam`  | `git commit -am`                                 | Add all files to stage and commit |
-| `gcmsg` | `git commit -m`                                  | Git commit message                |
-| `gco`   | `git checkout`                                   | Change branch                     |
-| `gco -`   | `git checkout` to the previous branch          | Change branch to the previous one   |
-| `gd`    | `git diff`                                       | Files differences in staging      |
-| `gfa`   | `git fetch --all --prune`                        | Align local branches to remote    |
-| `gl`    | `git pull`                                       | Pull from remote                  |
-| `gp`    | `git push`                                       | Push to remote                    |
-| `gpsup` | `git push --set-upstream origin [currentbranch]` | Set upstream branch               |
-| `gst`   | `git status`                                     | Local files to commit             |
-
-Other than git commands:
-
-| Command | Description                                      | Notes                             |
-|:--------|:-------------------------------------------------|:----------------------------------|
-| `ctrl` + `r`   | Advanced search                         | Search any word in bash history   |
-| `cd -`   | Go to the previous current directory    | \   |
+| Command | Description                                      | Notes                                                        |
+|:--------|:-------------------------------------------------|:-------------------------------------------------------------|
+| `gb`    | `git branch`                                     | List of local branches                                       |
+| `gba`   | `git branch -a`                                  | List of local and remote branches                            |
+| `gcam`  | `git commit -am`                                 | Add all files to stage and commit                            |
+| `gcmsg` | `git commit -m`                                  | Git commit message                                           |
+| `gco`   | `git checkout`                                   | Change branch                                                |
+| `gco -` | `git checkout` to the previous branch            | Change branch to the previous one                            |
+| `gd`    | `git diff`                                       | Files differences in staging                                 |
+| `gfa`   | `git fetch --all --prune`                        | Fetch all remote branches, delete branch if upstream is gone |
+| `gl`    | `git pull`                                       | Pull from remote                                             |
+| `gp`    | `git push`                                       | Push to remote                                               |
+| `gpsup` | `git push --set-upstream origin [currentbranch]` | Set upstream branch                                          |
+| `gst`   | `git status`                                     | Local files to commit                                        |
 
 ## Add your zsh aliases
 
@@ -51,12 +44,8 @@ alias [name]='[command]'
 For instance, these are my aliases in `.zshrc` file
 
 ```shell
-alias gffs='git flow feature start'
-alias gfff='git flow feature finish'
-alias gfbs='git flow bugfix start'
-alias gfbf='git flow bugfix finish'
-alias gfhs='git flow hotfix start'
-alias gfhf='git flow hotfix finish'
+alias gflbs='git flow bugfix start'
+alias gflbf='git flow bugfix finish'
 
 alias gbm='git branch -m'
 alias gbD='git branch -D'
@@ -77,19 +66,15 @@ or shorter version
 
 ### My aliases
 
-| Command      | Description                   | Notes                                     |
-|:-------------|:------------------------------|:------------------------------------------|
-| `alias gffs` | `git flow feature start`      | Start a `feature/` branch from `develop`  |
-| `alias gfff` | `git flow feature finish`     | Finish a `feature/` branch from `develop` |
-| `alias gfbs` | `git flow bugfix start`       | Start a `bugfix/` branch from `develop`   |
-| `alias gfbf` | `git flow bugfix finish`      | Finish a `bugfix/` branch from `develop`  |
-| `alias gfhs` | `git flow hotfix start`       | Start a `hotfix/` branch from `master`    |
-| `alias gfhf` | `git flow hotfix finish`      | Finish a `hotfix/` branch from `master`   |
-| `gbm`        | `git branch -m`               | Rename branch                             |
-| `gbD`        | `git branch -D`               | Delete local branch with force option     |
-| `gbuu`       | `git branch --unset-upstream` | Unset upstream branch                     |
+Here are some shortcuts I added compared to the ones came with [oh-my-zsh plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow)
 
-Note that git flow comes with its [oh-my-zsh plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow) but I don't really like that shortcuts, so I made my own.
+| Command       | Description                   | Notes                                    |
+|:--------------|:------------------------------|:-----------------------------------------|
+| `alias gflbs` | `git flow bugfix start`       | Start a `bugfix/` branch from `develop`  |
+| `alias gflbf` | `git flow bugfix finish`      | Finish a `bugfix/` branch from `develop` |
+| `gbm`         | `git branch -m`               | Rename branch                            |
+| `gbD`         | `git branch -D`               | Delete local branch with force option    |
+| `gbuu`        | `git branch --unset-upstream` | Unset upstream branch                    |
 
 <div class="s-giphy s-giphy--small-d">
   <video autoplay loop muted playsinline>

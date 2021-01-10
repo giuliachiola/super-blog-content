@@ -1,8 +1,8 @@
 ---
 title: Add comments in JSON file
 abstract: A trick to add "comments" to create beauty and tidy JSON files.
-quote: We may encounter many defeats, <br class="u-ty-break-t">but we must not be defeated
-quoteAuthor: Maya Angelou
+quote: I'm not upset that you lied to me, <br class="u-ty-break-t">I'm upset that from now on I can't believe you.
+quoteAuthor: Friedrich Nietzsche
 
 date: 2020-04-02
 mainTag: nodejs

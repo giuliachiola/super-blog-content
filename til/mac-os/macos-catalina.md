@@ -8,10 +8,11 @@ date: 2020-04-07
 mainTag: mac-os
 tags:
   - mac-os
+  - git
 id: T12
 ---
 
-After MacOS system upgrade to [Catalina](https://www.apple.com/macos/catalina/), git did not work anymore.
+After MacOS system upgrade to [Catalina](https://www.apple.com/macos/catalina/), on my computer **git** did not work anymore. If you happened the same, the following steps resolve it for me!
 
 Running any of git commands, you would probably got this error
 

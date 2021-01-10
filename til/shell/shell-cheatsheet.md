@@ -37,7 +37,8 @@ Few commands I found very useful during development.
 | `grep -rl "<text>" <dir>`             | search for all files containing <text> inside <dir>     |
 | `ln`                                  | symbolic link                                           |
 | `alias`                               | show available alias on shell                           |
-| `cd -`                                | go to previous folder                                   |
+| `cd -`                                | Go to the previous current directory                    |
+| `ctrl` + `r`                          | Advanced search (search any word in bash history)       |
 
 <div class="s-giphy s-giphy--small-d">
   <video autoplay loop muted playsinline>
