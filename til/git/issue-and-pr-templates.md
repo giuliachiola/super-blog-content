@@ -1,6 +1,6 @@
 ---
-title: How to set GitHub issue and PR template
-abstract: GitHub gives the possibility to set default issue and PR templates.
+title: How to set GitHub/GitLab issue and PR template
+abstract: GitHub and GitLab give the possibility to set default issue and PR templates.
 quote: Positive thinking will let you do everything better <br class="u-ty-break-t">than negative thinking will
 quoteAuthor: Zig Ziglar
 
@@ -11,32 +11,57 @@ tags:
 id: T8
 ---
 
-## GitHub
+## Templates for both GitLab and GitHub
 
-Create `.github` folder in project root.
+Use the content that works best for you, here there are mine.
 
-**Basic**
+| Template                     | Snippet                                                                                                                          |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| issue                        | [🦊 GitLab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/master/git/.gitlab/issue_templates/issue-template.md)      |
+| pull request / merge request | [🦊 GitLab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/master/git/.gitlab/merge_request_templates/mr-template.md) |
+| release                      | [🦊 GitLab snippet](https://gitlab.com/giuliach/super-snippets/-/tree/master/git/.gitlab/release_templates)                      |
 
-- Add templates files. Use the content that works best for you, here there are my templates.
+## Basic
+### GitHub
 
-| Filename                   | Content                                                                              |
-|----------------------------|--------------------------------------------------------------------------------------|
-| `ISSUE_TEMPLATE.md`        | [GitHub gist](https://gist.github.com/giuliachiola/1f3f3274e3187b3866c9a042cf3cf8fb) |
-| `PULL_REQUEST_TEMPLATE.md` | [GitHub gist](https://gist.github.com/giuliachiola/95b303c820c3253e4a3239f28ed347ad) |
-| `RELEASE_TEMPLATE.md`      | [GitHub gist](https://gist.github.com/giuliachiola/96d84c5313bf66ea1034856092624c17) |
+- Create `.github` folder in project root.
+- Add templates files following this folder structure
 
-- Commit and push on `develop` this files.
+```shell
+├── .gitlab/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── issue-templates.md
+│   ├── PULL_REQUEST_TEMPLATE/
+│   │   ├── merge-request-templates.md
+│   ├── RELEASE_TEMPLATE/
+│   │   ├── release-templates.md
+```
 
-- Check project on GitHub. From now on, when you will open an issue, it will be pre-compiled like with the markdown template you added.
+- Commit and push on our default branch.
+
+- Check our project on GitHub. From now on, when we will open an issue, it will be pre-compiled with the markdown template we added.
 
 <img class="u-shadow" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1586637232/super-blog/T8-issue-and-pr-templates/til-14-bug-report-01_fcauoy.jpg" alt="issue template 01" width="1440" height="341">
 
 <img class="u-shadow" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1586637233/super-blog/T8-issue-and-pr-templates/til-14-bug-report-02_ywp8su.jpg" alt="issue template 02" width="1168" height="744">
 
+### GitLab
 
-**Advanced**
+In GitLab is pretty much the same, but here we have to create a folder named `.gitlab`, and add this folders structure:
 
-If you need different templates to choose, add folders instead of files, and add many files as you need.
+```shell
+├── .gitlab/
+│   ├── issue_templates/
+│   │   ├── issue-templates.md
+│   ├── merge_request_templates/
+│   │   ├── merge-request-templates.md
+│   ├── release_templates/
+│   │   ├── release-templates.md
+```
+
+## Advanced
+
+If we need different templates to choose, we have to add folders instead of files, and add many files as we need.
 
 ```shell
 ├── .github
@@ -50,7 +75,7 @@ If you need different templates to choose, add folders instead of files, and add
 │   │   ├── hotfix.md
 ```
 
-
 > 📚 More info
 >
-> [Configuring issue templates for your repository](https://help.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository)
+> - [Configuring templates for GitHub](https://help.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository)
+> - [Configuring templates for GitLab](https://docs.gitlab.com/ee/user/project/description_templates.html)
