@@ -36,7 +36,7 @@ Diamo Invio (Yes implicito) a tutti i punti, tranne quelli del Setup Unit Test, 
 <!-- ```
 Project name projectname
 ? Project description A Vue.js project
-? Author Giulia Chiola <giulia.chiola@modo.md>
+? Author Giulia Chiola
 ? Vue build standalone
 ? Install vue-router? Yes
 ? Use ESLint to lint your code? Yes
