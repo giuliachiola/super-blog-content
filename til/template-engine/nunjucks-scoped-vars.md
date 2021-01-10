@@ -1,6 +1,6 @@
 ---
 title: Nunjuks scoped variable declarations
-abstract: We have to pay attention where we declare variables in nunjucks, because they are scoped!
+abstract: We have to pay attention where we declare variables in Nunjucks, because they are scoped!
 quote: If opportunity doesn’t knock, <br class="u-ty-break-t">build a door
 quoteAuthor: Kurt Cobain
 
@@ -12,7 +12,7 @@ tags:
 id: T21
 ---
 
-We have to pay attention where we set nunjucks variables because they are **scoped**
+We have to pay attention where we set Nunjucks variables because they are **scoped**
 
 {% raw %}
   ```twig

@@ -11,6 +11,8 @@ tags:
 id: T4
 ---
 
+From the official [📚 Sass documentation](https://sass-lang.com/documentation/style-rules/placeholder-selectors)
+
 > Sass has a special kind of selector known as a “placeholder”. It looks and acts a lot like a class selector, but it starts with a % and it's not included in the CSS output. In fact, any complex selector (the ones between the commas) that even contains a placeholder selector isn't included in the CSS, nor is any style rule whose selectors all contain placeholders.
 
 We can write a placeholder for reusable pieces of code prefixed by the `%` keyword:
@@ -78,14 +80,16 @@ For instance, if we try to declare two placeholders and call them inside a media
 }
 ```
 
-This will throw an error 😭
+The code above will throw an error 😭
 
 ```shell
 You may not @extend an outer selector from within @media.
 You may only @extend selectors within the same directive.
 ```
 
-So, if we really need to call a code snipped inside a mediaquery, we can use a `mixin` declaration. I know it's not the correct use of the `mixin` function but it's a desperate measure! 😅
+So, if we really need to reuse a code snipped inside a mediaquery, we can use a `mixin` declaration.
+
+I know, it is not the correct use of the `mixin` function... but it's a desperate measure! 😅
 
 
 ```scss

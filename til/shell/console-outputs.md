@@ -39,7 +39,7 @@ if (localStorage.devMode && localStorage.devMode === 'true') {
 consoleWrap.debug.log('Hello!')
 ```
 
-To set the `devMode` in browser local storage, please add thise line in browser console:
+To set the `devMode` in browser local storage, please add this line in browser console:
 
 ```js
 // browser console
@@ -49,13 +49,15 @@ localStorage.devMode = 'true'
 > Hello!
 ```
 
-Note: local storage values are strings 🤭, so we have to assign the variable as string `localStorage.devMode = 'true'` and check its value as string `localStorage.devMode === 'true'`.
+> 🧨 **!important**
+>
+> local storage values are strings 🤭, so we have to assign the variable as string `localStorage.devMode = 'true'` and check its value as string `localStorage.devMode === 'true'`.
 
 ## Using vue env + webpack + loglevel
 
-In a Vue project we already have webpack installed, and do not output `console.log()` debug prints in production JS bundle is an efficient way to save kilobytes! 😏
+In a Vue project we already have webpack installed, and do not output noisy `console.log()` in production JS bundle is an efficient way to save kilobytes! 😏
 
-Loglevel to the rescue!
+**Loglevel** to the rescue!
 
 - [loglevel](https://github.com/pimterry/loglevel)
 
@@ -67,9 +69,9 @@ Install it in development packages:
 npm install loglevel --save-dev
 ```
 
-In every JS file we need to output something, we have to:
-- import loglevel
-- use its syntax `log.debug` == `console.log`
+In every JS file we would need to output something, we have to:
+- import _loglevel_
+- use its syntax, where `log.debug` == `console.log`
 
 ```js
 import log from 'loglevel';
@@ -79,7 +81,7 @@ log.debug('This output will be in both development and production mode')
 
 Why did we talk about webpack above? 😅
 
-Well, webpack will not add to the JS bundle the code that will never be executed, as for example a condition that will never match:
+Well, webpack will not add into the JS bundle the code that will never be executed, as for example a condition that will never match:
 
 ```js
 if ((2 + 2) === 5) {

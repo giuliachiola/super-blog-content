@@ -12,7 +12,7 @@ tags:
 id: T20
 ---
 
-To add items in nunjucks, use the `.push()` function.
+To add items in Nunjucks, use the `.push()` function.
 
 
 {% raw %}

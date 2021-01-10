@@ -1,6 +1,6 @@
 ---
 title: Nunjucks advanced loops
-abstract: In nunjucks we can loop through an array or an object, let's see how to do it.
+abstract: In Nunjucks we can loop through an array or an object, let's see how to do it.
 quote: In the middle of every difficulty <br class="u-ty-break-t">lies opportunity
 quoteAuthor: Albert Einstein
 
@@ -26,9 +26,13 @@ id: T18
   ```
 {% endraw %}
 
-## Loop though an object
+```html
+Value: 🐱
+Value: 🐶
+Value: 🐺
+```
 
-Note that we have to declare the two parameters of the loop `key, value`:
+## Loop though an object
 
 {% raw %}
   ```twig
@@ -43,6 +47,8 @@ Note that we have to declare the two parameters of the loop `key, value`:
   ```
 {% endraw %}
 
+Note that we have to declare the two parameters of the loop `key, value`.
+
 ```html
 name: cat
 emoji: 🐱
@@ -50,7 +56,9 @@ emoji: 🐱
 
 ## The `iterable` property
 
-In **twig** exist an intresting property, [`iterable`](https://twig.symfony.com/doc/3.x/tests/iterable.html) that checks if a variable is an array or an object:
+In **Twig** exists an intresting property, [`iterable`](https://twig.symfony.com/doc/3.x/tests/iterable.html) that checks if a variable can be iterable in a for loop:
+
+Loop through an array:
 
 {% raw %}
   ```twig
@@ -72,11 +80,35 @@ Value: 🐶
 Value: 🐺
 ```
 
+Loop through an object:
+
+{% raw %}
+  ```twig
+  {% set animals = {
+    name: 'cat',
+    emoji: '🐱'
+  } %}
+
+  {% if animals is iterable %}
+    {% for item in animals %}
+      Value: {{ item }}
+    {% endfor %}
+  {% else %}
+    Not iterable: {{ animal }}
+  {% endif %}
+  ```
+{% endraw %}
+
+```html
+Value: cat
+Value: 🐱
+```
+
 > 🧨 **!important**
 >
-> Please note that `iterable` is a **twig** property and can have unexpected results in nunjucks template engine.
+> Please note that `iterable` is a **Twig** property and can have unexpected results in Nunjucks template engine.
 
-In **twig** a _string_ is not iterable:
+In **Twig** a _string_ is **not** iterable:
 
 {% raw %}
   ```twig
@@ -94,14 +126,14 @@ In **twig** a _string_ is not iterable:
   ```
 {% endraw %}
 
-_twig output_
+_Twig output_
 
 ```html
 Not iterable!
 cat
 ```
 
-but if we run the same code in **nunjucks**, we discover that also a _string_ is iterable 🤯
+but if we run the same code in **nunjucks**, we discover that a _string_ is iterable 🤯
 
 _nunjucks output_
 
@@ -114,7 +146,19 @@ Value: t
 
 ## Accessing the parent loop
 
-Save the loop index as row number:
+Nunjucks provides in its loops the `loop` property.
+
+From the [docs](http://mozilla.github.io/nunjucks/templating.html#for) the `loop.index` is
+> the current iteration of the loop (1 indexed)
+
+But what if we have two nested loops and we want to access to the parent loop?
+
+Workaround: save the loop index as row number! 😏
+
+In this example we have a matrix content: two rows and each row has one ore more cells. If we want to print all cells content and position, we have to:
+- loop (parent loop) through the rows
+- loop (child loop) through the columns
+- get the content inside each cell
 
 {% raw %}
   ```twig
@@ -125,6 +169,7 @@ Save the loop index as row number:
 
   <table>
     {% for row in animals %}
+      {# new row #}
       <tr>
       {% set rowloop = loop %}
       {% for cell in row %}
@@ -145,6 +190,7 @@ _HTML output_
 ```html
 
 <table>
+  {# new row #}
   <tr>
     <td>
         row (rowloop.index):1
@@ -162,6 +208,7 @@ _HTML output_
         cell: 🐺
     </td>
   </tr>
+  {# new row #}
   <tr>
     <td>
         row (rowloop.index):2
@@ -175,4 +222,3 @@ _HTML output_
 > 📚 More info
 >
 > - [Twig playground](https://twigfiddle.com/)
-> - [Nunjucks playground](https://np.bauke.xyz/)

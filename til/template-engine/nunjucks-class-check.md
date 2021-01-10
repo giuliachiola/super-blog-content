@@ -12,7 +12,9 @@ tags:
 id: T19
 ---
 
-In nunjucks we can add an `if` statement _explicit_ using the {% raw %}`{% if %}`{% endraw %} keyword, or _implicit_ using the {% raw %}`{{ }}`{% endraw %} expression.
+In _Nunjucks_ we can add an `if` statement:
+- **explicit** using the {% raw %}`{% if %}`{% endraw %} keyword,
+- or **implicit** using the {% raw %}`{{ }}`{% endraw %} expression.
 
 These two sintaxes have the same output:
 
@@ -26,7 +28,7 @@ These two sintaxes have the same output:
   ```
 {% endraw %}
 
-_HTML_
+_HTML output_
 
 ```html
 <div class="c-animals has-dog">...</div>
