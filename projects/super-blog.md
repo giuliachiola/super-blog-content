@@ -12,11 +12,13 @@ tags:
 id: P1
 ---
 
-First things first: why did I named it "super-blog"? Well, the answer is quite simple.
+## First things first
 
-Like many others, I suffer from the impostor syndrome and I tend to not finish what I start, because I think it's not good enough. 🥺 I needed a name that would make the project interesting and push me to carry it on! Hence the idea of calling my most captivating side-projects with the prefix `super-` 😎
+Why did I named it `super-blog`? Well, the answer is quite simple.
 
-I started to write a post about all the _super-apps_ – as I renamed them – I would like to develop in the near future! 💪🏻
+Like many others, I suffer from the **impostor syndrome** and I tend to not finish what I start, because I think it's not _good enough_. 🥺 I needed a name that would make the project interesting and push me to carry it on! Hence the idea of calling my most captivating side-projects with the prefix `super-` 😎
+
+I started to write a post about all the **super-apps** – as I call them – I would like to develop in the near future! 💪🏻
 
 But anyway, let's talk about how I made this simple blog.
 
