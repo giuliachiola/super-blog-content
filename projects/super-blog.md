@@ -14,7 +14,7 @@ id: P1
 
 ## First things first
 
-Why did I named it `super-blog`? Well, the answer is quite simple.
+Why did I name it `super-blog`? Well, the answer is quite simple.
 
 Like many others, I suffer from the **impostor syndrome** and I tend to not finish what I start, because I think it's not _good enough_. 🥺 I needed a name that would make the project interesting and push me to carry it on! Hence the idea of calling my most captivating side-projects with the prefix `super-` 😎
 
