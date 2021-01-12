@@ -2,7 +2,7 @@
 title: Super styleguide
 quote: A good plan today is better <br class="u-ty-break-t">than a perfect plan tomorrow
 quoteAuthor: George S. Patton
-date: 2021-01-01
+date: 2020-12-20
 
 mainTag: design-system
 tags:
@@ -15,7 +15,6 @@ id: P2
 
 This project is the little design system I used to build this blog.
 The DS has few components and less variants as possible, because I developed just what I needed to build a simple blog like this, KISS! (a.k.a. Keep It Simple Stupid!) 😇
-
 
 | Use                | Tech stack                 |
 |:-------------------|:---------------------------|
