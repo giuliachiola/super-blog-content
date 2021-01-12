@@ -1,0 +1,19 @@
+{
+  "name": "super-blog-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/giuliach/super-blog-content.git"
+  },
+  "author": "Giulia Chiola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/giuliach/super-blog-content/issues"
+  },
+  "homepage": "https://gitlab.com/giuliach/super-blog-content#readme"
+}
