@@ -12,7 +12,7 @@ tags:
 id: T7
 ---
 
-To inizialize _git flow_ with default branches configuration, run
+To inizialize **git flow** with default branches configuration, run
 
 ```shell
 git flow init -d
@@ -24,7 +24,7 @@ It will create a git flow structure to your project
 Initialized empty Git repository in /Users/giulia/Sites/giulia/test/.git/
 Using default branch names.
 No branches exist yet. Base branches must be created now.
-Branch name for production releases: [master]
+Branch name for production releases: [main]
 Branch name for "next release" development: [develop]
 .git/hooks/post-commit: line 8: git-stats: command not found
 
