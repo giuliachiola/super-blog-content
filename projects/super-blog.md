@@ -62,7 +62,7 @@ For the first time, I worked with _git submodules_: one for the [content reposit
 
 **Netlify**
 
-I never used [Netlify](https://www.netlify.com/) before, and it was... wow! 😍 I never gone into something so quick to setup and I really *love* its great documentation. I set automatic deploy on merge requests and push on `master` branch, so now on I will have a new preview version of my blog for every feature or fix I will do, and it is stunning!
+I never used [Netlify](https://www.netlify.com/) before, and it was... wow! 😍 I never gone into something so quick to setup and I really *love* its great documentation. I set automatic deploy on merge requests and push on `main` branch, so now on I will have a new preview version of my blog for every feature or fix I will do, and it is stunning!
 
 ### Next up 💪🏻
 

@@ -29,7 +29,7 @@ Few commands I found very useful during development.
 | `git reset --mixed A`                                              | `git reset A` (default) remove files also in staging area                    |
 | `git reset --hard`                                                 | remove files as they never existed                                           |
 | `git stash clear`                                                  | delete all stashes                                                           |
-| `git fetch origin; git reset --hard origin/master`                 | restore as remote master branch                                              |
+| `git fetch origin; git reset --hard origin/main`                 | restore as remote main branch                                              |
 | `git log --tags --simplify-by-decoration --pretty="format:%ci %d"` | show tags details                                                            |
 | `git log --graph --abbrev-commit --decorate`                       | show commits with decorative branches                                     |
 | `git diff --name-only | uniq | xargs $EDITOR`                      | opens all modified files                                                     |
@@ -66,7 +66,7 @@ https://gitlab.com/giuliach/super-blog-11ty/-/compare/[source]...[target]
 Example:
 
 ```md
-https://gitlab.com/giuliach/super-blog-11ty/-/compare/master...develop
+https://gitlab.com/giuliach/super-blog-11ty/-/compare/main...develop
 ```
 
 <div class="s-giphy s-giphy--small-d">
