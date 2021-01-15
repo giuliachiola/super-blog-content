@@ -4,7 +4,7 @@ abstract: Few commands to rename git branch locally and remotely
 quote: Feel the fear and do it anyway
 quoteAuthor: Susan Jeffers
 
-date: 2020-03-31
+date: 2021-01-17
 mainTag: git
 tags:
   - git

@@ -4,7 +4,7 @@ abstract: 'Few shortcuts I discovered around the web that I consider very helpfu
 quote: With the new day comes new strength<br class="u-ty-break-t"> and new thoughts.
 quoteAuthor: 'Eleanor Roosevelt'
 
-date: 2020-03-30
+date: 2021-01-16
 mainTag: vsc
 tags:
   - vsc

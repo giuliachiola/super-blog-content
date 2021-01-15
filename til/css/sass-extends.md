@@ -4,7 +4,7 @@ abstract: Sass placeholder it's a powerful way to write reusable code, but unfor
 quote: Great things are done by a series of small things brought together
 quoteAuthor: Vincent Van Gogh
 
-date: 2020-07-22
+date: 2021-02-03
 mainTag: css
 tags:
   - css

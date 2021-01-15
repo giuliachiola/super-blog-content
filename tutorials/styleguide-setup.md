@@ -4,7 +4,7 @@ abstract: Node packages checklist to setup a styleguide from scratch.
 quote: Limitations live only in our minds. <br class="u-ty-break-t">But if we use our imaginations, <br class="u-ty-break-t">our possibilities become limitless
 quoteAuthor: Jamie Paolinetti
 
-date: 2020-03-25
+date: 2021-01-13
 mainTag: design-system
 tags:
   - design-system

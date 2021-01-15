@@ -4,7 +4,7 @@ abstract: How to fast initialize git flow with one simple command.
 quote: Tidying your physical space allows you to tend to your psychological space
 quoteAuthor: Marie Kondo
 
-date: 2020-03-28
+date: 2021-01-14
 mainTag: git
 tags:
   - git

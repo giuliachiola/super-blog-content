@@ -4,7 +4,7 @@ abstract: Configuration list to setup a project from scratch.
 quote: The only limit to your impact is your imagination and commitment
 quoteAuthor: Tony Robbins
 
-date: 2020-05-05
+date: 2021-01-31
 mainTag: nodejs
 tags:
   - nodejs

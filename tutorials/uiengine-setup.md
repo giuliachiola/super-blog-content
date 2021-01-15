@@ -4,7 +4,7 @@ abstract: Basic configuration to setup a styleguide project from scratch using U
 quote: Do something today that your future self <br class="u-ty-break-t">will thank you for
 quoteAuthor: Sean Patrick Flanery
 
-date: 2020-03-26
+date: 2021-01-12
 mainTag: design-system
 tags:
   - design-system

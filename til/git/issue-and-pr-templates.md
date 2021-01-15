@@ -4,7 +4,7 @@ abstract: GitHub and GitLab give the possibility to set default issue and PR tem
 quote: Positive thinking will let you do everything better <br class="u-ty-break-t">than negative thinking will
 quoteAuthor: Zig Ziglar
 
-date: 2020-04-15
+date: 2021-01-28
 mainTag: git
 tags:
   - git

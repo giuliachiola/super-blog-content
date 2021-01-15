@@ -4,7 +4,7 @@ abstract: Remove all links occurrencies concatenating two replace functions.
 quote: Whenever you give up something, you must replace it with something
 quoteAuthor: Lou Holtz
 
-date: 2020-03-29
+date: 2021-01-15
 tags:
   - js
   - regex

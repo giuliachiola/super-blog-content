@@ -3,8 +3,8 @@ title: Git cheatsheet
 abstract: Few commands to speed up development using git.
 quote: Keep looking up…<br class="u-ty-break-t"> that’s the secret of life
 quoteAuthor: Charlie Brown
-date: 2020-04-12
 
+date: 2021-01-25
 mainTag: git
 tags:
   - git

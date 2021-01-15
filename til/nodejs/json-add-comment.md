@@ -4,7 +4,7 @@ abstract: A trick to add "comments" to create beauty and tidy JSON files.
 quote: I'm not upset that you lied to me, <br class="u-ty-break-t">I'm upset that from now on I can't believe you.
 quoteAuthor: Friedrich Nietzsche
 
-date: 2020-04-02
+date: 2021-01-19
 mainTag: nodejs
 tags:
   - json
