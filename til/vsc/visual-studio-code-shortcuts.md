@@ -15,14 +15,14 @@ Some useful shortcuts I use in Visual Studio Code:
 
 | Command             | Description                                                      |
 |:--------------------|:-----------------------------------------------------------------|
-| `\n([\w])` -> ` $1` | remove all blank lines and replace them with space (using RegEx) |
+| (find) `\n([\w])` -> (replace with) ` $1` | remove all blank lines and replace them with space (using RegEx) |
 | `cmd` + `b`             | toggle sidebar                                                   |
 | `cmd` + `shitf` + `v`    | preview markdown                                                 |
 | `opt` + `up/down`     | move row up/down                                                 |
 | `opt` + `z`           | toggle text wrap                                                 |
 | `ctrl` + `w`             | switch workspace                                                 |
 | `cmd` + `f` -> focus away -> `cmd` + `g`             | find occurence, focus away, go to the next occurence             |
-| search a word, then `↑`     | it will return the previous search |
+| search a word, then `↑`     | it will return the previous search keyword |
 
 <div class="s-giphy s-giphy--small-d">
   <video autoplay loop muted playsinline>

@@ -1,6 +1,6 @@
 ---
-title: How to rename git branch
-abstract: Few commands to rename git branch locally and remotely
+title: How to rename a git branch
+abstract: Few commands to rename a git branch locally and remotely
 quote: Feel the fear and do it anyway
 quoteAuthor: Susan Jeffers
 
