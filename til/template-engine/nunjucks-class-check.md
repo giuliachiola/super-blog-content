@@ -4,7 +4,7 @@ abstract: There are (at least!) two syntax in Nunjuks to add a class to a DOM no
 quote: If people are doubting how far you can go, go so far that you can't hear them anymore
 quoteAuthor: Michele Ruiz
 
-date: 2021-02-07
+date: 2021-02-01
 mainTag: template-engine
 tags:
   - template-engine
