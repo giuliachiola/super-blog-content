@@ -5,6 +5,8 @@ quote: Tidying your physical space allows you to tend to your psychological spac
 quoteAuthor: Marie Kondo
 
 date: 2021-01-14
+crossPostDEV: https://dev.to/giulia_chiola/git-flow-initialize-21ai
+crossPostHashnode: https://giuliachiola.hashnode.dev/git-flow-initialize
 mainTag: git
 tags:
   - git
