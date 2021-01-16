@@ -5,6 +5,8 @@ quote: Limitations live only in our minds. <br class="u-ty-break-t">But if we us
 quoteAuthor: Jamie Paolinetti
 
 date: 2021-01-13
+crossPostDEV: https://dev.to/giulia_chiola/styleguide-setup-3efc
+crossPostHashnode: https://giuliachiola.hashnode.dev/styleguide-setup
 mainTag: design-system
 tags:
   - design-system
@@ -13,11 +15,12 @@ tags:
 id: B2
 ---
 
-Regardless of which tool we use to build our styleguide, it helps a lot to have a checklist of packages we need for (almost) every project setup.
+Regardless of which tool I use to build my styleguides, it helps a lot to have a checklist of packages I need for (almost) every project setup.
 
 ## Styles
 
 - [node sass](https://github.com/sass/node-sass)
+
 > Node-sass is a library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, Sass.
 
 ```shell
@@ -25,6 +28,7 @@ npm install node-sass --save-dev
 ```
 
 - [postcss](https://github.com/postcss/postcss)
+
 > PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
 
 ```shell
@@ -36,6 +40,7 @@ To configure postcss, add `.postcss.config.js` in project root folder
 [🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/postcss.config.js)
 
 - [stylelint](https://github.com/stylelint/stylelint)
+
 > A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 
 ```shell
@@ -47,6 +52,7 @@ To configure stylelint, add `.stylelintrc.json` in project root folder
 [🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/.stylelintrc.json)
 
 - [sass-mq](https://github.com/sass-mq/sass-mq)
+
 > A Sass mixin that helps you compose media queries in an elegant way.
 
 ```shell
@@ -57,7 +63,7 @@ Add sass-mq configuration in styles folder `src/scss/00-settings/_sass-mq-config
 
 [🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/sassmq-config.scss)
 
-In a static project, as a styleguide, to use _sass-mq_ in our styles, we have to import it from _node_modules_ and add our configuration
+In a static project, as a styleguide, to use _sass-mq_ in our styles, we have to import it from `node_modules` and add our configuration
 
 ```scss
 // src/scss/00-settings/__settings.scss
@@ -66,7 +72,7 @@ In a static project, as a styleguide, to use _sass-mq_ in our styles, we have to
 @import 'sass-mq-config';
 ```
 
-In projects that used webpack, we could add sass-mq using this syntax
+In projects that use webpack, we could add sass-mq using this syntax
 
 ```scss
 // With webpack (and boilerplates such as create-react-app)
@@ -74,6 +80,7 @@ In projects that used webpack, we could add sass-mq using this syntax
 ```
 
 - [normalize-scss](https://github.com/JohnAlbin/normalize-scss)
+
 > This project is the Sass version of Normalize.css, a collection of HTML element and attribute rulesets to normalize styles across all browsers.
 
 ```shell
@@ -108,6 +115,10 @@ Import _normalize-scss_ from _node_modules_
 │   │   ├── style.css
 ```
 
+> 📚 More info
+>
+> [BEMIT: Taking the BEM Naming Convention a Step Further](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
+
 ### Styles scripts
 
 Use _package.json_ `scripts` object to list all styles commands
@@ -123,10 +134,10 @@ Use _package.json_ `scripts` object to list all styles commands
   },
 ```
 
-
 ## SVG
 
 - [svgo](https://github.com/svg/svgo)
+
 > Node.js tool for optimizing SVG files
 
 ```shell
@@ -162,3 +173,5 @@ Use _package.json_ `scripts` object to list all SVG manipulation commands
   "svg:optimize": "npm run clean:svgo && node scripts/svgo.js",
 }
 ```
+
+Ok now I am ready to develop my components and build a styleguide! 💪🏻

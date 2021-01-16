@@ -5,6 +5,8 @@ quote: Do something today that your future self <br class="u-ty-break-t">will th
 quoteAuthor: Sean Patrick Flanery
 
 date: 2021-01-12
+crossPostDEV: https://dev.to/giulia_chiola/uiengine-project-setup-2a4b
+crossPostHashnode: https://giuliachiola.hashnode.dev/uiengine-project-setup
 mainTag: design-system
 tags:
   - design-system
@@ -15,9 +17,10 @@ id: B3
 ---
 
 [UIengine](https://github.com/dennisreimann/uiengine) is an awesome tool I used few times to document design systems with living pattern libraries. Here it is my basic UIengine setup.
+
 ### Prerequisites
 
-Styles configuration from scratch is available in the post [📒 styleguide setup]({{ global.siteUrl }}/posts/styleguide-setup/).
+Styles configuration from scratch is available in this post [📒 styleguide setup]({{ global.siteUrl }}/posts/styleguide-setup/).
 
 ## UIengine
 
@@ -36,6 +39,7 @@ npm install @uiengine/adapter-ejs --save-dev
 ```
 
 - [module-alias](https://github.com/ilearnio/module-alias)
+
 > Create aliases of directories and register custom module paths in NodeJS like a boss!
 
 ```shell
@@ -70,6 +74,7 @@ const content = require('@scripts/content.js')
 ## Run parallel tasks
 
 - [npm-run-all](https://github.com/mysticatea/npm-run-all)
+
 > A CLI tool to run multiple npm-scripts in parallel or sequential.
 
 ```shell
@@ -77,6 +82,7 @@ npm install npm-run-all --save-dev
 ```
 
 - [nodemon](https://github.com/remy/nodemon)
+
 > nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
 ```shell
@@ -107,3 +113,5 @@ npm install nodemon --save-dev
 
 customStylesFile: '/css/uiengine.css',
 ```
+
+Now that my basic UIengine setup is done, I can start to develop my components! 💪🏻
