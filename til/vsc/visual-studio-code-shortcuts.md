@@ -5,6 +5,8 @@ quote: With the new day comes new strength<br class="u-ty-break-t"> and new thou
 quoteAuthor: 'Eleanor Roosevelt'
 
 date: 2021-01-16
+crossPostDEV: https://dev.to/giulia_chiola/visual-studio-code-shortcuts-63f
+crossPostHashnode: https://giuliachiola.hashnode.dev/visual-studio-code-shortcuts
 mainTag: vsc
 tags:
   - vsc
