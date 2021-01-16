@@ -12,7 +12,7 @@ mainTag: js
 id: T11
 ---
 
-If you need to remove all links occurrencies in a webpage and transform them in plain text:
+If you need to remove all links occurrencies in a webpage and return it as plain text:
 
 - get the page content as string
 
@@ -31,13 +31,19 @@ If you need to remove all links occurrencies in a webpage and transform them in 
 - concatenate the two replace functions
 
 ```javascript
-const mystring = `<a href="#">CR7</a> regala alla Juve il pari a sei minuti dal novantesimo, recuperando la rete segnata da Lukic nel primo tempo su errore di Pjanic. Il Toro manca l'aggancio al quarto posto <a href='#'>Champions</a>, e rimane sesta a -1 dalla Roma e a -2 dall'Atalanta. Per Ronaldo gol numero 601 in carriera coi club`
+const mystring = `<a href="#">The cat</a> (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in the family <a href="#">Felidae</a> and is often referred to as the domestic cat to distinguish it from the wild members of the family.`
 
-mystring.replace(/<a href="#">/g, '').replace(/<\/a>/g, '');
+mystring.replace(/<a href="#">/g, '').replace(/<\/a>/g, '')
 ```
 
-[Live RegEx example](https://regex101.com/r/iaHby4/1)
+_Output_
+
+```html
+The cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family.
+```
+
+[Live RegEx example](https://regex101.com/r/iaHby4/2)
 
 > 📚 More info
-> [RegEx 101 playground](https://regex101.com/)
-> [A Practical Guide to Regular Expressions (RegEx) In JavaScript](https://blog.bitsrc.io/a-beginners-guide-to-regular-expressions-regex-in-javascript-9c58feb27eb4)
+> - [RegEx 101 playground](https://regex101.com/)
+> - [A Practical Guide to Regular Expressions (RegEx) In JavaScript](https://blog.bitsrc.io/a-beginners-guide-to-regular-expressions-regex-in-javascript-9c58feb27eb4)
