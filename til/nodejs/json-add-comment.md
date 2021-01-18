@@ -5,6 +5,8 @@ quote: I'm not upset that you lied to me, <br class="u-ty-break-t">I'm upset tha
 quoteAuthor: Friedrich Nietzsche
 
 date: 2021-01-19
+crossPostDEV: https://dev.to/giulia_chiola/add-comments-in-json-file-23hd
+crossPostHashnode: https://giuliachiola.hashnode.dev/add-comments-in-json-file
 mainTag: nodejs
 tags:
   - json

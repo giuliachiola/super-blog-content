@@ -5,6 +5,8 @@ quote: Feel the fear and do it anyway
 quoteAuthor: Susan Jeffers
 
 date: 2021-01-17
+crossPostDEV: https://dev.to/giulia_chiola/how-to-rename-a-git-branch-81l
+crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-rename-a-git-branch
 mainTag: git
 tags:
   - git

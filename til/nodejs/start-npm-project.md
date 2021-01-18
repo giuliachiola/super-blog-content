@@ -5,6 +5,8 @@ quote: Simplicity is the ultimate sophistication
 quoteAuthor: Leonardo da Vinci
 
 date: 2021-01-21
+crossPostDEV: https://dev.to/giulia_chiola/start-an-npm-project-1a9e
+crossPostHashnode: https://giuliachiola.hashnode.dev/start-an-npm-project
 mainTag: nodejs
 tags:
   - nodejs

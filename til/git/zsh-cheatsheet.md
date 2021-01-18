@@ -5,6 +5,8 @@ quote: If everything seems under control, <br class="u-ty-break-t">you're not go
 quoteAuthor: Mario Andretti
 
 date: 2021-01-18
+crossPostDEV: https://dev.to/giulia_chiola/oh-my-zsh-cheatsheet-3all
+crossPostHashnode: https://giuliachiola.hashnode.dev/oh-my-zsh-git-plugin-cheatsheet
 mainTag: git
 tags:
   - shell
