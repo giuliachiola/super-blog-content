@@ -1,6 +1,6 @@
 ---
-title: Oh my zsh cheatsheet
-abstract: List of my most used shortcuts working with zsh.
+title: Oh my zsh git plugin cheatsheet
+abstract: List of my most used shortcuts working with zsh git plugin.
 quote: If everything seems under control, <br class="u-ty-break-t">you're not going fast enough
 quoteAuthor: Mario Andretti
 
@@ -11,7 +11,7 @@ tags:
 id: T9
 ---
 
-Some useful shortcuts I use with git [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) plugin.
+Some useful shortcuts I use with [oh-my-zsh git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git).
 
 | Command | Description                                      | Notes                                                        |
 |:--------|:-------------------------------------------------|:-------------------------------------------------------------|
@@ -36,7 +36,7 @@ Some useful shortcuts I use with git [oh-my-zsh](https://github.com/ohmyzsh/ohmy
 nano ~/.zshrc
 ```
 
-- Add aliases using the synatx
+- Add aliases using the syntax
 ```shell
 alias [name]='[command]'
 ```
