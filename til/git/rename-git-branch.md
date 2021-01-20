@@ -19,36 +19,55 @@ id: T5
 To rename a *local* branch in git
 
 - Move on the branch you want to rename
+
 ```shell
 git checkout -b feature/wrong-name
 ```
 
 - Rename it locally
-```bash
+
+```shell
 git branch -m feature/new-awesome-name
 ```
 
 > ⚡️ Bonus tip
 >
-> If you have [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) installed, you can use its shortcut `gbm`.
+> If you have [ohmyzsh git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) installed, you can use its shortcuts
+> `gco -b feature/wrong-name`
+> `gbm feature/new-awesome-name`
 
 ## Rename remote branch
 
 To rename a *remote* branch is quite longer:
 
 - Unset the upstream branch to unlink local and remote branch
-```bash
+
+```shell
 git branch --unset-upstream
 ```
 
 Note: if you followed the previous step, you don't have to delete local branch because you have already renamed it!
 
 - Update the upstream branch to the new one and push it
-```bash
+
+```shell
 git push --set-upstream origin feature/new-awesome-name
 ```
 
+> ⚡️ Bonus tip
+>
+> If you have [ohmyzsh git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) installed, you can use its shortcut to set the upstream
+> `gpsup` (branch name is implicit)
+
+
 - Delete remote branch
-```bash
+
+```shell
 git push origin --delete feature/wrong-name
+```
+
+or the shortest syntax (note the space between remote name and semicolon)
+
+```shell
+git push origin :feature/wrong-name
 ```

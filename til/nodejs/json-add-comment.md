@@ -29,7 +29,7 @@ As you know, you cannot and will never can add comments in JSON file **but** you
 "_____________________________CSS_____________________________": "",
 ```
 
-Using this key:value pair separator you can tidy a long and complex JSON as _scripts_ in `package.json`
+Using this `key:value` pair separator you can tidy a long and complex JSON, for example _"scripts"_ object in `package.json`
 
 ```json
 {
