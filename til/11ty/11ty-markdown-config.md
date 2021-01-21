@@ -16,7 +16,7 @@ id: T1
 
 This plugin should be used combined with its big brother, the markdown parser [markdown-it](https://github.com/markdown-it/markdown-it), which is already added in 11ty basic installation.
 
-**markdown-it-attrs** uses _markdown-it_ and add the possibility to add attributes to HTML nodes generated from markdown.
+**markdown-it-attrs** uses `markdown-it` and add the possibility to add attributes to HTML nodes generated from markdown.
 
 To use it, add this plugin to the `.eleventy` configuration file:
 
@@ -43,11 +43,13 @@ const markdownItOptions = {
 ```
 
 - set `markdown-it-attrs` as `markdown-it` usage options
+
 ```javascript
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 ```
 
 - set as eleventy configuration the new markdown configuration
+
 ```javascript
 eleventyConfig.setLibrary('md', markdownLib)
 ```
