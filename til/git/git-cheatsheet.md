@@ -45,7 +45,7 @@ Few commands I found very useful during development.
 
 ### ⚡️ Bonus tip
 
-If there is a command you use often, you can save it as a global git alias.
+If there is a command you use often, you can save it as a **global git alias**.
 
 ```shell
 git config --global alias.fixup 'commit --amend --no-edit'
@@ -53,7 +53,7 @@ git config --global alias.fixup 'commit --amend --no-edit'
 
 and then using it
 
-```
+```shell
 git fixup
 ```
 
