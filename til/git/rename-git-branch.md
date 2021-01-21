@@ -30,11 +30,14 @@ git checkout -b feature/wrong-name
 git branch -m feature/new-awesome-name
 ```
 
-> ⚡️ Bonus tip
->
-> If you have [ohmyzsh git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) installed, you can use its shortcuts
-> `gco -b feature/wrong-name`
-> `gbm feature/new-awesome-name`
+### ⚡️ Bonus tip
+
+If you have [ohmyzsh git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) installed, you can use its shortcuts
+
+```shell
+gco -b feature/wrong-name
+gbm feature/new-awesome-name
+```
 
 ## Rename remote branch
 
@@ -54,11 +57,13 @@ Note: if you followed the previous step, you don't have to delete local branch b
 git push --set-upstream origin feature/new-awesome-name
 ```
 
-> ⚡️ Bonus tip
->
-> If you have [ohmyzsh git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) installed, you can use its shortcut to set the upstream
-> `gpsup` (branch name is implicit)
+### ⚡️ Bonus tip
 
+If you have [ohmyzsh git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) installed, you can use its shortcut to set the upstream
+
+```shell
+gpsup (branch name is implicit)
+```
 
 - Delete remote branch
 
