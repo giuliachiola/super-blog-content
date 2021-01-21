@@ -5,6 +5,8 @@ quote: There are so many beautiful reasons<br class="u-ty-break-t"> to be happy 
 quoteAuthor: Anonimous
 
 date: 2021-01-22
+crossPostDEV: https://dev.to/giulia_chiola/add-html-classes-to-11ty-markdown-content-18ic
+crossPostHashnode: https://giuliachiola.hashnode.dev/add-html-classes-to-11ty-markdown-content
 mainTag: static-site-generator
 tags:
   - 11ty
