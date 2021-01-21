@@ -1,6 +1,6 @@
 ---
 title: Sass placeholder and its limits
-abstract: Sass placeholder it's a powerful way to write reusable code, but unfortunately it is not always applicable.
+abstract: Sass placeholder is a powerful way to write reusable code, but unfortunately it is not always applicable.
 quote: Great things are done by a series of small things brought together
 quoteAuthor: Vincent Van Gogh
 
