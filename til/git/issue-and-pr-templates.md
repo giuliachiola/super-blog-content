@@ -1,5 +1,5 @@
 ---
-title: How to set GitHub/GitLab issue and PR template
+title: How to set up GitHub/GitLab issue and PR templates
 abstract: GitHub and GitLab give the possibility to set default issue and PR templates.
 quote: Positive thinking will let you do everything better <br class="u-ty-break-t">than negative thinking will
 quoteAuthor: Zig Ziglar
