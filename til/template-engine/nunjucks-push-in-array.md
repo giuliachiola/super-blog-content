@@ -1,6 +1,6 @@
 ---
 title: Add items to an array in Nunjucks
-abstract: Using push() method, add items in array using Nunjucks template engine.
+abstract: Using push() method, add items at the end of the array with Nunjucks template engine.
 quote: Whether you think you can <br class="u-ty-break-t">or think you can’t, you’re right
 quoteAuthor: Henry Ford
 

@@ -133,7 +133,7 @@ Not iterable!
 cat
 ```
 
-but if we run the same code in **nunjucks**, we discover that a _string_ is iterable 🤯
+but if we run the same code in **Nunjucks**, we discover that a _string_ is iterable 🤯
 
 _nunjucks output_
 
