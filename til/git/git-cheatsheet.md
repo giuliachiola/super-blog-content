@@ -1,6 +1,6 @@
 ---
 title: Git cheatsheet
-abstract: Few commands to speed up development using git.
+abstract: Some git commands that I find very useful.
 quote: Keep looking up…<br class="u-ty-break-t"> that’s the secret of life
 quoteAuthor: Charlie Brown
 
