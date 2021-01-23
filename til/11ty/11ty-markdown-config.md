@@ -83,6 +83,8 @@ This is a paragraph with data-state {data-state=important}
 Another text with attributes {.c-article-section__disclaimer #articleId attr=value attr2="spaced value"}
 
 ![Alt text](image.jpg){.u-shadow}
+
+[Link in a new tab](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){target="_blank" rel="noopener"}
 ```
 
 will output
@@ -93,10 +95,17 @@ will output
 <p class="c-article-section__disclaimer" id="articleId" attr=value attr2="spaced value">Another text with attributes</p>
 
 <img src="image.jpg">
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank" rel="noopener">Link in a new tab</a>
 ```
 
-Side note: unfortunately, I did not find a way to add attributes to markdown _tables_ and _blockquote_ 😢 
+> 🧨 **!important**
+>
+> Note the last line where I added the `target="_blank"` attribute to the link to open it in a new browser tab. It's ok open a link in a new tab, but for security reasons it has to have also the `rel="noopener"` attribute.
+
+Side note: unfortunately, I did not find a way to add attributes to markdown _tables_ and _blockquote_ 😢
 
 > 📚 More info
 >
-> [11ty Markdown Attributes](https://dev.to/iarehilton/11ty-markdown-attributes-2dl3)
+> - [11ty Markdown Attributes](https://dev.to/iarehilton/11ty-markdown-attributes-2dl3)
+> - [When to use target="_blank” by Chris Coyer](https://css-tricks.com/use-target_blank/)
+> - [rel="noopener" - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener)
