@@ -4,7 +4,7 @@ abstract: Sass placeholder is a powerful way to write reusable code, but unfortu
 quote: Great things are done by a series of small things brought together
 quoteAuthor: Vincent Van Gogh
 
-date: 2021-02-03
+date: 2021-01-20
 mainTag: css
 tags:
   - css

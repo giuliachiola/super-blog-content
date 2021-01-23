@@ -4,7 +4,7 @@ abstract: Few commands to speed up development using the shell.
 quote: Be kind whenever possible. <br class="u-ty-break-t">It is always possible
 quoteAuthor: Dalai Lama
 
-date: 2021-02-06
+date: 2021-01-20
 mainTag: shell
 tags:
   - shell

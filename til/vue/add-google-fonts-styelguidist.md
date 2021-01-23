@@ -1,12 +1,14 @@
 ---
-title: How to add Google Fonts in Vue styleguidist
+title: How to add Google Fonts in Vue Styleguidist
+abstract: Styleguidist is an awesome tool to build a styleguide. In this post I'll show how to add a Google Font link in the HTML page.
 quote: Words are, of course, <br class="u-ty-break-t">the most powerful drug used by mankind
 quoteAuthor: Rudyard Kipling
-date: 2021-02-07
+date: 2021-01-23
 
 mainTag: vuejs
 tags:
   - vuejs
+  - styleguidist
   - js
 id: T24
 

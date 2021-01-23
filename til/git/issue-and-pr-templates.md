@@ -4,7 +4,7 @@ abstract: GitHub and GitLab give the possibility to set default issue and PR tem
 quote: Positive thinking will let you do everything better <br class="u-ty-break-t">than negative thinking will
 quoteAuthor: Zig Ziglar
 
-date: 2021-01-28
+date: 2021-01-20
 crossPostDEV: https://dev.to/giulia_chiola/how-to-set-up-github-gitlab-issue-and-pr-templates-1499
 crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-set-up-githubgitlab-issue-and-pr-templates
 mainTag: git

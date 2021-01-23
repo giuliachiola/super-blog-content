@@ -4,7 +4,7 @@ abstract: How to fast initialize git flow with one simple command.
 quote: Tidying your physical space allows you to tend to your psychological space
 quoteAuthor: Marie Kondo
 
-date: 2021-01-14
+date: 2021-01-23
 crossPostDEV: https://dev.to/giulia_chiola/git-flow-initialize-21ai
 crossPostHashnode: https://giuliachiola.hashnode.dev/git-flow-initialize
 mainTag: git

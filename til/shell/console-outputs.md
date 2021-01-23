@@ -4,7 +4,7 @@ abstract: A project can be beautiful from the outside, but if the browser consol
 quote: If we have the attitude that it’s going to be a great day it usually is
 quoteAuthor: Catherine Pulsifier
 
-date: 2021-02-02
+date: 2021-01-20
 mainTag: shell
 tags:
   - shell
