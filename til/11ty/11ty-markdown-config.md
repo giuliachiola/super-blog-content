@@ -14,7 +14,7 @@ tags:
 id: T1
 ---
 
-11ty comes with some useful plugins for markdown manipulation, one of these is [markdown-it-attrs](https://github.com/arve0/markdown-it-attrs).
+[11ty](https://www.11ty.dev/docs/) comes with some useful plugins for markdown manipulation, one of these is [markdown-it-attrs](https://github.com/arve0/markdown-it-attrs).
 
 This plugin should be used combined with its big brother, the markdown parser [markdown-it](https://github.com/markdown-it/markdown-it), which is already added in 11ty basic installation.
 
