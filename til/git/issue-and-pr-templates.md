@@ -5,6 +5,8 @@ quote: Positive thinking will let you do everything better <br class="u-ty-break
 quoteAuthor: Zig Ziglar
 
 date: 2021-01-28
+crossPostDEV: https://dev.to/giulia_chiola/how-to-set-up-github-gitlab-issue-and-pr-templates-1499
+crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-set-up-githubgitlab-issue-and-pr-templates
 mainTag: git
 tags:
   - git
