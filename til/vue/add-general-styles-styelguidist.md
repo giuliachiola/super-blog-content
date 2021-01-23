@@ -26,7 +26,7 @@ I was working on a styleguide project using [vue Styleguidist](https://github.co
 
 If I hadn't been in a Styleguidist app, but in a "normal" Vue app instead, I could have add a sass `@import` with all my generic styles at the highiest component, the `App.vue`:
 
-```vue
+```html
 // App.vue
 
 <template>
