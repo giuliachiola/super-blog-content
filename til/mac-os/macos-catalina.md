@@ -1,6 +1,6 @@
 ---
 title: Fix developer path after upgrade to MacOS Catalina
-abstract: Your git commands do not probably work as expected after upgrade to MacOS Catalina, here is how to fix developer path error.
+abstract: My git commands did not work as expected after I upgraded to MacOS Catalina, here is how to fix the developer path error.
 quote: When a new day begins, <br class="u-ty-break-t">dare to smile gratefully
 quoteAuthor: Steve Maraboli
 
