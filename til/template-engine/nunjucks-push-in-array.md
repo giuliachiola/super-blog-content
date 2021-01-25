@@ -53,4 +53,4 @@ domesticAnimals = ['cat 🐱', 'dog 🐶']
 > 🧨 **!important**
 >
 > If you use {% raw %}`{% set .... %}`{% endraw %} inside a for-loop block, pay attention to have defined it **outside** before entering the loop.
-> I wrote a post about it: [📒 Nunjuks scoped variable declarations]({{ global.siteUrl }}/posts/nunjuks-scoped-variable-declarations/)
+> I wrote a post about it: [📒 Nunjucks scoped variable declarations]({{ global.siteUrl }}/posts/nunjucks-scoped-variable-declarations/)

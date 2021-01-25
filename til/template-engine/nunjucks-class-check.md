@@ -1,6 +1,6 @@
 ---
-title: Add a class in Nunjuks based on if statement
-abstract: There are two syntax in Nunjuks to add a class to a DOM node
+title: Add a class in Nunjucks based on if statement
+abstract: There are two syntax in Nunjucks to add a class to a DOM node
 quote: If people are doubting how far you can go, go so far that you can't hear them anymore
 quoteAuthor: Michele Ruiz
 

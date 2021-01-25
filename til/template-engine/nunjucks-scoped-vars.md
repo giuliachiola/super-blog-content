@@ -1,10 +1,11 @@
 ---
-title: Nunjuks scoped variable declarations
+title: Nunjucks scoped variable declarations
 abstract: We have to pay attention where we declare variables in Nunjucks, because they are scoped!
 quote: If opportunity doesn’t knock, <br class="u-ty-break-t">build a door
 quoteAuthor: Kurt Cobain
 
 date: 2021-01-20
+# Crossposting urls are wrong (nunjuks instead of nunjucks) ooops! :)
 crossPostDEV: https://dev.to/giulia_chiola/nunjuks-scoped-variable-declarations-59ef
 crossPostHashnode: https://giuliachiola.hashnode.dev/nunjuks-scoped-variable-declarations
 mainTag: template-engine
