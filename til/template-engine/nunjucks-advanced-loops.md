@@ -5,6 +5,8 @@ quote: In the middle of every difficulty <br class="u-ty-break-t">lies opportuni
 quoteAuthor: Albert Einstein
 
 date: 2021-01-20
+crossPostDEV: https://dev.to/giulia_chiola/nunjucks-advanced-loops-57mc
+crossPostHashnode: https://giuliachiola.hashnode.dev/nunjucks-advanced-loops
 mainTag: template-engine
 tags:
   - template-engine

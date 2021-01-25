@@ -5,6 +5,8 @@ quote: Great things are done by a series of small things brought together
 quoteAuthor: Vincent Van Gogh
 
 date: 2021-01-20
+crossPostDEV: https://dev.to/giulia_chiola/sass-placeholder-and-its-limits-4ba3
+crossPostHashnode: https://giuliachiola.hashnode.dev/sass-placeholder-and-its-limits
 mainTag: css
 tags:
   - css
