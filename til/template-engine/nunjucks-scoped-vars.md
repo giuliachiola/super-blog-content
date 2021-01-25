@@ -5,6 +5,8 @@ quote: If opportunity doesn’t knock, <br class="u-ty-break-t">build a door
 quoteAuthor: Kurt Cobain
 
 date: 2021-01-20
+crossPostDEV: https://dev.to/giulia_chiola/nunjuks-scoped-variable-declarations-59ef
+crossPostHashnode: https://giuliachiola.hashnode.dev/nunjuks-scoped-variable-declarations
 mainTag: template-engine
 tags:
   - template-engine
