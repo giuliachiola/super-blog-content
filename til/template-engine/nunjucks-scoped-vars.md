@@ -23,6 +23,7 @@ We have to pay attention where we set Nunjucks variables because they are **scop
   {% endfor %}
 
   {{ animal }}
+  {# animal -> ERROR #}
   {# animal declared INSIDE the loop is NOT available #}
   ```
 {% endraw %}
@@ -30,16 +31,17 @@ We have to pay attention where we set Nunjucks variables because they are **scop
 {% raw %}
   ```twig
   {% set animals = ['🐱', '🐶', '🐺'] %}
+
+  {# note this declaration #}
   {% set animal = '' %}
 
   {% for item in animals %}
-    {# get the last one, just for example purpose #}
     {% set animal = item %}
   {% endfor %}
 
   {{ animal }}
   {# animal declared OUTSIDE the loop is available #}
-  {# animal -> 🐺 #}
+  {# animal -> 🐺 (last array item) #}
   ```
 {% endraw %}
 
