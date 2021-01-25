@@ -1,5 +1,5 @@
 ---
-title: Project setup
+title: How I set up my environment before I start every project
 abstract: Configuration list to setup a project from scratch.
 quote: The only limit to your impact is your imagination and commitment
 quoteAuthor: Tony Robbins
@@ -51,7 +51,6 @@ To set up workspace colors
 The issue is more clear if we set up an _issue template_. Compile it every time you open an issue, and remove the unnecessary parts.
 
 [🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/git/issue-template.md)
-
 
 ### PR template
 
