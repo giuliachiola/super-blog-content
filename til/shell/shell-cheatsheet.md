@@ -26,7 +26,7 @@ Few commands I found very useful during development.
 | `rm -iR <directory>`                  | remove/delete directory (interactive)                   |
 | `cp <current location> <destination>` | copy files                                              |
 | `chmod -R 755 <folder>`               | add writing permission to folder                        |
-| `pwd`                                 | present working directory / Print Working Directory     |
+| `pwd`                                 | present working directory / print working directory     |
 | `cd`                                  | change directory                                        |
 | `mkdir`                               | make directory                                          |
 | `ls`                                  | list files                                              |
@@ -36,11 +36,11 @@ Few commands I found very useful during development.
 | `chown`                               | change owner                                            |
 | `cat <file>`                          | show file                                               |
 | `<cmd> > <file>`                      | direct the output of "cmd" into "file"                  |
-| `grep -rl "<text>" <dir>`             | search for all files containing <text> inside <dir>     |
+| `grep -rl "<text>" <dir>`             | search for all files containing `<text>` inside `<dir>` |
 | `ln`                                  | symbolic link                                           |
 | `alias`                               | show available alias on shell                           |
-| `cd -`                                | Go to the previous current directory                    |
-| `ctrl` + `r`                          | Advanced search (search any word in bash history)       |
+| `cd -`                                | go to the previous current directory                    |
+| `ctrl` + `r`                          | advanced search (search any word in bash history)       |
 
 <div class="s-giphy s-giphy--small-d">
   <video autoplay loop muted playsinline>
