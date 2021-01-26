@@ -18,7 +18,7 @@ id: T1
 
 This plugin should be used combined with its big brother, the markdown parser [markdown-it](https://github.com/markdown-it/markdown-it), which is already added in 11ty basic installation.
 
-**markdown-it-attrs** uses `markdown-it` and add the possibility to add attributes to HTML nodes generated from markdown.
+**markdown-it-attrs** uses `markdown-it` and adds the possibility to add attributes to HTML nodes generated from markdown.
 
 To use it, add this plugin to the `.eleventy` configuration file:
 
@@ -102,7 +102,7 @@ will output
 >
 > Note the last line where I added the `target="_blank"` attribute to the link to open it in a new browser tab. It's ok open a link in a new tab, but for security reasons it has to have also the `rel="noopener"` attribute.
 
-Side note: unfortunately, I did not find a way to add attributes to markdown _tables_ and _blockquote_ 😢
+Side note: unfortunately, I did not find a way to add attributes to markdown _tables_ and _blockquotes_ 😢
 
 > 📚 More info
 >
