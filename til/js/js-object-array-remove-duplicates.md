@@ -17,8 +17,8 @@ We have an object with multiple arrays inside it, and we need to remove duplicat
 
 ```javascript
 const obj = {
-  arr1: ['a', 'b', 'c' ],
-  arr2: ['a','b', 'd', 'e', 'f' ],
+  arr1: ['a', 'b', 'c'],
+  arr2: ['a', 'b', 'd', 'e', 'f'],
 }
 ```
 
@@ -33,7 +33,8 @@ const allItems = [].concat(obj.arr1, obj.arr2)
 that will return
 
 ```javascript
-console.log(allItems) // (8) ["a", "b", "c", "a", "b", "d", "e", "f"]
+console.log(allItems)
+// (8) ["a", "b", "c", "a", "b", "d", "e", "f"]
 ```
 
 ## Remove duplicates from an array
@@ -66,7 +67,8 @@ const unique = allItems.filter((item, pos) => allItems.indexOf(item) === pos)
 ```
 
 ```javascript
-console.log(unique) // (6) ["a", "b", "c", "d", "e", "f"]
+console.log(unique)
+// (6) ["a", "b", "c", "d", "e", "f"]
 ```
 
 ### Method 2: Set()
@@ -93,7 +95,8 @@ const unique = Array.from(new Set(allItems))
 and the result is exactly the same as above using `filter()`.
 
 ```javascript
-console.log(unique) // (6) ["a", "b", "c", "d", "e", "f"]
+console.log(unique)
+// (6) ["a", "b", "c", "d", "e", "f"]
 ```
 
 [🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/21cdd935d236809ed68ec6bd79bce6cc7c2ed9f8/js/object-arrays-remove-duplicates.js)
