@@ -70,3 +70,7 @@ const foundIdx = arr.findIndex(el => el == itemToFind)
 arr.splice(foundIdx, 1)
 arr.unshift(itemToFind)
 ```
+
+> 📚 More info
+>
+> - [Moving Element In An Array From Index To Another](https://dev.to/jalal246/moving-element-in-an-array-from-index-to-another-464b)
