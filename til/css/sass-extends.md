@@ -118,4 +118,3 @@ I know, it is not the correct use of the `mixin` function... but it's a desperat
 >
 > - [Sass lang - placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors)
 > - [Sass - mixin or placeholder](https://www.sitepoint.com/sass-mixin-placeholder/)
-
