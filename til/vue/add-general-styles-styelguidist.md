@@ -13,14 +13,14 @@ tags:
 id: T24
 ---
 
-I was working on a styleguide project using [vue Styleguidist](https://github.com/vue-Styleguidist/vue-Styleguidist), the Vue little brother of [react-styleguidist](https://github.com/Styleguidist/react-Styleguidist), and I would like to organize components styles in this way:
+At work, recently we worked on a styleguide project using [vue Styleguidist](https://github.com/vue-Styleguidist/vue-Styleguidist), the Vue little brother of [react-styleguidist](https://github.com/Styleguidist/react-Styleguidist), and we would like to organize components styles in this way:
 
 - component specific styles would be inside the `[ComponentName].vue` file
 - while all generic styles (colors, typography, and so on) would be inside a generic `styles.scss` file.
 
 ## The first (bad) idea
 
-If I hadn't been in a Styleguidist app, but in a "normal" Vue app instead, I could have add a sass `@import` with all my generic styles at the highiest component, the `App.vue`:
+If we hadn't been in a Styleguidist app, but in a "normal" Vue app instead, we could have add a sass `@import` with all our generic styles at the highiest component, the `App.vue`:
 
 ```html
 // App.vue
@@ -43,11 +43,11 @@ export default {
 </style>
 ```
 
-In this way, all components will have inherited my generic styles.
+In this way, all components will have inherited our generic styles.
 
-**But** in a Styleguidist project I have not such an high-level Vue component 😩
+**But** in a Styleguidist project we have not such an high-level Vue component 😩
 
-If I would to import a generic file in that way, I would have to add it into **all** my components, like this:
+If we would want to import a generic file in that way, we would have to add it into **all** our components, like this:
 
 ```html
 // components/MyComponent.vue
@@ -79,9 +79,9 @@ Not such a great idea! 🧐
 
 ## The second (I think good?) idea
 
-Probably there is a better way to do it, but for the moment I'll go with this! 😅
+Probably there is a better way to do it, but for the moment we'll go with this! 😅
 
-Adding a `vue.conifg.js` file to the Styleguidist project, I can tell to Styleguidist `sass-loader` which style content it has to prepend _before_ the actual component `<style>` content. This can be achieved using `sass-loader` [`additionalData`](https://webpack.js.org/loaders/sass-loader/#additionaldata) option
+Adding a `vue.conifg.js` file to the Styleguidist project, we can tell to Styleguidist `sass-loader` which style content it has to prepend _before_ the actual component `<style>` content. This can be achieved using `sass-loader` [`additionalData`](https://webpack.js.org/loaders/sass-loader/#additionaldata) option
 
 ```js
 // vue.config.js
@@ -103,11 +103,11 @@ module.exports = {
 > 🧨 **!important**
 >
 > In these examples I have assumed that we are using SASS (.scss) files and not simple CSS files.
-> The `sass-loader` node package I mentioned before is already installed in my project because I wrote styles in SASS using the `<style lang="scss">` syntax.
+> The `sass-loader` node package I mentioned before is already installed in our project because we wrote styles in SASS using the `<style lang="scss">` syntax.
 
 ### ⚡️ Bonus tip
 
-Since I have just added the `vue.config.js` file, I also added my [`postcss`](https://github.com/postcss/postcss) configuration there:
+Since we have just added the `vue.config.js` file, we also added my [`postcss`](https://github.com/postcss/postcss) configuration there:
 
 ```js
 const postcssNormalize = require('postcss-normalize')

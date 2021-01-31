@@ -15,9 +15,7 @@ id: T25
 
 Few days ago I worked on a [vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) project and I had to use a Google Font.
 
-**Side note**
-
-`vue-styleguidist` is the "Vue version" of the more famous [react-styleguidist](https://github.com/styleguidist/react-styleguidist), _a component development environment with hot reloaded dev server and a living style guide_.
+**Side note**: `vue-styleguidist` is the "Vue version" of the more famous [react-styleguidist](https://github.com/styleguidist/react-styleguidist), _a component development environment with hot reloaded dev server and a living style guide_.
 
 In a static page, I would add the font in a classic way using a `<link>` tag:
 
@@ -25,7 +23,7 @@ In a static page, I would add the font in a classic way using a `<link>` tag:
 <html>
   <head>
     <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900">
+          href="https://fonts.googleapis.com/css?family=Raleway:100,400,800">
     <style>
       h1 {
         font-family: 'Raleway', sans-serif;
@@ -43,13 +41,13 @@ But hey, in Styleguidist we are writing components into the "Styleguidist box" �
 
 Styleguidist takes care of creating the fancy and functional box around our components, while we only have to write what is strictly necessary for the component (its structure, its styles, and its logic)
 
-To add a `<head>` property to the "Styleguidist box" we have to use the `react-styleguidist` [template property](https://react-styleguidist.js.org/docs/configuration/#template) which lets us change HTML for the Styleguidist app.
+To add a `<head>` property to the "Styleguidist box" we have to use the `react-styleguidist` [template property](https://react-styleguidist.js.org/docs/configuration/#template) which lets us change the HTML of the Styleguidist application.
 
-To find out the `template` supported properties, I deep dive into `mini-html-webpack-template-plugin` [extended options](https://www.npmjs.com/package/@vxna/mini-html-webpack-template#extended-options). We can add an `head` property with an array of `links`... awesome! 😼
+To find out `template` supported properties, I deep dive into `mini-html-webpack-template-plugin` [extended options](https://www.npmjs.com/package/@vxna/mini-html-webpack-template#extended-options). There I found that it is possible to add an `head` property with an array of `links`... awesome! 😼
 
-| Name       | Type    | Default   | Description                             |
-|------------|---------|-----------|-----------------------------------------|
-| head.links | {Array} | undefined | Array of objects with key + value pairs |
+| Name         | Type      | Default     | Description                             |
+|--------------|-----------|-------------|-----------------------------------------|
+| `head.links` | `{Array}` | `undefined` | Array of objects with key + value pairs |
 
 So, to add Raleway Google Font in our project we have to add to the `styleguide.config.js` file a  `template` object:
 
@@ -64,7 +62,7 @@ module.exports = {
     head: {
       links: [{
         key: 'stylesheet',
-        value: 'https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900',
+        value: 'https://fonts.googleapis.com/css?family=Raleway:100,400,800',
       }, ],
     },
   },
@@ -76,7 +74,7 @@ that turns out in
 ```html
 <head>
   <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900">
+        href="https://fonts.googleapis.com/css?family=Raleway:100,400,800">
 </head>
 ```
 
@@ -102,3 +100,10 @@ Now, in our components files we can use the Google Font 😏
   }
 </style>
 ```
+
+<div class="s-giphy s-giphy--small-d">
+  <video autoplay loop muted playsinline>
+    <source src="https://i.giphy.com/media/OnQqgkPWJ17DG/giphy.webp" type="video/mp4">
+  </video>
+  <p><a href="https://media.giphy.com/media/OnQqgkPWJ17DG/giphy.gif">via GIPHY</a></p>
+</div>
