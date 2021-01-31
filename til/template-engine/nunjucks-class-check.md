@@ -101,3 +101,10 @@ I used both syntaxes in my Nunjucks files, and to choose which one to use I go w
 
 - if there is just one condition to match and it is quite simple, I use the _implicit_ syntax
 - else I use the _explicit_ one 🤓
+
+<div class="s-giphy s-giphy--small-d">
+  <video autoplay loop muted playsinline>
+    <source src="https://i.giphy.com/media/2SYc7mttUnWWaqvWz8/giphy.mp4" type="video/mp4">
+  </video>
+  <p><a href="https://media.giphy.com/media/2SYc7mttUnWWaqvWz8/giphy.mp4">via GIPHY</a></p>
+</div>
