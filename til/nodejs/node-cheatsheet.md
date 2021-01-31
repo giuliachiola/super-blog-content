@@ -4,7 +4,7 @@ abstract: Few commands to speed up development using node.
 quote: We are what we repeatedly do. <br class="u-ty-break-t">Excellence, then, is not an act, but a habit
 quoteAuthor: Aristotle
 
-date: 2021-01-21
+date: 2021-01-31
 mainTag: shell
 tags:
   - shell

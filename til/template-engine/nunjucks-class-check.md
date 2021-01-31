@@ -4,7 +4,7 @@ abstract: There are two syntax in Nunjucks to add a class to a DOM node
 quote: If people are doubting how far you can go, go so far that you can't hear them anymore
 quoteAuthor: Michele Ruiz
 
-date: 2021-01-18
+date: 2021-01-31
 mainTag: template-engine
 tags:
   - template-engine
