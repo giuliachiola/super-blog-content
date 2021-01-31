@@ -1,6 +1,6 @@
 ---
-title: Nodejs cheatsheet
-abstract: Few commands to speed up development using node.
+title: Node.js cheatsheet
+abstract: Few commands to speed up development using Node.js
 quote: We are what we repeatedly do. <br class="u-ty-break-t">Excellence, then, is not an act, but a habit
 quoteAuthor: Aristotle
 
