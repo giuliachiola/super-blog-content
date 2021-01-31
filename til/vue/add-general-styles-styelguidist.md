@@ -8,16 +8,14 @@ date: 2021-01-23
 mainTag: vuejs
 tags:
   - vuejs
-  - Styleguidist
+  - styleguidist
   - js
 id: T24
 
 eleventyExcludeFromCollections: true
 ---
 
-// REVIEW:
-
-I was working on a styleguide project using [vue Styleguidist](https://github.com/vue-Styleguidist/vue-Styleguidist), the Vue little brother of [react-Styleguidist](https://github.com/Styleguidist/react-Styleguidist), and I would like to organize components styles in this way:
+I was working on a styleguide project using [vue Styleguidist](https://github.com/vue-Styleguidist/vue-Styleguidist), the Vue little brother of [react-styleguidist](https://github.com/Styleguidist/react-Styleguidist), and I would like to organize components styles in this way:
 
 - component specific styles would be inside the `[ComponentName].vue` file
 - while all generic styles (colors, typography, and so on) would be inside a generic `styles.scss` file.
@@ -85,7 +83,7 @@ Not such a great idea! 🧐
 
 Probably there is a better way to do it, but for the moment I'll go with this! 😅
 
-Adding a `vue.conifg.js` file to the Styleguidist project, I can tell to Styleguidist `sass-loader` which style content it has to prepend _before_ the actual `<style>` content of the Vue component using the `sass-loader` [`additionalData`](https://webpack.js.org/loaders/sass-loader/#additionaldata) option
+Adding a `vue.conifg.js` file to the Styleguidist project, I can tell to Styleguidist `sass-loader` which style content it has to prepend _before_ the actual component `<style>` content. This can be achieved using `sass-loader` [`additionalData`](https://webpack.js.org/loaders/sass-loader/#additionaldata) option
 
 ```js
 // vue.config.js
@@ -111,7 +109,7 @@ module.exports = {
 
 ### ⚡️ Bonus tip
 
-Since I added the `vue.config.js` file, I also added my [`postcss`](https://github.com/postcss/postcss) configuration there:
+Since I have just added the `vue.config.js` file, I also added my [`postcss`](https://github.com/postcss/postcss) configuration there:
 
 ```js
 const postcssNormalize = require('postcss-normalize')
