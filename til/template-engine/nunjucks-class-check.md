@@ -13,6 +13,7 @@ id: T19
 ---
 
 In _Nunjucks_ we can use a conditional statement in two ways:
+
 1. **explicit** using the {% raw %}`{% if %}`{% endraw %} keyword,
 2. or **implicit** using the {% raw %}`{{ }}`{% endraw %} expression.
 
@@ -23,11 +24,13 @@ Note: I did not find any refernce about these names – implicit/explicit – in
 
 Using an explicit {% raw %}`{% if %}`{% endraw %} keyword, Nunjucks check if the condition is matched
 
+{% raw %}
 ```html
 {% set arr = ['🐱', '🐶', '🐺'] %}
 
 <p>{% if '🐶' in arr %}has-dog{% endif %}</p>
 ```
+{% endraw %}
 
 _HTML output_
 
@@ -55,11 +58,13 @@ _HTML output_
 
 Using double curly braces, Nunjucks evalued its content:
 
+{% raw %}
 ```html
 {% set arr = ['🐱', '🐶', '🐺'] %}
 
 <p>{{ if '🐶' in arr }}</p>
 ```
+{% endraw %}
 
 _HTML output_
 
@@ -87,6 +92,7 @@ Note that HTML output is exactly the same! 🚀
 
 _Recap_
 
+{% raw %}
 ```twig
 {% set arr = ['🐱', '🐶', '🐺'] %}
 
@@ -96,6 +102,7 @@ _Recap_
 //2. implicit
 <div class="c-animals {{ 'has-dog' if '🐶' in arr }}">...</div>
 ```
+{% endraw %}
 
 I used both syntaxes in my Nunjucks files, and to choose which one to use I go with this logic:
 
