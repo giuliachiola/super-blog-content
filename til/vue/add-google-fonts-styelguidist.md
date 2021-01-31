@@ -11,8 +11,6 @@ tags:
   - styleguidist
   - js
 id: T25
-
-eleventyExcludeFromCollections: true
 ---
 
 Few days ago I worked on a [vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) project and I had to use a Google Font.
