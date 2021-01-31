@@ -33,6 +33,10 @@ const foundIdx = arr.findIndex(el => el == itemToFind) // -> foundIdx = 3
 
 ```js
 arr.splice(foundIdx, 1)
+
+// splice(start[, deleteCount[, item1[, item2[, ...]]]])
+// start = foundIdx
+// deleteCount = 1 = number of elements in the array to remove from start
 ```
 
 - add the item to the 1st position using [`unshift()`](https://developer.mozilla.org/en-us/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)

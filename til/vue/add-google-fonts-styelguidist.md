@@ -103,7 +103,7 @@ Now, in our components files we can use the Google Font 😏
 
 <div class="s-giphy s-giphy--small-d">
   <video autoplay loop muted playsinline>
-    <source src="https://i.giphy.com/media/OnQqgkPWJ17DG/giphy.webp" type="video/mp4">
+    <source src="https://i.giphy.com/media/3oKIPsgVPHyPPG5p3a/giphy.mp4" type="video/mp4">
   </video>
-  <p><a href="https://media.giphy.com/media/OnQqgkPWJ17DG/giphy.gif">via GIPHY</a></p>
+  <p><a href="https://media.giphy.com/media/3oKIPsgVPHyPPG5p3a/giphy.mp4">via GIPHY</a></p>
 </div>
