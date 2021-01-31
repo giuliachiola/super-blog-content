@@ -29,16 +29,17 @@ In this script we:
 let consoleWrap = {};
 
 if (localStorage.devMode && localStorage.devMode === 'true') {
-  consoleWrap.debug = window.console
+  consoleWrap = window.console
 } else {
-  consoleWrap.debug = () => {}
+  consoleWrap = () => {}
 }
 ```
 
 ```js
 // other-file.js
 
-consoleWrap.debug.log('Hello!')
+consoleWrap.log('Hello!')
+consoleWrap.error('This is an error message!')
 ```
 
 To set the `devMode` in browser local storage, please add this line in browser console:
