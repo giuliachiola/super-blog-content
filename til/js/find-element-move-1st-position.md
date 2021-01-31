@@ -8,7 +8,7 @@ date: 2021-01-31
 mainTag: js
 tags:
   - js
-id: T27
+id: T26
 ---
 
 Surely there are several way to do it, this is just one of them. Let me know if you know a better way to do it 💪🏻
