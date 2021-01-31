@@ -1,5 +1,5 @@
 ---
-title: Node.js cheatsheet
+title: Nodejs cheatsheet
 abstract: Few commands to speed up development using Node.js
 quote: We are what we repeatedly do. <br class="u-ty-break-t">Excellence, then, is not an act, but a habit
 quoteAuthor: Aristotle
@@ -9,6 +9,8 @@ date: 2021-01-31
 mainTag: shell
 tags:
   - shell
+  - node
+  - npm
 id: T14
 ---
 
