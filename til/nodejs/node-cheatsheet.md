@@ -5,6 +5,8 @@ quote: We are what we repeatedly do. <br class="u-ty-break-t">Excellence, then, 
 quoteAuthor: Aristotle
 
 date: 2021-01-31
+crossPostDEV: https://dev.to/giulia_chiola/node-js-cheatsheet-25k0
+crossPostHashnode: https://giuliachiola.hashnode.dev/nodejs-cheatsheet
 mainTag: shell
 tags:
   - shell
