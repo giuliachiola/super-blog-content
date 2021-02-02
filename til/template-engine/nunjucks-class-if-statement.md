@@ -5,6 +5,8 @@ quote: If people are doubting how far you can go, go so far that you can't hear 
 quoteAuthor: Michele Ruiz
 
 date: 2021-01-31
+crossPostDEV: https://dev.to/giulia_chiola/add-a-class-in-nunjucks-using-a-conditional-statement-na9
+crossPostHashnode: https://giuliachiola.hashnode.dev/add-a-class-in-nunjucks-using-a-conditional-statement
 mainTag: template-engine
 tags:
   - template-engine
