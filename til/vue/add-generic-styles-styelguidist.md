@@ -3,8 +3,11 @@ title: How to add generic styles in Vue Styleguidist
 abstract: Vue Styleguidist is an awesome tool I used to build styleguides with Vue components. Here it is a way to add generic styles in all app components.
 quote: A quick fix for a long-standing problem <br class="u-ty-break-t">only works for the short term.
 quoteAuthor: Dr. Jacinta Mpalyenkana
-date: 2021-01-31
 
+date: 2021-02-05
+
+crossPostDEV: https://dev.to/giulia_chiola/how-to-add-generic-styles-in-vue-styleguidist-5d9d
+crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-add-generic-styles-in-vue-styleguidist
 mainTag: vuejs
 tags:
   - vuejs
