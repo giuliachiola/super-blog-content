@@ -15,7 +15,7 @@ id: T9
 
 Some useful shortcuts I use with [oh-my-zsh git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git).
 
-| Command | Description                                      | Notes                                                        |
+| Alias   | Command                                          | Notes                                                        |
 |:--------|:-------------------------------------------------|:-------------------------------------------------------------|
 | `gb`    | `git branch`                                     | List of local branches                                       |
 | `gba`   | `git branch -a`                                  | List of local and remote branches                            |
@@ -70,13 +70,13 @@ or shorter version
 
 Here are some shortcuts I added compared to the ones came with [oh-my-zsh plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow)
 
-| Command       | Description                   | Notes                                    |
-|:--------------|:------------------------------|:-----------------------------------------|
-| `alias gflbs` | `git flow bugfix start`       | Start a `bugfix/` branch from `develop`  |
-| `alias gflbf` | `git flow bugfix finish`      | Finish a `bugfix/` branch from `develop` |
-| `gbm`         | `git branch -m`               | Rename branch                            |
-| `gbD`         | `git branch -D`               | Delete local branch with force option    |
-| `gbuu`        | `git branch --unset-upstream` | Unset upstream branch                    |
+| Alias   | Command                       | Notes                                    |
+|:--------|:------------------------------|:-----------------------------------------|
+| `gflbs` | `git flow bugfix start`       | Start a `bugfix/` branch from `develop`  |
+| `gflbf` | `git flow bugfix finish`      | Finish a `bugfix/` branch from `develop` |
+| `gbm`   | `git branch -m`               | Rename branch                            |
+| `gbD`   | `git branch -D`               | Delete local branch with force option    |
+| `gbuu`  | `git branch --unset-upstream` | Unset upstream branch                    |
 
 <div class="s-giphy s-giphy--small-d">
   <video autoplay loop muted playsinline>
@@ -86,5 +86,6 @@ Here are some shortcuts I added compared to the ones came with [oh-my-zsh plugin
 </div>
 
 > 📚 More info
-> - [ohmyzsh cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
-> - [ohmyzsh git flow](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow)
+> - [Oh My Zsh cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
+> - [Oh My Zsh Commands Aliases Cheat Sheet](https://ohmycheatsheet.com/oh-my-zsh-commands-cheat-sheet/)
+> - [Oh My Zsh Git-Flow plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow)
