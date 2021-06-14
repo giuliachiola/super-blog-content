@@ -94,7 +94,7 @@ will output
 <p data-state=important>This is a paragraph with data-state</p>
 <p class="c-article-section__disclaimer" id="articleId" attr=value attr2="spaced value">Another text with attributes</p>
 
-<img src="image.jpg">
+<img class="u-shadow" src="image.jpg" alt="Alt text">
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank" rel="noopener">Link in a new tab</a>
 ```
 
