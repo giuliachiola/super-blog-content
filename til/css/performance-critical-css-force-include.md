@@ -5,8 +5,11 @@ quote: We are less <br class="u-ty-break-t">when we don't include everyone
 quoteAuthor: Stuart Milk
 
 date: 2021-01-21
+
+permalink: posts/force-include-classes-in-critical-css/
 crossPostDEV: https://dev.to/giulia_chiola/force-include-classes-in-critical-css-bfc
 crossPostHashnode: https://giuliachiola.hashnode.dev/force-include-classes-in-critical-css
+
 mainTag: css
 tags:
   - css

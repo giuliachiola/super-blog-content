@@ -2,7 +2,9 @@
 title: Super styleguide
 quote: A good plan today is better <br class="u-ty-break-t">than a perfect plan tomorrow
 quoteAuthor: George S. Patton
+
 date: 2020-12-20
+permalink: projects/super-styleguide/
 
 mainTag: design-system
 tags:

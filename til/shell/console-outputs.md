@@ -5,8 +5,11 @@ quote: If we have the attitude that it’s going to be a great day it usually is
 quoteAuthor: Catherine Pulsifier
 
 date: 2021-01-20
+
+permalink: posts/show-console-outputs-based-on-environment/
 crossPostDEV: https://dev.to/giulia_chiola/show-console-outputs-based-on-environment-4gi8
 crossPostHashnode: https://giuliachiola.hashnode.dev/show-console-outputs-based-on-environment
+
 mainTag: shell
 tags:
   - shell

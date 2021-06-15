@@ -4,6 +4,8 @@ quote: It's a bad plan that admits <br class="u-ty-break-t">of no modification
 quoteAuthor: Publilius Syrus
 
 date: 2021-01-02
+permalink: projects/super-blog/
+
 mainTag: 11ty
 tags:
   - 11ty

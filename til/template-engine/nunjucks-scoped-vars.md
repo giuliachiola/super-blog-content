@@ -5,9 +5,12 @@ quote: If opportunity doesn’t knock, <br class="u-ty-break-t">build a door
 quoteAuthor: Kurt Cobain
 
 date: 2021-01-20
+
+permalink: posts/nunjucks-scoped-variable-declarations/
 # Crossposting urls are wrong (nunjuks instead of nunjucks) ooops! :)
 crossPostDEV: https://dev.to/giulia_chiola/nunjuks-scoped-variable-declarations-59ef
 crossPostHashnode: https://giuliachiola.hashnode.dev/nunjuks-scoped-variable-declarations
+
 mainTag: template-engine
 tags:
   - template-engine

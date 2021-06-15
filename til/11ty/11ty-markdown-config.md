@@ -5,8 +5,11 @@ quote: There are so many beautiful reasons<br class="u-ty-break-t"> to be happy 
 quoteAuthor: Anonimous
 
 date: 2021-01-22
+
+permalink: posts/add-html-classes-to-11ty-markdown-content/
 crossPostDEV: https://dev.to/giulia_chiola/add-html-classes-to-11ty-markdown-content-18ic
 crossPostHashnode: https://giuliachiola.hashnode.dev/add-html-classes-to-11ty-markdown-content
+
 mainTag: static-site-generator
 tags:
   - 11ty
@@ -94,7 +97,7 @@ will output
 <p data-state=important>This is a paragraph with data-state</p>
 <p class="c-article-section__disclaimer" id="articleId" attr=value attr2="spaced value">Another text with attributes</p>
 
-<img src="image.jpg">
+<img class="u-shadow" src="image.jpg" alt="Alt text">
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank" rel="noopener">Link in a new tab</a>
 ```
 

@@ -5,8 +5,11 @@ quote: Keep looking up…<br class="u-ty-break-t"> that’s the secret of life
 quoteAuthor: Charlie Brown
 
 date: 2021-01-25
+
+permalink: posts/git-cheatsheet/
 crossPostDEV: https://dev.to/giulia_chiola/git-cheatsheet-3ffl
 crossPostHashnode: https://giuliachiola.hashnode.dev/git-cheatsheet
+
 mainTag: git
 tags:
   - git

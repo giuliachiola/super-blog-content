@@ -5,6 +5,8 @@ quote: Words are, of course, <br class="u-ty-break-t">the most powerful drug use
 quoteAuthor: Rudyard Kipling
 
 date: 2021-01-31
+
+permalink: posts/how-to-add-google-fonts-in-vue-styleguidist/
 crossPostDEV: https://dev.to/giulia_chiola/how-to-add-google-fonts-in-vue-styleguidist-5f44
 crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-add-google-fonts-in-vue-styleguidist
 

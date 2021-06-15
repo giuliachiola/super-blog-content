@@ -5,8 +5,11 @@ quote: Do something today that your future self <br class="u-ty-break-t">will th
 quoteAuthor: Sean Patrick Flanery
 
 date: 2021-01-12
+
+permalink: posts/uiengine-project-setup/
 crossPostDEV: https://dev.to/giulia_chiola/uiengine-project-setup-2a4b
 crossPostHashnode: https://giuliachiola.hashnode.dev/uiengine-project-setup
+
 mainTag: design-system
 tags:
   - design-system

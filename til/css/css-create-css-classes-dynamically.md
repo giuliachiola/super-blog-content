@@ -5,8 +5,11 @@ quote: Well done is better than well said
 quoteAuthor: Benjamin Franklin
 
 date: 2021-01-20
+
+permalink: posts/create-css-classes-dynamically/
 crossPostDEV: https://dev.to/giulia_chiola/create-css-classes-dynamically-2ooo
 crossPostHashnode: https://giuliachiola.hashnode.dev/create-css-classes-dynamically
+
 mainTag: css
 tags:
   - css

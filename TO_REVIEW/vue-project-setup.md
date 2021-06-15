@@ -1,6 +1,6 @@
 ---
 title: 'Vue JS: basic project setup'
-abstract: 'How to setup a Vue JS project step by step from scratch.'
+abstract: 'How to set up a Vue JS project step by step from scratch.'
 quote: Ability is what you're capable of doing. Motivation determines what you do. Attitude determines how well you do it.
 quoteAuthor: Lou Holtz
 
