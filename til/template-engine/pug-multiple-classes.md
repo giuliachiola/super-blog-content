@@ -5,8 +5,11 @@ quote: Knowing is not enough, we must apply. <br class="u-ty-break-t">Willing is
 quoteAuthor: Johann Wolfgang von Goethe
 
 date: 2021-01-22
+
+permalink: posts/add-multiple-classes-in-pug/
 crossPostDEV: https://dev.to/giulia_chiola/add-multiple-classes-in-pug-3aag
 crossPostHashnode: https://giuliachiola.hashnode.dev/add-multiple-classes-in-pug
+
 mainTag: template-engine
 tags:
   - template-engine

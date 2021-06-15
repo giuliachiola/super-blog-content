@@ -5,12 +5,15 @@ quote: Whenever you give up something, you must replace it with something
 quoteAuthor: Lou Holtz
 
 date: 2021-01-15
+
+permalink: posts/how-to-remove-all-links-in-javascript/
 crossPostDEV: https://dev.to/giulia_chiola/how-to-remove-all-links-in-javascript-1mff
 crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-remove-all-links-in-javascript
 tags:
   - js
   - regex
 mainTag: js
+
 id: T11
 ---
 

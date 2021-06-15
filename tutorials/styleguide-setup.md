@@ -5,8 +5,11 @@ quote: Limitations live only in our minds. <br class="u-ty-break-t">But if we us
 quoteAuthor: Jamie Paolinetti
 
 date: 2021-01-13
+
+permalink: posts/styleguide-setup/
 crossPostDEV: https://dev.to/giulia_chiola/styleguide-setup-3efc
 crossPostHashnode: https://giuliachiola.hashnode.dev/styleguide-setup
+
 mainTag: design-system
 tags:
   - design-system

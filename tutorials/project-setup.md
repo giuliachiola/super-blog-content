@@ -5,8 +5,11 @@ quote: The only limit to your impact is your imagination and commitment
 quoteAuthor: Tony Robbins
 
 date: 2021-01-31
+
+permalink: posts/how-i-set-up-my-environment-before-i-start-every-project/
 crossPostDEV: https://dev.to/giulia_chiola/how-i-set-up-my-environment-before-i-start-every-project-51k1
 crossPostHashnode: https://giuliachiola.hashnode.dev/how-i-set-up-my-environment-before-i-start-every-project
+
 mainTag: nodejs
 tags:
   - nodejs

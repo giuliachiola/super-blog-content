@@ -5,8 +5,11 @@ quote: When a new day begins, <br class="u-ty-break-t">dare to smile gratefully
 quoteAuthor: Steve Maraboli
 
 date: 2021-01-24
+
+permalink: posts/fix-developer-path-after-upgrade-to-macos-catalina/
 crossPostDEV: https://dev.to/giulia_chiola/fix-developer-path-after-upgrade-to-macos-catalina-32in
 crossPostHashnode: https://giuliachiola.hashnode.dev/fix-developer-path-after-upgrade-to-macos-catalina
+
 mainTag: mac-os
 tags:
   - mac-os

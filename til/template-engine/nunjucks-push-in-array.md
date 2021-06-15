@@ -5,8 +5,11 @@ quote: Whether you think you can <br class="u-ty-break-t">or think you can’t, 
 quoteAuthor: Henry Ford
 
 date: 2021-01-23
+
+permalink: posts/add-items-to-an-array-in-nunjucks/
 crossPostDEV: https://dev.to/giulia_chiola/add-items-to-an-array-in-nunjucks-482e
 crossPostHashnode: https://giuliachiola.hashnode.dev/add-items-to-an-array-in-nunjucks
+
 mainTag: template-engine
 tags:
   - template-engine

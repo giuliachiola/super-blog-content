@@ -6,8 +6,10 @@ quoteAuthor: Dr. Jacinta Mpalyenkana
 
 date: 2021-02-05
 
+permalink: posts/how-to-add-generic-styles-in-vue-styleguidist/
 crossPostDEV: https://dev.to/giulia_chiola/how-to-add-generic-styles-in-vue-styleguidist-5d9d
 crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-add-generic-styles-in-vue-styleguidist
+
 mainTag: vuejs
 tags:
   - vuejs

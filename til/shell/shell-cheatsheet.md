@@ -5,8 +5,11 @@ quote: Be kind whenever possible. <br class="u-ty-break-t">It is always possible
 quoteAuthor: Dalai Lama
 
 date: 2021-01-20
+
+permalink: posts/shell-cheatsheet/
 crossPostDEV: https://dev.to/giulia_chiola/shell-cheatsheet-46jo
 crossPostHashnode: https://giuliachiola.hashnode.dev/shell-cheatsheet
+
 mainTag: shell
 tags:
   - shell

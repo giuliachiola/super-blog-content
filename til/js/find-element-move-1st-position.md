@@ -5,8 +5,11 @@ quote: You always pass failure on the way to success.
 quoteAuthor: Mickey Rooney
 
 date: 2021-02-05
+
+permalink: posts/find-element-in-array-and-move-it-to-the-first-position/
 crossPostDEV: https://dev.to/giulia_chiola/find-element-in-array-and-move-it-to-the-1st-position-1mk5
 crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-find-an-element-in-javascript-and-move-it-to-the-first-position
+
 mainTag: js
 tags:
   - js

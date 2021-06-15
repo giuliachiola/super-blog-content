@@ -5,8 +5,11 @@ quote: Yesterday is not ours to recover, <br class="u-ty-break-t">but tomorrow i
 quoteAuthor: Lyndon B. Johnson
 
 date: 2021-01-22
+
+permalink: posts/remove-duplicates-in-object-arrays/
 crossPostDEV: https://dev.to/giulia_chiola/remove-duplicates-in-object-arrays-1gpd
 crossPostHashnode: https://giuliachiola.hashnode.dev/remove-duplicates-in-object-arrays
+
 mainTag: js
 tags:
   - js
