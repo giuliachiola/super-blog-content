@@ -16,13 +16,13 @@ id: P2
 This project is the little design system I used to build this blog.
 The DS has few components and less variants as possible, because I developed just what I needed to build a simple blog like this, KISS! (a.k.a. Keep It Simple Stupid!) 😇
 
-| Use                | Tech stack                 |
-|:-------------------|:---------------------------|
-| Presentation Layer | UIengine                   |
-| Template engine    | EJS                        |
-| Content            | Javascript                 |
-| Documentation      | Markdown                   |
-| Repository         | Open source on [GitLab](https://gitlab.com/giuliach/super-styleguide) |
+| Use                | Tech stack                                                                |
+|:-------------------|:--------------------------------------------------------------------------|
+| Presentation Layer | UIengine                                                                  |
+| Template engine    | EJS                                                                       |
+| Content            | Javascript                                                                |
+| Documentation      | Markdown                                                                  |
+| Repository         | Open source on [GitHub](https://github.com/giuliachiola/super-styleguide) |
 
 ## Project review, what I learned or improved
 

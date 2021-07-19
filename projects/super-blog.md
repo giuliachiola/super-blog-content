@@ -26,12 +26,12 @@ But anyway, let's talk about how I made this simple blog.
 
 This blog is built using [11ty](https://github.com/11ty/eleventy) static site generator.
 
-| Use             | Tech stack                 |
-|:----------------|:---------------------------|
-| Template engine | Nunjucks                   |
-| Build tool      | 11ty                       |
-| Content         | Markdown                   |
-| Repository      | Open source on [GitLab](https://gitlab.com/giuliach/super-blog-11ty) |
+| Use             | Tech stack                                                               |
+|:----------------|:-------------------------------------------------------------------------|
+| Template engine | Nunjucks                                                                 |
+| Build tool      | 11ty                                                                     |
+| Content         | Markdown                                                                 |
+| Repository      | Open source on [GitHub](https://github.com/giuliachiola/super-blog-11ty) |
 
 ## Project review, what I learned or improved
 
@@ -58,7 +58,7 @@ Unfortunately, _UIengine_ (the framework I used to build my styleguide, read mor
 
 **Git submodules**
 
-For the first time, I worked with _git submodules_: one for the [content repository](https://gitlab.com/giuliach/super-blog-content) and another for the [stylegudie repository](https://gitlab.com/giuliach/super-styleguide). At the beginning was quite hard to understand how to keep aligned (or voluntarily disaligned) all the pieces, but I understood how to use them over time... and now I am satisfied to use this repository structure.
+For the first time, I worked with _git submodules_: one for the [content repository](https://github.com/giuliachiola/super-blog-content) and another for the [stylegudie repository](https://github.com/giuliachiola/super-styleguide). At the beginning was quite hard to understand how to keep aligned (or voluntarily disaligned) all the pieces, but I understood how to use them over time... and now I am satisfied to use this repository structure.
 
 **Netlify**
 

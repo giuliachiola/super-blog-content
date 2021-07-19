@@ -36,7 +36,7 @@ Few commands I found very useful during development.
 | `git log --tags --simplify-by-decoration --pretty="format:%ci %d"`                | show tags details                                                            |
 | `git log --graph --abbrev-commit --decorate`                                      | show commits with decorative branches                                        |
 | `git log --decorate --oneline --graph --date-order master@{"4 days ago"}..master` | show commits of the last 4 days in a compact graph                           |
-| `git diff --name-only | uniq | xargs $EDITOR`                                     | open all modified files                                                     |
+| `git diff --name-only | uniq | xargs $EDITOR`                                     | open all modified files                                                      |
 | `git push origin :feature/branchname`                                             | delete remote branch                                                         |
 | `git push origin --delete feature/branchname`                                     | delete remote branch                                                         |
 | `git push origin --all`                                                           | push all local branches                                                      |
@@ -80,13 +80,13 @@ git pull --prune --tags
 - Click on `Repository` > `Compare`
 
 ```md
-https://gitlab.com/giuliach/super-blog-11ty/-/compare/[source]...[target]
+https://github.com/giuliachiola/super-blog-11ty/compare/[source]...[target]
 ```
 
 Example:
 
 ```md
-https://gitlab.com/giuliach/super-blog-11ty/-/compare/main...develop
+https://github.com/giuliachiola/super-blog-11ty/compare/main...develop
 ```
 
 <div class="s-giphy s-giphy--small-d">
