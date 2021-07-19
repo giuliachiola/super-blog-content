@@ -40,7 +40,7 @@ npm install postcss postcss-cli postcss-preset-env postcss-import --save-dev
 
 To configure postcss, add `.postcss.config.js` in project root folder
 
-[🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/postcss.config.js)
+[🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/css/postcss.config.js)
 
 - [stylelint](https://github.com/stylelint/stylelint)
 
@@ -52,7 +52,7 @@ npm install stylelint stylelint-scss stylelint-order --save-dev
 
 To configure stylelint, add `.stylelintrc.json` in project root folder
 
-[🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/.stylelintrc.json)
+[🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/css/.stylelintrc.json)
 
 - [sass-mq](https://github.com/sass-mq/sass-mq)
 
@@ -64,7 +64,7 @@ npm install sass-mq --save-dev
 
 Add sass-mq configuration in styles folder `src/scss/00-settings/_sass-mq-config.scss`
 
-[🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/css/sassmq-config.scss)
+[🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/css/sassmq-config.scss)
 
 In a static project, as a styleguide, to use _sass-mq_ in our styles, we have to import it from `node_modules` and add our configuration
 
@@ -163,7 +163,7 @@ Create two folders, one for original SVG files `src/svg` and a second one optim
 
 Add SVGO script configuration
 
-[🦊 Gitlab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/ddd5ada971279ed6f0440a52dbaf0b4ac2df13eb/svg/svgo-config.js)
+[🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/svg/svgo-config.js)
 
 ### SVG scripts
 

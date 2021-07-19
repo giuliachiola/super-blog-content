@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/giuliach/super-blog-content.git"
+    "url": "git+ssh://git@github.com:giuliachiola/super-blog-content.git"
   },
   "author": "Giulia Chiola",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/giuliach/super-blog-content/issues"
+    "url": "https://github.com/giuliachiola/super-blog-content/issues"
   },
-  "homepage": "https://gitlab.com/giuliach/super-blog-content#readme"
+  "homepage": "https://github.com/giuliachiola/super-blog-content#readme"
 }

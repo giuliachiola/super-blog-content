@@ -20,11 +20,11 @@ id: T8
 
 Use the content that works best for you, here there are mine.
 
-| Template                     | Snippet                                                                                                                          |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| issue                        | [🦊 GitLab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/master/git/.gitlab/issue_templates/issue-template.md)      |
-| pull request / merge request | [🦊 GitLab snippet](https://gitlab.com/giuliach/super-snippets/-/blob/master/git/.gitlab/merge_request_templates/mr-template.md) |
-| release                      | [🦊 GitLab snippet](https://gitlab.com/giuliach/super-snippets/-/tree/master/git/.gitlab/release_templates)                      |
+| Template                     | Snippet                                                                                                                            |
+|------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| issue                        | [🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/git/.gitlab/issue_templates/issue-template.md)      |
+| pull request / merge request | [🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/git/.gitlab/merge_request_templates/mr-template.md) |
+| release                      | [🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/git/.gitlab/release_templates/release_template.md)  |
 
 ## Basic
 ### GitHub
