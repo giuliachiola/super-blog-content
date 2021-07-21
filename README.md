@@ -6,9 +6,9 @@ My [tech blog](https://github.com/giuliachiola/super-blog-11ty) is built using 1
 
 ## 🔧 Tech's Stack
 
-| Purpose       | Technology  |
-| ------------- | ----------- |
-| Documentation | Markdown    |
+| Purpose       | Technology |
+|:--------------|:-----------|
+| Documentation | Markdown   |
 
 
 ## 📖 Notes
