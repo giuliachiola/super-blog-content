@@ -25,5 +25,4 @@ Note that this repo is a **git submodule** of the [blog repo](https://github.com
 | Branch name | Use                                       |
 |:------------|:------------------------------------------|
 | `main`      | production (also used by super-blog-11ty) |
-| `develop`   | staging                                   |
 
