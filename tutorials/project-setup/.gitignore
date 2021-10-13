@@ -1,0 +1,8 @@
+# OS generated files
+.DS_Store
+
+# node packages
+node_modules/
+
+# Visual Studio Code - custom settings
+*.code-workspace
