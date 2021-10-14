@@ -12,13 +12,13 @@ eleventyNavigation:
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/), an awesome developers' settings list curated by Wes Bos 🔥.
-### Editor
+
+## 👩🏻‍💻 Editor
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - Theme: [Cobalt2 by Wes Bos](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
 
-#### Extensions for VS Code
-
+**Extensions for VS Code**
 - [Add jsdoc comments](https://marketplace.visualstudio.com/items?itemName=stevencl.addDocComments)
 - [Auto Comment Blocks](https://marketplace.visualstudio.com/items?itemName=kevinkyang.auto-comment-blocks)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -45,25 +45,13 @@ This page is inspired by [uses.tech](https://uses.tech/), an awesome developers'
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [Workspace manager](https://marketplace.visualstudio.com/items?itemName=design4pro.workspace-manager)
 
-### Terminal
-
+## 🤖 Terminal
 - [iTerm2](https://iterm2.com/)
 - Color scheme: Solarized Dark
 - Shell: zsh + [oh-my-zsh](https://ohmyz.sh/)
 - Zsh theme: `agnoster`
 
-### Browser
-
-Yep, I use different browsers for different needs 😇
-
-- [Google Chrome](https://www.google.com/chrome/): main browser for daily use (with lots of extensions enabled)
-- [Google Chrome Canary](https://www.google.com/chrome/canary/): browser for debugging (just few extensions for debugging)
-- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): browser for CSS debugging (just few extensions for debugging)
-
-#### Extensions for Chrome
-
-## Apps
-
+## 💻 Apps
 - [Notion](https://www.notion.so/): notes taking, awesome.
 - [Slack](https://slack.com/intl/en-it/): chat with friends and ex-collegues.
 - [Fork](https://git-fork.com/): respository overview, similar to [SourceTree](https://www.sourcetreeapp.com/) but significantly faster.
@@ -76,13 +64,18 @@ Yep, I use different browsers for different needs 😇
 - [FlyCut](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12): clipboard manager
 - [Spotify](https://open.spotify.com/): for some energizer music while working
 
-## Hardware
+**Browser**
+
+Yep, I use different browsers for different needs 😇
+
+- [Google Chrome](https://www.google.com/chrome/): main browser for daily use (with lots of extensions enabled)
+- [Google Chrome Canary](https://www.google.com/chrome/canary/): browser for debugging (just few extensions for debugging)
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): browser for CSS debugging (just few extensions for debugging)
+
+## 🖥 Desk
 
 - Main computer: [MacBook Pro 2017](https://support.apple.com/kb/SP754?locale=it_IT)
 - Auxiliary Computer: manually assembled Desktop Computer with Windows OS on it.
-
-## Desk
-
 - Monitor [BenQ 27" PD2700U 4k](https://www.amazon.it/gp/product/B07GLR6RQF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - Ikea desk similar to [this one](https://www.ikea.com/it/it/p/lagkapten-mittback-scrivania-bianco-betulla-s19417193/) but mine is an older version with board made of glass instead of wood.
 - Ikea office chair similar to [this model](https://www.ikea.com/it/it/p/millberget-sedia-girevole-murum-nero-70489394/) but I have an older variant (which is nicer in my humble opinion)
@@ -90,17 +83,14 @@ Yep, I use different browsers for different needs 😇
 - [Magic Keyboard](https://www.amazon.it/Apple-Magic-Tastiera-Keypad-Numerico/dp/B07BRB39K9/ref=asc_df_B07BRB39K9/) sideral gray
 - [Magic Trackpad 2](https://www.amazon.it/Apple-Magic-Trackpad-Grigio-Siderale/dp/B07BS1RQ4N/ref=sr_1_2) sideral gray
 
-## Mobile
+## 📲 Mobile
 
-- [Xiaomi Mi 9T Pro](https://www.mi.com/it/mi-9-t-pro/)
-
-### Apps
-
+- Phone: [Xiaomi Mi 9T Pro](https://www.mi.com/it/mi-9-t-pro/)
 - [Authy](https://play.google.com/store/apps/details?id=com.authy.authy&hl=en&gl=US): 2FA
 - [Email](https://play.google.com/store/apps/details?id=com.easilydo.mail&hl=en&gl=US): best mobile email client
 - [InSwipe](https://play.google.com/store/apps/details?id=livehappy.instaswipe&hl=en&gl=US): split photo for IG panorama views
 - [Nature ID](https://play.google.com/store/apps/details?id=plant.identification.flower.tree.leaf.identifier.identify.cat.dog.breed.nature&hl=en&gl=US): plant identification and care planning
 - [Notion](https://play.google.com/store/apps/details?id=notion.id&hl=en&gl=US): notes taking
-- [Peak lens](https://play.google.com/store/apps/details?id=com.peaklens.ar&hl=en&gl=US)
-- [Split wise](https://play.google.com/store/apps/details?id=com.Splitwise.SplitwiseMobile&hl=en&gl=US): share expenses with friends
+- [PeakLens](https://play.google.com/store/apps/details?id=com.peaklens.ar&hl=en&gl=US): not work-related, but I love hiking and this app is really useful to recognize mountains
+- [SplitWise](https://play.google.com/store/apps/details?id=com.Splitwise.SplitwiseMobile&hl=en&gl=US): share expenses with friends
 - [Stocard](https://play.google.com/store/apps/details?id=de.stocard.stocard&hl=en&gl=US): rewards cards wallet
