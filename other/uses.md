@@ -94,3 +94,10 @@ Yep, I use different browsers for different needs 😇
 - [PeakLens](https://play.google.com/store/apps/details?id=com.peaklens.ar&hl=en&gl=US): not work-related, but I love hiking and this app is really useful to recognize mountains
 - [SplitWise](https://play.google.com/store/apps/details?id=com.Splitwise.SplitwiseMobile&hl=en&gl=US): share expenses with friends
 - [Stocard](https://play.google.com/store/apps/details?id=de.stocard.stocard&hl=en&gl=US): rewards cards wallet
+
+<div class="s-giphy s-giphy--small-d">
+  <video autoplay loop muted playsinline>
+    <source src="https://i.giphy.com/media/hruJfokAp2ED9P7yAh/giphy.mp4" type="video/mp4">
+  </video>
+  <p><a href="https://media2.giphy.com/media/hruJfokAp2ED9P7yAh/giphy.gif">via GIPHY</a></p>
+</div>
