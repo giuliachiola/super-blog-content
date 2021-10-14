@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Uses
-subtitle: In the rare occasion you are wondering what my setup is,<br> here it is listed by category.
+subtitle: In the rare occasion you are wondering what my setup is,<br> here there are some stuff listed by category.
 paletteColor: 5
 permalink: uses/
 date: 2021-10-15
@@ -12,12 +12,10 @@ eleventyNavigation:
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/), an awesome developers' settings list curated by Wes Bos 🔥.
-
 ### Editor
 
-- [Visual Studio Code](https://code.visualstudio.com/){target="_blank" rel="noopener"}
-- Theme: [Cobalt2 by Wes Bos](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2){target="_blank" rel="noopener"}
-- Font: `Menlo, Monaco, 'Courier New', monospace`
+- [Visual Studio Code](https://code.visualstudio.com/)
+- Theme: [Cobalt2 by Wes Bos](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
 
 #### Extensions for VS Code
 
@@ -49,42 +47,60 @@ This page is inspired by [uses.tech](https://uses.tech/), an awesome developers'
 
 ### Terminal
 
-- [iTerm2](https://iterm2.com/){target="_blank" rel="noopener"}
+- [iTerm2](https://iterm2.com/)
 - Color scheme: Solarized Dark
 - Shell: zsh + [oh-my-zsh](https://ohmyz.sh/)
 - Zsh theme: `agnoster`
 
 ### Browser
 
-- Main browser for daily use (with lots of extensions enabled): [Google Chrome](https://www.google.com/chrome/){target="_blank" rel="noopener"}
-- Browser for debugging (just few extensions for debugging): [Google Chrome Canary](https://www.google.com/chrome/canary/){target="_blank" rel="noopener"}
-- Browser for CSS debugging (just few extensions for debugging): [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/){target="_blank" rel="noopener"}
+Yep, I use different browsers for different needs 😇
+
+- [Google Chrome](https://www.google.com/chrome/): main browser for daily use (with lots of extensions enabled)
+- [Google Chrome Canary](https://www.google.com/chrome/canary/): browser for debugging (just few extensions for debugging)
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): browser for CSS debugging (just few extensions for debugging)
 
 #### Extensions for Chrome
 
 ## Apps
 
-- [Notion](https://www.notion.so/){target="_blank" rel="noopener"}: notes taking, awesome.
+- [Notion](https://www.notion.so/): notes taking, awesome.
 - [Slack](https://slack.com/intl/en-it/): chat with friends and ex-collegues.
 - [Fork](https://git-fork.com/): respository overview, similar to [SourceTree](https://www.sourcetreeapp.com/) but significantly faster.
 - Prototyping: [Figma](https://www.figma.com/), [Sketch](https://www.sketch.com/)
-- Email: [Spark](https://sparkmailapp.com/)
+- [Spark](https://sparkmailapp.com/): best email client ever.
 - [Dozer](https://github.com/Mortennn/Dozer): hide menu icons
-- Hosting: [Netlify](https://www.netlify.com/)
+- [Gas Mask](https://github.com/2ndalpha/gasmask): hosts file manager
+- [ImageOptim](https://imageoptim.com/mac): reduce image files size (if you would like to try it, please note the FAQ in their docs about PNG slow compression)
+- [CloudApp](https://www.getcloudapp.com/): screen recording and host records
+- [FlyCut](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12): clipboard manager
+- [Spotify](https://open.spotify.com/): for some energizer music while working
 
 ## Hardware
 
-- Main computer: [MacBook Pro 2017](https://support.apple.com/kb/SP754?locale=it_IT){target="_blank" rel="noopener"}
+- Main computer: [MacBook Pro 2017](https://support.apple.com/kb/SP754?locale=it_IT)
 - Auxiliary Computer: manually assembled Desktop Computer with Windows OS on it.
 
 ## Desk
 
-- Monitor [BenQ 27" PD2700U 4k](https://www.amazon.it/gp/product/B07GLR6RQF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1){target="_blank" rel="noopener"}
-- Ikea desk similar to [this one](https://www.ikea.com/it/it/p/lagkapten-mittback-scrivania-bianco-betulla-s19417193/){target="_blank" rel="noopener"} but mine is an older version with board made of glass instead of wood.
-- Ikea office chair similar to [this model](https://www.ikea.com/it/it/p/millberget-sedia-girevole-murum-nero-70489394/){target="_blank" rel="noopener"} but I have an older variant (which is nicer in my humble opinion)
-- [Beats headphones](https://www.amazon.it/gp/product/B01LVVF94H/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1){target="_blank" rel="noopener"}
-- [Magic Keyboard](https://www.amazon.it/Apple-Magic-Tastiera-Keypad-Numerico/dp/B07BRB39K9/ref=asc_df_B07BRB39K9/){target="_blank" rel="noopener"} sideral gray
-- [Magic Trackpad 2](https://www.amazon.it/Apple-Magic-Trackpad-Grigio-Siderale/dp/B07BS1RQ4N/ref=sr_1_2){target="_blank" rel="noopener"} sideral gray
+- Monitor [BenQ 27" PD2700U 4k](https://www.amazon.it/gp/product/B07GLR6RQF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+- Ikea desk similar to [this one](https://www.ikea.com/it/it/p/lagkapten-mittback-scrivania-bianco-betulla-s19417193/) but mine is an older version with board made of glass instead of wood.
+- Ikea office chair similar to [this model](https://www.ikea.com/it/it/p/millberget-sedia-girevole-murum-nero-70489394/) but I have an older variant (which is nicer in my humble opinion)
+- [Beats headphones](https://www.amazon.it/gp/product/B01LVVF94H/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+- [Magic Keyboard](https://www.amazon.it/Apple-Magic-Tastiera-Keypad-Numerico/dp/B07BRB39K9/ref=asc_df_B07BRB39K9/) sideral gray
+- [Magic Trackpad 2](https://www.amazon.it/Apple-Magic-Trackpad-Grigio-Siderale/dp/B07BS1RQ4N/ref=sr_1_2) sideral gray
 
 ## Mobile
 
+- [Xiaomi Mi 9T Pro](https://www.mi.com/it/mi-9-t-pro/)
+
+### Apps
+
+- [Authy](https://play.google.com/store/apps/details?id=com.authy.authy&hl=en&gl=US): 2FA
+- [Email](https://play.google.com/store/apps/details?id=com.easilydo.mail&hl=en&gl=US): best mobile email client
+- [InSwipe](https://play.google.com/store/apps/details?id=livehappy.instaswipe&hl=en&gl=US): split photo for IG panorama views
+- [Nature ID](https://play.google.com/store/apps/details?id=plant.identification.flower.tree.leaf.identifier.identify.cat.dog.breed.nature&hl=en&gl=US): plant identification and care planning
+- [Notion](https://play.google.com/store/apps/details?id=notion.id&hl=en&gl=US): notes taking
+- [Peak lens](https://play.google.com/store/apps/details?id=com.peaklens.ar&hl=en&gl=US)
+- [Split wise](https://play.google.com/store/apps/details?id=com.Splitwise.SplitwiseMobile&hl=en&gl=US): share expenses with friends
+- [Stocard](https://play.google.com/store/apps/details?id=de.stocard.stocard&hl=en&gl=US): rewards cards wallet
