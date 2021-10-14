@@ -22,9 +22,9 @@ Use the content that works best for you, here there are mine.
 
 | Template                     | Snippet                                                                                                                            |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| issue                        | [🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/git/.gitlab/issue_templates/issue-template.md)      |
-| pull request / merge request | [🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/git/.gitlab/merge_request_templates/mr-template.md) |
-| release                      | [🐙 GitHub snippet](https://github.com/giuliachiola/super-snippets/blob/master/git/.gitlab/release_templates/release_template.md)  |
+| issue                        | [🐙 GitHub snippet](https://github.com/giuliachiola/super-blog-content/blob/main/til/git/issue-and-pr-templates/_snippet-template-issue.md)      |
+| pull request / merge request | [🐙 GitHub snippet](https://github.com/giuliachiola/super-blog-content/blob/main/til/git/issue-and-pr-templates/_snippet-template-mr.md) |
+| release                      | [🐙 GitHub snippet](https://github.com/giuliachiola/super-blog-content/blob/main/til/git/issue-and-pr-templates/_snippet-template-release.md)  |
 
 ## Basic
 ### GitHub
