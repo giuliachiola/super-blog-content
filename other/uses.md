@@ -46,7 +46,7 @@ This page is inspired by [uses.tech](https://uses.tech/), an awesome developers'
 - [Workspace manager](https://marketplace.visualstudio.com/items?itemName=design4pro.workspace-manager)
 
 ## 🤖 Terminal
-- [iTerm2](https://iterm2.com/)
+- [iTerm2](https://iterm2.com/), some of my custom configurations are stored in my [dotfiles repo](https://github.com/giuliachiola/dotfiles)
 - Color scheme: Solarized Dark
 - Shell: zsh + [oh-my-zsh](https://ohmyz.sh/)
 - Zsh theme: `agnoster`
