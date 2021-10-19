@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Uses
-subtitle: In the rare occasion you are wondering what my setup is,<br> here there are some stuff listed by category.
+subtitle: In the rare occasion you are wondering what my setup is,<br> here there is some of my stuff listed by category.
 paletteColor: 5
 permalink: uses/
 date: 2021-10-15
