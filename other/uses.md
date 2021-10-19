@@ -5,6 +5,7 @@ subtitle: In the rare occasion you are wondering what my setup is,<br> here ther
 paletteColor: 5
 permalink: uses/
 date: 2021-10-15
+isCustomPost: true
 
 eleventyNavigation:
   key: uses
@@ -78,10 +79,9 @@ This page is inspired by [uses.tech](https://uses.tech/), an awesome developers'
 
 Yep, I use different browsers for different needs 😇
 
-- [Google Chrome](https://www.google.com/chrome/): main browser for daily use (with lots of extensions enabled)
-- [Google Chrome Canary](https://www.google.com/chrome/canary/): browser for debugging (just few extensions for debugging)
-- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): browser for CSS debugging (just few extensions for debugging)
-
+- [Google Chrome](https://www.google.com/chrome/): main browser for daily use
+- [Google Chrome Canary](https://www.google.com/chrome/canary/): browser for debugging
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): browser for CSS debugging
 ## 🖥 Desk
 
 - Main computer: [MacBook Pro 2017](https://support.apple.com/kb/SP754?locale=it_IT)
