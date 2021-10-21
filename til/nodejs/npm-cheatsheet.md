@@ -8,7 +8,7 @@ date: 2021-01-31
 
 permalink: posts/npm-cheatsheet/
 crossPostDEV: https://dev.to/giulia_chiola/node-js-cheatsheet-25k0
-crossPostHashnode: https://giuliachiola.hashnode.dev/nodejs-cheatsheet
+crossPostHashnode: https://giuliachiola.hashnode.dev/npm-cheatsheet
 
 mainTag: shell
 tags:
@@ -102,7 +102,6 @@ npm config set init-license MIT
 > - [How to list npm user-installed packages - StackOverflow](https://stackoverflow.com/questions/17937960/how-to-list-npm-user-installed-packages)
 > - [npm cheatsheet - DevHints](https://devhints.io/npm)
 > - [Use Github branch as dependency in package.json](https://medium.com/@jonchurch/use-github-branch-as-dependency-in-package-json-5eb609c81f1a)
-
 
 <div class="s-giphy s-giphy--small-d">
   <video autoplay loop muted playsinline>
