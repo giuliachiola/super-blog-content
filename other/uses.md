@@ -15,14 +15,10 @@ eleventyNavigation:
 This page is inspired by [uses.tech](https://uses.tech/), an awesome developers' settings list curated by Wes Bos 🔥.
 
 <!-- image - light theme -->
-<!--
-<img class="u-shadow u-hidden-theme-dark" loading="lazy" src="https://images.unsplash.com/photo-1511836536898-6d6f1b8f6948?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80" alt="desk by day" width="1168" height="744">
--->
+<img class="u-shadow u-hidden-theme-dark" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1634714578/super-blog/other/desk-by-day_ucb7xa.jpg" alt="desk by day" width="1024" height="744">
 
 <!-- image - dark theme -->
-<!--
-<img class="u-shadow u-hidden-theme-light" loading="lazy" src="https://images.unsplash.com/photo-1506606401543-2e73709cebb4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80" alt="desk by night" width="1168" height="744">
--->
+<img class="u-shadow u-hidden-theme-light" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1634714586/super-blog/other/desk-by-night_gtrjnc.jpg" alt="desk by night" width="1024" height="744">
 
 ## 👩🏻‍💻 Editor
 
