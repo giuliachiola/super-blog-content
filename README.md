@@ -20,9 +20,32 @@ Note that this repo is a **git submodule** of the [blog repo](https://github.com
 |:--------------|:-----------|
 | Documentation | Markdown   |
 
-### 🌿 Branches
+## 🌿 Branches
 
 | Branch name | Use                                       |
 |:------------|:------------------------------------------|
 | `main`      | production (also used by super-blog-11ty) |
 
+
+## How to release this submodule to the main blog project
+
+Run the alias inside this `super-blog-content` repo from the `main` branch:
+
+```shell
+~/Sites/super-blog-11ty > main > update-blog
+```
+
+in `.zshrc` you should have this line:
+
+```sh
+alias update-blog='gp && cd ~/Sites/super-blog-11ty && gco develop && git submodule update --recursive --remote && gcam "content: update submodule" && gp'
+```
+
+This alias will:
+
+- push last commits
+- go to the blog local folder
+- checkout to the develop branch
+- update submodules (this one included)
+- create a commit with a message
+- push the commit with the updated submodules
