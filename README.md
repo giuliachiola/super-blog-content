@@ -32,7 +32,7 @@ Note that this repo is a **git submodule** of the [blog repo](https://github.com
 Run the alias inside this `super-blog-content` repo from the `main` branch:
 
 ```shell
-~/Sites/super-blog-11ty > main > update-blog
+~/Sites/super-blog-11ty > main > blog-update
 ```
 
 in `.zshrc` you should have this line:
