@@ -38,7 +38,7 @@ Run the alias inside this `super-blog-content` repo from the `main` branch:
 in `.zshrc` you should have this line:
 
 ```sh
-alias update-blog='gp && cd ~/Sites/super-blog-11ty && gco develop && git submodule update --recursive --remote && gcam "content: update submodule" && gp'
+alias blog-update='gp && cd ~/Sites/super-blog-11ty && gco develop && git submodule update --recursive --remote && gcam "content: update submodule" && gp'
 ```
 
 This alias will:
