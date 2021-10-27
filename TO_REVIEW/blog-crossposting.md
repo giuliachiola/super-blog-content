@@ -23,7 +23,7 @@ eleventyExcludeFromCollections: true
 
 ## What I actually do for crossposting an article
 
-First of all, I am a total newbie about having a blog, posting articles and I have just few followers, so... surely I am not the best at doing it, but as far as a friend asked me which steps I make to post blog articles, I'd like to share what I do! 💪🏻 😄
+First of all, I am a total newbie about having a blog, posting articles and I have just few followers, so... surely I am not the best at doing it, but as far as a friend asked me which steps I make to post blog articles, I'd like to share how my process works! 💪🏻 😄
 
 ### 1. Organize ideas
 
