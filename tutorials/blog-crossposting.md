@@ -23,6 +23,10 @@ id: T27
 
 First of all, I am a total newbie about having a blog, posting articles and I have just few followers, so... surely I am not the best at doing it, but as far as a friend asked me which steps I make to post blog articles, I'd like to share how my process works! 💪🏻 😄
 
+Here it is my process flow chart:
+
+<img loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1635316461/super-blog/27-cross-posting/crossposting-flowchart_ei50t2.svg" alt="flow chart" width="50%" height="">
+
 ### 1. Organize ideas
 
 I do not stare at the screen praying myself to have a brilliant idea for a new post. Surprisingly, ideas come to me doing my everyday work 🙃 When I find myself in some tricky bug or issue to resolve, I take notes about the problem, how I approached it and finally how I solved it (yep, also if it is just a workaround!).
@@ -83,27 +87,27 @@ https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
 
 ### 5. Crosspost on DEV&#46;to and Hashnode
 
-[DEV.to](https://dev.to/) and [Hashnode](https://hashnode.com/) are awesome free developer blogging platforms. Posting there allows to keep in touch with other developers and reading their posts I learned a lot! 😍
+[DEV.to](https://dev.to/) and [Hashnode](https://hashnode.com/) are awesome free developer blogging platforms. Posting there allows to keep in touch with other developers. I learned a lot out there! 😍
 
-Posting my articles also in these two platforms, allows me to expose further my posts, and last but not least it gives the possibility for other developers to easily comment on my articles, in order to receive feedback 🔥
+Posting my articles even in these two platforms, allows me to expose further my posts, and it gives the possibility for other developers to easily comment on my articles, in order to receive feedback 🔥
 
 #### Canonical URL
 
-The only thing to pay attention when cross posting is to indicate in the "cloned-post" the link of the original article. We have to do it as far as Google does not like duplicate content with the same "relevance", but it allows to have a copy elsewhere if we declare which one is the original.
+The only thing to pay attention when cross posting is to indicate in the "cloned-post" the link of the original article. I have to do it as far as Google does not like duplicated content with the same "relevance", but it allows to have a copy elsewhere if I declare which one is the original.
 
-To do it, we have to indicate in the markup which is the original post (our blog), and therefore accordingly which is the secondary one.
+To do it, I have to indicate in the platform configurations which is the original post (my blog), and therefore accordingly which is the secondary one.
 
-Both on dev.to and hashnode, we can indicate the "original" URL – technically called _canonical url_ adding it the full `permalink` URL we choose in step 3:
+Both on dev.to and hashnode, is possible to indicate the "original" URL – technically called _canonical url_ adding it the full `permalink` URL I choose in step 3:
 
 ![dev.to canonical](https://res.cloudinary.com/giuliachiola/image/upload/v1635230198/super-blog/27-cross-posting/cross-devto_mmirqz.png)
 
 ![Hashnode canonical](https://res.cloudinary.com/giuliachiola/image/upload/v1635230201/super-blog/27-cross-posting/cross-hashnode_vk90ay.png)
 
-#### Dev.to and hashnode URLs
+#### DEV&#46;to and Hashnode URLs
 
-When we publish on these two blogging platforms, our posts have a custom URL hosting there.
+When I publish on these two blogging platforms, my posts have a custom URL hosting there.
 
-I copy these links and paste them into the front matter of my personal blog
+I copy these URLs and paste them into the front matter of my personal blog, where I created two specific properties with 11ty.
 
 ```md
 ---
@@ -122,9 +126,25 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/add-html-classes-to-11ty-ma
 
 In this way, I can use these two links at the bottom of my post to link to the crosspost articles.
 
-// TODO: foto bottom article crosspost dev
+![crosspost bottom post](https://res.cloudinary.com/giuliachiola/image/upload/v1635317253/super-blog/27-cross-posting/crossposting-post-bottom_pvcjui.png){.u-shadow}
+
+{% raw %}
+```html
+<div class="c-article-section__bottom-links">
+  {% if crossPostDEV and crossPostHashnode %}
+  <p>
+    Comment on
+    <a href="{{ crossPostDEV }}" target="_blank" rel="noopener">DEV</a>
+    or
+    <a href="{{ crossPostHashnode }}" target="_blank" rel="noopener">Hashnode</a>
+  </p>
+  {% endif %}
+</div>
+```
+{% endraw %}
 
 Why I would do that? Because I really appreciate feedback from other devs, and if a developer has a _dev.to_ or _hashnode_ account, can comment my content easily there.
+
 ### 6. Publish the post on my blog
 
 #### Store the blog content
