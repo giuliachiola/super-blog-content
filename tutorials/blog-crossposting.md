@@ -11,9 +11,7 @@ mainTag: productivity
 tags:
   - 11ty
   - productivity
-id: 27
-
-eleventyExcludeFromCollections: true
+id: T27
 ---
 
 ## What it means "crossposting"
@@ -27,18 +25,18 @@ First of all, I am a total newbie about having a blog, posting articles and I ha
 
 ### 1. Organize ideas
 
-I do not stare at the screen praying myself to have a brilliant idea for a new post. Surprisingly, ideas come to me doing my everyday work 🙃 When I find myself in some tricky bug or issue to resolve, I take notes about the problem I had, how I approached it and finally how I solved it (yep, also if it is just a workaround!).
+I do not stare at the screen praying myself to have a brilliant idea for a new post. Surprisingly, ideas come to me doing my everyday work 🙃 When I find myself in some tricky bug or issue to resolve, I take notes about the problem, how I approached it and finally how I solved it (yep, also if it is just a workaround!).
 
-I take notes with [Notion](https://www.notion.so/), an awesome tool a ~collegue~ friend recommended for taking notes, to-do lists, tables and a million other things to organize all your life.
+I take notes with [Notion](https://www.notion.so/), an awesome tool a ~~collegue~~ friend recommended for taking notes, to-do lists, tables and a million other things to organize all your life.
 
-I've always been a big fan of Google Sheets and its tables, so I created a table in Notion to keep all my posts organized.
+I've always been a big fan of Google Sheets and its spreadsheets, so I created a table in Notion to keep all my posts organized.
 
 The table is quite simple, each row is a post and has some attributes:
 
 - action (we will see it in a moment)
 - post title
 - status
-- some detailed statuses
+- some checkboxes options
 - notes
 
 ![Notion posts list](https://res.cloudinary.com/giuliachiola/image/upload/v1635230196/super-blog/27-cross-posting/posts-notion_fuu6ha.png)
@@ -47,7 +45,7 @@ When I discover something that worth a blog post, I add a row in my Notion table
 
 ### 2. Write down the post
 
-I love writing in plain markdown with a basic distraction-free app, so I write my post using [Visual Studio Code](https://code.visualstudio.com/download) as markdown editor.
+I love writing in plain markdown with a basic distraction-free app, so use to write my post using [Visual Studio Code](https://code.visualstudio.com/download) as markdown editor.
 
 #### ⚡️ Bonus tip
 
@@ -60,7 +58,7 @@ To check the markdown final result, I use the built-in Markdown Preview:
 Then I choose a `permalink` for my blog post, and add it to the front matter.
 
 In this way,
-- it doesn't matter if I will change the post title later or I will change its enclosing folder, as far as the `permalink` is freezed and it is not based on post title or path.
+- it doesn't matter if I will change the post title or its enclosing folder later, as far as the `permalink` is freezed and it is not based on post title or path.
 - I now have a ready-to-share permalink to my blog post, though the post is not publiblished yet! I am going to use it in the next step.
 
 Example:
@@ -77,11 +75,15 @@ permalink: posts/add-html-classes-to-11ty-markdown-content/
 ---
 ```
 
-this front matter will create a post with this URL [https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/](https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/).
+the front matter above will create a post with this URL:
 
-### 5. Crosspost on DEV.to and Hashnode
+```shell
+https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
+```
 
-[dev.to](https://dev.to/) and [hashnode](https://hashnode.com/) are awesome free developer blogging platforms. Posting there allows to keep in touch with other developers and reading their posts I learned a lot! 😍
+### 5. Crosspost on DEV&#46;to and Hashnode
+
+[DEV.to](https://dev.to/) and [Hashnode](https://hashnode.com/) are awesome free developer blogging platforms. Posting there allows to keep in touch with other developers and reading their posts I learned a lot! 😍
 
 Posting my articles also in these two platforms, allows me to expose further my posts, and last but not least it gives the possibility for other developers to easily comment on my articles, in order to receive feedback 🔥
 
