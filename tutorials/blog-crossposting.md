@@ -234,7 +234,24 @@ Date:   Thu Oct 28 08:33:34 2021 +0200
 content: update submodule
 ```
 
-Then I do a quick check running the project locally, and if everything is fine I merge `develop` into the `main` branch.
+Then I do a quick check running the project locally (which has submodule changes)
+
+```shell
+On branch develop
+Your branch is up to date with 'origin/develop'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   super-blog-content (new commits)
+
+gitSubmodules changed but not updated:
+
+* super-blog-content 6f40b4e...0db916d (1):
+  > content: add permalink in blog crossposting
+```
+
+If everything is fine I commit it to `develop` and then merge `develop` into the `main` branch.
 
 Pushing the `main` branch will trigger a [Netlify](https://app.netlify.com/) build pipeline that will deploy my updated blog.
 
