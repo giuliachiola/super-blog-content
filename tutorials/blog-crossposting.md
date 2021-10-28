@@ -215,16 +215,25 @@ Your branch is up to date with 'origin/develop'.
 [develop cf2e1b6] content: update submodule
 
 # ...(writing files stuff)...
-
 To github.com:giuliachiola/super-blog-11ty.git
    13062f5..cf2e1b6  develop -> develop
-
-~/Sites/super-blog-11ty > develop >
 ```
 
-Then I do a quick check running the project, and if everything is fine I merge `develop` into `main` branch.
+With `git log` I can see that everything went well
 
-Pushing the `main` branch will trigger a [Netlify](https://app.netlify.com/) build pipeline that will deploy my updated blog ✨.
+```shell
+~/Sites/super-blog-11ty > develop > git log
+
+commit 9ccd8cec47f9fc97a9de2fecea10a56b4c510b8d (HEAD -> develop, origin/develop, origin/HEAD)
+Author: Giulia Chiola
+Date:   Thu Oct 28 08:33:34 2021 +0200
+
+content: update submodule
+```
+
+Then I do a quick check running the project locally, and if everything is fine I merge `develop` into the `main` branch.
+
+Pushing the `main` branch will trigger a [Netlify](https://app.netlify.com/) build pipeline that will deploy my updated blog.
 
 ![Netlify deploy](https://res.cloudinary.com/giuliachiola/image/upload/v1635230199/super-blog/27-cross-posting/netlify-deploy_ka9rdq.png)
 
@@ -236,8 +245,15 @@ The last step is to share on my [Twitter](https://twitter.com/giulia_chiola) acc
 
 ## Final thoughts
 
-Yep, I think this process is really exhausting 😩 but for now I haven't found a better method to get both:
-- contents on my own platform
-- a little bit of visibility and give the opportunity to easily send me feedback
+Yep, I think this process is really exhausting 😩 but for now I haven't found a better solution to achieve both goals:
+- have contents on my own platform
+- give the opportunity to other devs to easily send me feedback
+
+<div class="s-giphy s-giphy--medium-d">
+  <video autoplay loop muted playsinline>
+    <source src="https://i.giphy.com/media/B3JqtWuH0FjOXDnVSM/giphy360p.mp4" type="video/mp4">
+  </video>
+  <p><a href="https://media4.giphy.com/media/B3JqtWuH0FjOXDnVSM/giphy360p.mp4">via GIPHY</a></p>
+</div>
 
 Therefore for now I'll go with these steps! 🔥 Let me know if you found a more manageable approach.
