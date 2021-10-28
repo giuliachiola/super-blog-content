@@ -193,13 +193,33 @@ The standard procedure when working with submodules is:
 To do it quickly, I added an alias to my `.zshrc` config file:
 
 ```shell
-alias blog-update='gp && cd ~/path/to/blog && gcam "content: update submodule" && gp'
+alias blog-update='gp && cd ~/Sites/super-blog-11ty/ && gco develop && gcam "content: update submodule" && gp'
 ```
 
 so a real example is like that:
 
 ```shell
+# do some changes into the editor,
+# then commit changes to the content repository
+~/Sites/super-blog-11ty/super-blog-content > main > gcam 'content: update crossposting article'
+# launch the alias
+~/Sites/super-blog-11ty/super-blog-content > main > blog-update
 
+# ...(writing files stuff)...
+To github.com:giuliachiola/super-blog-content.git
+   56f1485..38ba5a5  main -> main
+M	super-blog-content
+
+Already on 'develop'
+Your branch is up to date with 'origin/develop'.
+[develop cf2e1b6] content: update submodule
+
+# ...(writing files stuff)...
+
+To github.com:giuliachiola/super-blog-11ty.git
+   13062f5..cf2e1b6  develop -> develop
+
+~/Sites/super-blog-11ty > develop >
 ```
 
 Then I do a quick check running the project, and if everything is fine I merge `develop` into `main` branch.
