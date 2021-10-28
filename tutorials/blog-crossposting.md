@@ -5,8 +5,11 @@ quote: Life is really simple, <br>but men insist on making it complicated.
 quoteAuthor: Confucius
 
 date: 2021-10-28
+
+permalink: posts/blog-crossposting/
 crossPostDEV:
 crossPostHashnode:
+
 mainTag: productivity
 tags:
   - 11ty
