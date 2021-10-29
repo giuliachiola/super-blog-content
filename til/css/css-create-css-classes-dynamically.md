@@ -13,7 +13,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/create-css-classes-dynamica
 mainTag: css
 tags:
   - css
-id: T2
+id: 2
 ---
 
 **SASS interpolation** is an useful tool that comes in handy when we have to create CSS classes name dynamically from an array.

@@ -13,7 +13,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/shell-cheatsheet
 mainTag: shell
 tags:
   - shell
-id: T17
+id: 17
 ---
 
 Few commands I found very useful during development.

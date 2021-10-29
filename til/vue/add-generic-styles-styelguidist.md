@@ -15,7 +15,7 @@ tags:
   - vuejs
   - styleguidist
   - js
-id: T24
+id: 24
 ---
 
 At work, recently we worked on a styleguide project using [vue Styleguidist](https://github.com/vue-Styleguidist/vue-Styleguidist), the Vue little brother of [react-styleguidist](https://github.com/Styleguidist/react-Styleguidist), and we would like to organize components styles in this way:

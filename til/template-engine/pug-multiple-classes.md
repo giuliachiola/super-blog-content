@@ -14,7 +14,7 @@ mainTag: template-engine
 tags:
   - template-engine
   - pug
-id: T22
+id: 22
 ---
 
 [Pug](https://github.com/pugjs/pug), formerly known as [Jade](http://jade-lang.com/), is a template engine thas uses a JavaScript render engine. Sometimes we have to add a class conditionally based on a variable, here I go with some tricky solutions I found.

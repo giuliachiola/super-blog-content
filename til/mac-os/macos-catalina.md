@@ -14,7 +14,7 @@ mainTag: mac-os
 tags:
   - mac-os
   - git
-id: T12
+id: 12
 ---
 
 After MacOS system upgrade to [Catalina](https://www.apple.com/macos/catalina/), on my computer **git** did not work anymore. If you happened the same, the following steps resolve it for me!

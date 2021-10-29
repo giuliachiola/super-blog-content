@@ -15,7 +15,7 @@ tags:
   - shell
   - node
   - npm
-id: T14
+id: 14
 ---
 
 Few `npm` commands I found very useful during development.

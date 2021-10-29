@@ -13,7 +13,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/git-cheatsheet
 mainTag: git
 tags:
   - git
-id: T6
+id: 6
 ---
 
 Few commands I found very useful during development.

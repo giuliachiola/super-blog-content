@@ -13,7 +13,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/visual-studio-code-shortcut
 mainTag: vsc
 tags:
   - vsc
-id: T23
+id: 23
 ---
 
 Some useful shortcuts I use in Visual Studio Code:

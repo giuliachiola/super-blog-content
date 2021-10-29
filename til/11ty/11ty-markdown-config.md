@@ -14,7 +14,7 @@ mainTag: static-site-generator
 tags:
   - 11ty
   - static-site-generator
-id: T1
+id: 1
 ---
 
 [11ty](https://www.11ty.dev/docs/) comes with some useful plugins for markdown manipulation, one of these is [markdown-it-attrs](https://github.com/arve0/markdown-it-attrs).

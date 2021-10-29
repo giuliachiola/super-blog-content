@@ -13,7 +13,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/sass-placeholder-and-its-li
 mainTag: css
 tags:
   - css
-id: T4
+id: 4
 ---
 
 From the official [📚 Sass documentation](https://sass-lang.com/documentation/style-rules/placeholder-selectors)

@@ -14,7 +14,7 @@ mainTag: css
 tags:
   - css
   - performance
-id: T3
+id: 3
 ---
 
 [Critical CSS](https://github.com/addyosmani/critical) build by [Addy Osmani](https://twitter.com/addyosmani) is a useful library that extracts and inlines critical-path CSS in HTML pages.

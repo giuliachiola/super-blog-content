@@ -13,7 +13,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-set-up-githubgitlab-
 mainTag: git
 tags:
   - git
-id: T8
+id: 8
 ---
 
 ## Templates for both GitLab and GitHub

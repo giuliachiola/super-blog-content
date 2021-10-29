@@ -15,7 +15,7 @@ tags:
   - vuejs
   - styleguidist
   - js
-id: T25
+id: 25
 ---
 
 Few days ago I worked on a [vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) project and I had to use a Google Font.

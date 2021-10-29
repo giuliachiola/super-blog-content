@@ -14,7 +14,7 @@ tags:
   - regex
 mainTag: js
 
-id: T11
+id: 11
 ---
 
 If you need to remove all links occurrencies in a webpage and return it as plain text you can go with two methods:

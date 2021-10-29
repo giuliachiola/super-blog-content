@@ -14,7 +14,7 @@ mainTag: git
 tags:
   - git
   - shell
-id: T7
+id: 7
 ---
 
 To inizialize **git flow** with default branches configuration, run

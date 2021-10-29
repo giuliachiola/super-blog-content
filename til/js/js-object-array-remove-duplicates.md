@@ -13,7 +13,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/remove-duplicates-in-object
 mainTag: js
 tags:
   - js
-id: T10
+id: 10
 ---
 
 We have an object with multiple arrays inside it, and we need to remove duplicates between these arrays.

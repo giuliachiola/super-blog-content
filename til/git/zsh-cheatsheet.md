@@ -13,7 +13,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/oh-my-zsh-git-plugin-cheats
 mainTag: git
 tags:
   - shell
-id: T9
+id: 9
 ---
 
 Some useful shortcuts I use with [oh-my-zsh git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git).

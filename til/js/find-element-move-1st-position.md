@@ -13,7 +13,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-find-an-element-in-j
 mainTag: js
 tags:
   - js
-id: T26
+id: 26
 ---
 
 Surely there are several way to do it, this is just one of them. Let me know if you know a better way to do it 💪🏻
