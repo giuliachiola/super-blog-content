@@ -28,7 +28,7 @@ First of all, I am a total newbie about having a blog, posting articles and I ha
 
 Here it is my process flow chart:
 
-<img loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1635400274/super-blog/27-cross-posting/crossposting-flowchart_w7insv.svg" alt="flow chart" width="50%" height="">
+<img loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1635400274/super-blog/027-crossposting/crossposting-flowchart_w7insv.svg" alt="flow chart" width="50%" height="">
 
 ### 1. Organize ideas
 
@@ -46,7 +46,7 @@ The table is quite simple, each row is a post and has some attributes:
 - checkboxes options
 - notes
 
-![Notion posts list](https://res.cloudinary.com/giuliachiola/image/upload/v1635230196/super-blog/27-cross-posting/posts-notion_fuu6ha.png)
+![Notion posts list](https://res.cloudinary.com/giuliachiola/image/upload/v1635230196/super-blog/027-crossposting/posts-notion_fuu6ha.png)
 
 When I discover something that worth a blog post, I add a row in my Notion table and I write down a quick recap of what was the problem and what was the solution to solve it.
 
@@ -62,7 +62,7 @@ To have a clear view about the post status, when I take charge of a post I assig
 | ``ready``     | ready to be published                          |
 | ``done``      | published on blog and other blogging platforms |
 
-![Notion status](https://res.cloudinary.com/giuliachiola/image/upload/v1635401149/super-blog/27-cross-posting/notion-status_k0jfwb.png){.u-shadow}
+![Notion status](https://res.cloudinary.com/giuliachiola/image/upload/v1635401149/super-blog/027-crossposting/notion-status_k0jfwb.png){.u-shadow}
 
 ### 2. Write down the post
 
@@ -74,9 +74,9 @@ To check the markdown final result, I use the built-in Markdown Preview:
 
 `cmd` + `shift` + `p` -> `Markdown: Open Preview` 😎
 
-![Visual Studio Code preview command](https://res.cloudinary.com/giuliachiola/image/upload/v1635401149/super-blog/27-cross-posting/vsc-open-preview-1_peapeb.png){.u-shadow}
+![Visual Studio Code preview command](https://res.cloudinary.com/giuliachiola/image/upload/v1635401149/super-blog/027-crossposting/vsc-open-preview-1_peapeb.png){.u-shadow}
 
-![Visual Studio Code preview](https://res.cloudinary.com/giuliachiola/image/upload/v1635401149/super-blog/27-cross-posting/vsc-open-preview-2_cszcjb.png)
+![Visual Studio Code preview](https://res.cloudinary.com/giuliachiola/image/upload/v1635401149/super-blog/027-crossposting/vsc-open-preview-2_cszcjb.png)
 
 ### 3. Add the post permalink
 
@@ -120,9 +120,9 @@ To do it, I have to indicate in the platform configurations which is the origina
 
 Both on dev.to and hashnode, is possible to indicate the "original" URL – technically called **canonical url** adding it the full `permalink` URL I choose in step 3:
 
-![dev.to canonical](https://res.cloudinary.com/giuliachiola/image/upload/v1635230198/super-blog/27-cross-posting/cross-devto_mmirqz.png)
+![dev.to canonical](https://res.cloudinary.com/giuliachiola/image/upload/v1635230198/super-blog/027-crossposting/cross-devto_mmirqz.png)
 
-![Hashnode canonical](https://res.cloudinary.com/giuliachiola/image/upload/v1635230201/super-blog/27-cross-posting/cross-hashnode_vk90ay.png)
+![Hashnode canonical](https://res.cloudinary.com/giuliachiola/image/upload/v1635230201/super-blog/027-crossposting/cross-hashnode_vk90ay.png)
 
 > 📚 More info
 >
@@ -151,7 +151,7 @@ crossPostHashnode: https://giuliachiola.hashnode.dev/add-html-classes-to-11ty-ma
 
 In this way, I can use these two links at the bottom of my post to link to the crossposted articles.
 
-![crosspost bottom post](https://res.cloudinary.com/giuliachiola/image/upload/v1635317253/super-blog/27-cross-posting/crossposting-post-bottom_pvcjui.png){.u-shadow}
+![crosspost bottom post](https://res.cloudinary.com/giuliachiola/image/upload/v1635317253/super-blog/027-crossposting/crossposting-post-bottom_pvcjui.png){.u-shadow}
 
 {% raw %}
 ```html
@@ -246,7 +246,7 @@ If everything is fine I commit the submodule changes to `develop` and then merge
 
 Pushing the `main` branch will trigger a [Netlify](https://app.netlify.com/) build pipeline that will deploy my updated blog.
 
-![Netlify deploy](https://res.cloudinary.com/giuliachiola/image/upload/v1635230199/super-blog/27-cross-posting/netlify-deploy_ka9rdq.png)
+![Netlify deploy](https://res.cloudinary.com/giuliachiola/image/upload/v1635230199/super-blog/027-crossposting/netlify-deploy_ka9rdq.png)
 
 Ok now the blog is updated live! ✨
 
