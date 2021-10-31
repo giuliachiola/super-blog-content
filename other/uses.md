@@ -15,7 +15,7 @@ eleventyNavigation:
 This page is inspired by [uses.tech](https://uses.tech/), an awesome developers' settings list curated by Wes Bos 🔥.
 
 <!-- image - light theme -->
-<img class="u-shadow u-hidden-theme-dark" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/c_scale,w_1024/v1634714578/super-blog/other/desk-by-day_ucb7xa.jpg" alt="desk by day" width="1024" height="744">
+<img class="u-shadow u-hidden-theme-dark" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1635698632/super-blog/other/desk-by-day_al7xwl.jpg" alt="desk by day" width="1024" height="744">
 
 <!-- image - dark theme -->
 <img class="u-shadow u-hidden-theme-light" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/c_scale,w_1024/v1634714586/super-blog/other/desk-by-night_gtrjnc.jpg" alt="desk by night" width="1024" height="744">
