@@ -46,9 +46,9 @@ Use the content that works best for you, here there are mine.
 
 - Check our project on GitHub. From now on, when we will open an issue, it will be pre-compiled with the markdown template we added.
 
-<img class="u-shadow" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1586637232/super-blog/T8-issue-and-pr-templates/til-14-bug-report-01_fcauoy.jpg" alt="issue template 01" width="1440" height="341">
+<img class="u-shadow" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1586637232/super-blog/008-issue-and-pr-templates/bug-report-01_fcauoy.jpg" alt="issue template 01" width="1440" height="341">
 
-<img class="u-shadow" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1586637233/super-blog/T8-issue-and-pr-templates/til-14-bug-report-02_ywp8su.jpg" alt="issue template 02" width="1168" height="744">
+<img class="u-shadow" loading="lazy" src="https://res.cloudinary.com/giuliachiola/image/upload/v1586637233/super-blog/008-issue-and-pr-templates/bug-report-02_ywp8su.jpg" alt="issue template 02" width="1168" height="744">
 
 ### GitLab
 
