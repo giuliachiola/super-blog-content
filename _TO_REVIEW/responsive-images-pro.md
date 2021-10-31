@@ -11,9 +11,7 @@ mainTag:
 tags:
   - 
   - 
-id: T28
-
-eleventyExcludeFromCollections: true
+id: 
 ---
 
 # Responsive images

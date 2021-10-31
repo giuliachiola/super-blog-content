@@ -12,8 +12,6 @@ tags:
   - 
   - 
 id: T26
-
-eleventyExcludeFromCollections: true
 ---
 
 TEST
