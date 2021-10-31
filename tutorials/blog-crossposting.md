@@ -188,23 +188,31 @@ The standard procedure when working with submodules is:
 
 **but** in my flow this process was really overkill and I was wasting too much time 😱 so I decided to work "consciously wrong" with submodules to take advantage of them:
 
-- inside the main repo, I work directly in the submodule folder `main-repo/path/to/submodule/`
-- I commit and push (in this step I am pushing to the submodule's remote origin)
-- I go back to the `main repo/` folder and I create a commit that contains the submodule updates
-- eventually I push the submodule changes
+- inside the main repo, I work directly into the submodule folder `main-repo/path/to/submodule/`
+- I commit my changes
+- and push (in this step I am pushing to the submodule's remote origin)
+- \*I go back to the `main-repo/` folder and I create a commit that contains the submodule updates, then eventually I push the submodule changes
 
-To do it quickly, I added an alias to my `.zshrc` config file:
+\*To do it quickly ^^, I added an alias to my `.zshrc` config file:
 
 ```shell
 alias blog-update='gp && cd ~/Sites/super-blog-11ty/ && gco develop && gcam "content: update submodule" && gp'
 ```
 
-so a real example is like that:
+that does the following steps:
+
+- `gp` = push new content changes inside the submodule
+- `cd ~/Sites/super-blog-11ty/` = go to the main-repo folder
+- `&& gco develop` = switch on 'develop' branch
+- `gcam "content: update submodule"` = add submodule changes and commit them to the main-repo
+- `gp` = push changes
+
+Ok, so a real example is like that:
 
 ```shell
 # do some changes into the editor,
-# then commit changes to the content repository
-~/Sites/super-blog-11ty/super-blog-content > main > gcam 'content: update crossposting article'
+# then commit changes to the content folder
+~/Sites/super-blog-11ty/super-blog-content > main > gcam 'content: update 11ty post'
 # launch the alias
 ~/Sites/super-blog-11ty/super-blog-content > main > blog-update
 
@@ -222,36 +230,19 @@ To github.com:giuliachiola/super-blog-11ty.git
    13062f5..cf2e1b6  develop -> develop
 ```
 
-With `git log` I can see that everything went well
-
-```shell
-~/Sites/super-blog-11ty > develop > git log
-
-commit 9ccd8cec47f9fc97a9de2fecea10a56b4c510b8d (HEAD -> develop, origin/develop, origin/HEAD)
-Author: Giulia Chiola
-Date:   Thu Oct 28 08:33:34 2021 +0200
-
-content: update submodule
-```
-
-Then I do a quick check running the project locally (which has submodule changes)
+Then I do a quick check running the project locally
 
 ```shell
 On branch develop
 Your branch is up to date with 'origin/develop'.
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   super-blog-content (new commits)
-
 gitSubmodules changed but not updated:
 
 * super-blog-content 6f40b4e...0db916d (1):
-  > content: add permalink in blog crossposting
+  > content: update 11ty post
 ```
 
-If everything is fine I commit it to `develop` and then merge `develop` into the `main` branch.
+If everything is fine I commit the submodule changes to `develop` and then merge `develop` into the `main` branch.
 
 Pushing the `main` branch will trigger a [Netlify](https://app.netlify.com/) build pipeline that will deploy my updated blog.
 
