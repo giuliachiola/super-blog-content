@@ -57,3 +57,9 @@ domesticAnimals = ['cat 🐱', 'dog 🐶']
 >
 > If you use {% raw %}`{% set .... %}`{% endraw %} inside a for-loop block, pay attention to have defined it **outside** before entering the loop.
 > I wrote a post about it: [📒 Nunjucks scoped variable declarations]({{ global.siteUrl }}/posts/nunjucks-scoped-variable-declarations/)
+
+<br/>
+
+> 📚 _More info_
+>
+> Docs about [Twig 'push' filter](https://www.branchcms.com/learn/docs/developer/twig/filters/item/push). Note that this filter is not present into the official [Twig documentation](https://twig.symfony.com/doc/3.x/) 🤷🏻‍♀️
