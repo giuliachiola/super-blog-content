@@ -27,9 +27,9 @@ Note that this repo is a **git submodule** of the [blog repo](https://github.com
 | `main`      | production (also used by super-blog-11ty) |
 
 
-## How to release this submodule to the main blog project
+## How to update content in `super-blog-content` repository
 
-Run the alias inside this `super-blog-content` folder from the `main` branch:
+Run the alias inside this `super-blog-11ty` folder from the `main` branch:
 
 ```shell
 ~/Sites/super-blog-11ty/super-blog-content > main > blog-update
@@ -38,7 +38,7 @@ Run the alias inside this `super-blog-content` folder from the `main` branch:
 in `.zshrc` you should have this line:
 
 ```sh
-alias blog-update='gp && cd ~/Sites/super-blog-11ty/ && gco develop && gcam "content: update submodule" && gp'
+alias blog-update='cp -a ~/Sites/super-blog-11ty/content/. ~/Sites/super-blog-content/ && cd ~/Sites/super-blog-content/ && gcam "content: upate content from main blog repo" && gp'
 ```
 
 <!-- This alias will:
