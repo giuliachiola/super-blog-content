@@ -4,16 +4,6 @@ My [tech blog](https://github.com/giuliachiola/super-blog-11ty) is built using 1
 
 Note that this repo is a **git submodule** of the [blog repo](https://github.com/giuliachiola/super-blog-11ty).
 
-<!--
-| \                | \                                                                                                                                                                      |
-|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pipeline         | [![Netlify Status](https://api.netlify.com/api/v1/badges/418bc946-0474-46c4-9bc3-48031743a7ef/deploy-status)](https://app.netlify.com/sites/blog-giuliachiola/deploys) |
-| Deploy preview   | deploylink                                                                                                                                                             |
-| Project typology | Personal/Work/Step by step from tutorial                                                                                                                               |
-
-![project preview](docs/project-preview.png)
--->
-
 ## 🔥 Tech stack
 
 | Purpose       | Technology |
@@ -38,14 +28,11 @@ Run the alias inside this `super-blog-11ty` folder from the `main` branch:
 in `.zshrc` you should have this line:
 
 ```sh
-alias blog-update='cp -a ~/Sites/super-blog-11ty/content/. ~/Sites/super-blog-content/ && cd ~/Sites/super-blog-content/ && gcam "content: upate content from main blog repo" && gp && cd ~/Sites/super-blog-11ty/content/'
+alias blog-update='cp -a ~/Sites/super-blog-11ty/content/. ~/Sites/super-blog-content/ && cd ~/Sites/super-blog-content/ && gcam "content: upate content from main blog repo" && gp && cd ~/Sites/super-blog-11ty/'
 ```
 
-<!-- This alias will:
+This alias will:
 
-- push last commits
-- go to the blog local folder
-- checkout to the develop branch
-- update submodules (this one included)
-- create a commit with a message
-- push the commit with the updated submodules -->
+- go to the blog local folder `content/`
+- copy all content files to the local repo `super-blog-content/`
+- commit and push to `super-blog-content` repo
