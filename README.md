@@ -1,8 +1,6 @@
 # Super blog content
 
-My [tech blog](https://github.com/giuliachiola/super-blog-11ty) is built using 11ty and its content is all markdown plain files stored in this repo.
-
-Note that this repo is a **git submodule** of the [blog repo](https://github.com/giuliachiola/super-blog-11ty).
+My [tech blog](https://github.com/giuliachiola/super-blog-11ty) is built using 11ty and its content is all markdown plain files stored in this repo for sharing purpose.
 
 ## 🔥 Tech stack
 
@@ -36,3 +34,5 @@ This alias will:
 - go to the blog local folder `content/`
 - copy all content files to the local repo `super-blog-content/`
 - commit and push to `super-blog-content` repo
+
+Note: a long time ago, this repository was a git submodule, but for my own sake of mind I prefer to remove it as submodule.
