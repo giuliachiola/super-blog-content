@@ -187,8 +187,6 @@ gh create gist
   <p><a href="https://media0.giphy.com/media/ndSat6hAmqXnO/giphy-loop.mp4?cid=dda24d5093e1b63df6c1b63cb6c71ec256c24d915cb35226\u0026rid=giphy-loop.mp4\u0026ct=g">via GIPHY</a></p>
 </div>
 
-## More info
-
 > 📚 More info
 >
 > [GitHub CLI Manual](https://cli.github.com/manual/)
