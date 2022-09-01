@@ -20,13 +20,13 @@ My [tech blog](https://github.com/giuliachiola/super-blog-11ty) is built using 1
 Run the alias inside this `super-blog-11ty` folder from the `main` branch:
 
 ```shell
-~/Sites/super-blog-11ty/super-blog-content > main > blog-update
+~/Sites/super-blog-11ty/super-blog-content > main > update-super-blog-content
 ```
 
 in `.zshrc` you should have this line:
 
 ```sh
-alias blog-update='cp -a ~/Sites/super-blog-11ty/content/. ~/Sites/super-blog-content/ && cd ~/Sites/super-blog-content/ && gcam "content: upate content from main blog repo" && gp && cd ~/Sites/super-blog-11ty/'
+alias update-super-blog-content='cp -a ~/Sites/super-blog-11ty/content/. ~/Sites/super-blog-content/ && cd ~/Sites/super-blog-content/ && gaa && gcam "content: upate content from main blog repo" && gp && cd ~/Sites/super-blog-11ty/'
 ```
 
 This alias will:
