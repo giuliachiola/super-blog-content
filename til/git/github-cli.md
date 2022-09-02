@@ -7,8 +7,8 @@ quoteAuthor: Andre Gide
 date: 2022-09-01
 
 permalink: posts/github-cli/
-crossPostDEV: 
-crossPostHashnode: 
+crossPostDEV: https://dev.to/giulia_chiola/how-to-speed-up-development-with-github-cli-3m61
+crossPostHashnode: https://giuliachiola.hashnode.dev/how-to-speed-up-development-with-github-cli
 
 mainTag: git
 tags:
