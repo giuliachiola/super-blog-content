@@ -1,19 +1,3 @@
----
-title: Responsive images like a pro
-abstract: 
-quote: 
-quoteAuthor: 
-
-date: 2021-08-25
-crossPostDEV: 
-crossPostHashnode: 
-mainTag: 
-tags:
-  - 
-  - 
-id: 
----
-
 # Responsive images
 
 Responsive images are handled with different HTML tags and attributes, depending on different use cases.

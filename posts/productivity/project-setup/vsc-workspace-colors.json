@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "path": "/path/to/my/workspace/folder1"
+    },
+    {
+      "path": "/path/to/my/workspace/folder2"
+    },
+    {
+      "path": "/path/to/my/workspace/folder3"
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#0984e3",
+      "titleBar.activeForeground": "#FFF",
+      "titleBar.inactiveBackground": "#74b9ff",
+      "titleBar.inactiveForeground": "#FFF"
+    }
+  }
+}

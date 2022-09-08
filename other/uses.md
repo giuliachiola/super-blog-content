@@ -80,7 +80,7 @@ Yep, I use different browsers for different needs 😇
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): browser for CSS debugging
 ## 🖥 Desk
 
-- Main computer: [MacBook Pro 2017](https://support.apple.com/kb/SP754?locale=it_IT)
+- Main computer: [MacBook Air 13,3" chip M1 - Sideral gray](https://www.apple.com/it/shop/buy-mac/macbook-air/grigio-siderale-chip-apple-m1-con-cpu-8-core-e-gpu-7-core-256gb)
 - Auxiliary Computer: manually assembled Desktop Computer with Windows OS on it.
 - Monitor [BenQ 27" PD2700U 4k](https://www.amazon.it/gp/product/B07GLR6RQF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - Ikea desk similar to [this one](https://www.ikea.com/it/it/p/lagkapten-mittback-scrivania-bianco-betulla-s19417193/) but mine is an older version with board made of glass instead of wood.
